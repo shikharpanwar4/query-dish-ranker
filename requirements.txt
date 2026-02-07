@@ -1,0 +1,11 @@
+# Core
+torch>=2.0
+transformers>=4.30
+
+# Data
+pandas>=2.0
+datasets>=2.14
+
+# Utilities
+tqdm>=4.65
+numpy>=1.24
