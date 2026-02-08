@@ -79,7 +79,23 @@ Metrics on the full validation set (~4.8k pairs, ~2k dishes). Default hybrid wei
 
 Tuned weights (grid search on val MRR): e.g. lexical=0.25, BM25=0.50, DL=0.25. Run `python -m inference.eval_hybrid --tune-weights` to reproduce.
 
-**Latency (500 dishes, CPU):** mean ~25–30 ms, P50 ~15 ms, P99 &lt;130 ms. Target &lt;100 ms (mean) is met on typical runs; lexical over 500 names is the main cost. Model size &lt;20 MB.
+**System latency (500 dishes, CPU, precomputed dish embeddings):** Target &lt;100 ms (mean) — met on typical runs. Model size &lt;20 MB.
+
+| End-to-end (1 query → top-K) | Mean | P50 | P99 |
+|------------------------------|------|-----|-----|
+| 500 dishes, CPU              | ~25–30 ms | ~15 ms | ~130 ms |
+
+**Latency breakdown** (mean ms per query, approximate % of end-to-end):
+
+| Stage | Mean (ms) | % |
+|-------|-----------|---|
+| query norm (chaat expand)    | ~0.4 | ~1% |
+| lexical (500 × fuzzy match)  | ~13  | ~50% |
+| BM25 (500 docs)              | ~3   | ~12% |
+| DL (encode query + dot)      | ~8   | ~30% |
+| normalize + combine + sort   | ~0.8 | ~3% |
+
+Lexical over 500 names is the main cost; DL is query encode plus dot product with precomputed dish embeddings. Reproduce with `python -m inference.latency_benchmark`.
 
 Details of training trials, tradeoffs, and why we don’t ship the reranker are in [DESIGN.md](DESIGN.md).
 

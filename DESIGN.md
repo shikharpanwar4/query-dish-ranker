@@ -21,7 +21,7 @@ From runs on the full val set and 500-pair subsets:
 - **Bi-encoder only:** R@5 ~0.62–0.64, MRR ~0.41–0.43 (full catalog).
 - **Hybrid (default weights):** R@1 ~0.49, R@5 ~0.72, R@10 ~0.81, R@50 ~0.94, MRR ~0.60.
 - **Hybrid (tuned weights):** MRR ~0.62, R@1 ~0.51, R@5 ~0.75, R@10 ~0.82.
-- **Latency (500 dishes, CPU):** mean ~25–30 ms, P50 ~15 ms, P99 &lt;130 ms; target &lt;100 ms (mean) met in typical runs. Breakdown: lexical over 500 names is the largest share; then DL (query encode + dot with precomputed dish embs); BM25 and combine/sort are smaller.
+- **System latency (500 dishes, CPU):** End-to-end mean ~25–30 ms, P50 ~15 ms, P99 ~130 ms; target &lt;100 ms (mean) met. Breakdown (mean ms, % of e2e): query norm ~0.4 (1%), lexical ~13 (50%), BM25 ~3 (12%), DL ~8 (30%), combine+sort ~0.8 (3%). Run `python -m inference.latency_benchmark` to reproduce.
 
 Training trials (abbreviated): we tried larger vs smaller capacity, with and without hard negatives (precomputed from Stage 1). Best bi-encoder val R@5 was ~0.64 (1M params, in-batch negatives only). Hard negatives did not help in our setup. Hybrid consistently beat bi-encoder-only on R@1/R@5/MRR.
 
