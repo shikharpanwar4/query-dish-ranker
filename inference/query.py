@@ -7,7 +7,6 @@ from pathlib import Path
 
 import torch
 
-# Project root
 ROOT = Path(__file__).resolve().parent.parent
 sys.path.insert(0, str(ROOT))
 
@@ -121,23 +120,31 @@ def hybrid_rank(
     dish_names: list[str],
     dish_display_texts: list[str],
     model=None,
-    weights: tuple[float, float, float] = (0.4, 0.35, 0.25),
+    weights: tuple[float, float, float] = (0.10, 0.45, 0.45),
     expand_chaat: bool = True,
+    precomputed_dish_embs: torch.Tensor | None = None,
+    bm25: BM25 | None = None,
 ) -> list[tuple[int, float]]:
-    """Lexical + BM25 + DL, min-max norm each to [0,1], then weighted sum. Returns (idx, score) desc."""
+    """Lexical + BM25 + DL, min-max norm each to [0,1], then weighted sum. Returns (idx, score) desc.
+    Optional precomputed_dish_embs and bm25 for fast eval (avoid re-encoding catalog per query)."""
     q = _query_for_scoring(query) if expand_chaat else query
     n = len(dish_names)
     # Lexical (query terms in dish name, typo-tolerant)
     lex_scores = [lexical_score(q, name) for name in dish_names]
-    # BM25 over rich dish text (name | diet | course | flavor | region | state | style | ingredients)
-    bm25 = BM25(dish_display_texts)
-    bm25_scores = bm25.score(q)
+    # BM25
+    if bm25 is not None:
+        bm25_scores = bm25.score(q)
+    else:
+        bm25_scores = BM25(dish_display_texts).score(q)
     # DL
     if model is not None:
         with torch.no_grad():
             q_emb = model.encode([q])
-            dish_embs = model.encode(dish_display_texts)
-            dl_scores = (q_emb @ dish_embs.T).squeeze(0).tolist()
+            if precomputed_dish_embs is not None:
+                dl_scores = (q_emb @ precomputed_dish_embs.T).squeeze(0).tolist()
+            else:
+                dish_embs = model.encode(dish_display_texts)
+                dl_scores = (q_emb @ dish_embs.T).squeeze(0).tolist()
     else:
         dl_scores = [0.0] * n
 
@@ -160,7 +167,7 @@ def main():
     compare = "--compare" in args
     hybrid = "--hybrid" in args
     # Default hybrid weights: lexical, BM25, DL
-    hybrid_weights: tuple[float, float, float] = (0.4, 0.35, 0.25)
+    hybrid_weights: tuple[float, float, float] = (0.10, 0.45, 0.45)
     if "--hybrid" in args:
         i = args.index("--hybrid")
         # Optional: --hybrid 0.5 0.3 0.2
@@ -185,9 +192,7 @@ def main():
         args = [a for j, a in enumerate(args) if a != "--top" and j != i + 1]
     query = " ".join(args).strip()
     if not query:
-        print(
-            "Usage: python -m inference.query \"query\" [--top N] [--lexical | --compare | --hybrid [w_lex w_bm25 w_dl]]"
-        )
+        print("Usage: python -m inference.query \"query\" [--top N] [--lexical | --compare | --hybrid [w w w]]")
         sys.exit(1)
 
     dishes_csv = ROOT / "data" / "processed" / "dishes.csv"
@@ -207,14 +212,12 @@ def main():
         if not checkpoint_path.exists():
             print(f"Checkpoint not found: {checkpoint_path}")
             sys.exit(1)
-        print(f"Loading model from {checkpoint_path}...")
+        print(f"Loading bi-encoder from {checkpoint_path}...")
         model, _ = load_checkpoint(str(checkpoint_path), device="cpu")
         ranked = hybrid_rank(
             query, dish_names, dish_display_texts, model=model, weights=hybrid_weights
         )
-        print(
-            f"\nQuery: \"{query}\" — HYBRID (lexical + BM25 + DL) weights={hybrid_weights}"
-        )
+        print(f"\nQuery: \"{query}\" — HYBRID (lexical + BM25 + DL) weights={hybrid_weights}")
         print(f"Top {top_k} dishes:\n")
         for r, (i, sc) in enumerate(ranked[:top_k], 1):
             print(f"  {r}. {dish_names[i]}  (score: {sc:.4f})")

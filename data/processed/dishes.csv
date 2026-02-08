@@ -1,256 +1,2023 @@
-name,ingredients,diet,flavor,course,state,region,style
-Balu shahi,"maida flour, yogurt, oil, sugar",vegetarian,sweet,dessert,west bengal,east,
-Boondi,"gram flour, ghee, sugar",vegetarian,sweet,dessert,rajasthan,west,
-Gajar ka halwa,"carrots, milk, sugar, ghee, cashews, raisins",vegetarian,sweet,dessert,punjab,north,
-Ghevar,"flour, ghee, kewra, milk, clarified butter, sugar, almonds, pistachio, saffron, green cardamom",vegetarian,sweet,dessert,rajasthan,west,
-Gulab jamun,"milk powder, plain flour, baking powder, ghee, milk, sugar, water, rose water",vegetarian,sweet,dessert,west bengal,east,
-Imarti,"sugar syrup, lentil flour",vegetarian,sweet,dessert,west bengal,east,
-Jalebi,"maida, corn flour, baking soda, vinegar, curd, water, turmeric, saffron, cardamom",vegetarian,sweet,dessert,uttar pradesh,north,
-Kaju katli,"cashews, ghee, cardamom, sugar",vegetarian,sweet,dessert,,,
-Kalakand,"milk, cottage cheese, sugar",vegetarian,sweet,dessert,west bengal,east,
-Kheer,"milk, rice, sugar, dried fruits",vegetarian,sweet,dessert,,,
-Laddu,"gram flour, ghee, sugar",vegetarian,sweet,dessert,,,
-Lassi,"yogurt, milk, nuts, sugar",vegetarian,sweet,dessert,punjab,north,
-Nankhatai,"refined flour, besan, ghee, powdered sugar, yoghurt, green cardamom",vegetarian,sweet,dessert,,,
-Petha,"firm white pumpkin, sugar, kitchen lime, alum powder",vegetarian,sweet,dessert,uttar pradesh,north,
-Phirni,"rice, sugar, nuts",vegetarian,sweet,dessert,odisha,east,
-Rabri,"condensed milk, sugar, spices, nuts",vegetarian,sweet,dessert,uttar pradesh,north,
-Sheera,"semolina, ghee, nuts, milk",vegetarian,sweet,dessert,maharashtra,west,
-Singori,"khoa, coconut, molu leaf",vegetarian,sweet,dessert,uttarakhand,north,
-Sohan halwa,"corn flour, ghee, dry fruits",vegetarian,sweet,dessert,uttar pradesh,north,
-Sohan papdi,"gram flour, ghee, sugar, milk, cardamom",vegetarian,sweet,dessert,maharashtra,west,
-Chhena jalebi,"chhena, sugar, ghee",vegetarian,sweet,dessert,odisha,east,
-Chhena kheeri,"chhena, sugar, milk",vegetarian,sweet,dessert,odisha,east,
-Chhena poda,"sugar, chenna cheese",vegetarian,sweet,dessert,odisha,east,
-Cham cham,"flour, cream, sugar, saffron, lemon juice, coconut flakes",vegetarian,sweet,dessert,west bengal,east,
-Kheer sagar,"chenna, condensed milk, sugar, saffron, cardamom",vegetarian,sweet,dessert,odisha,east,
-Ledikeni,"chhena, sugar, ghee",vegetarian,sweet,dessert,west bengal,east,
-Lyangcha,"flour, fried milk power, sugar syrup",vegetarian,sweet,dessert,assam,north east,
-Malapua,"yoghurt, refined flour, ghee, fennel seeds",vegetarian,sweet,dessert,bihar,north,
-Mihidana,"besan flour, sugar, ghee",vegetarian,sweet,dessert,west bengal,east,
-Misti doi,"milk, jaggery",vegetarian,sweet,dessert,west bengal,east,
-Pantua,"chhena, sugar, ghee, flour",vegetarian,sweet,dessert,west bengal,east,
-Pithe,"rice flour, wheat flour",vegetarian,sweet,dessert,assam,north east,
-Rasabali,"chenna, sweetened milk",vegetarian,sweet,dessert,odisha,east,
-Ras malai,"chhena, reduced milk, pistachio",vegetarian,sweet,dessert,west bengal,east,
-Rasgulla,"chhena, sugar, cardamom",vegetarian,sweet,dessert,west bengal,east,
-Sandesh,"milk, sugar, saffron, cardamom",vegetarian,sweet,dessert,west bengal,east,
-Adhirasam,"rice flour, jaggery, ghee, vegetable oil, elachi",vegetarian,sweet,dessert,west bengal,east,
-Ariselu,"rice flour, jaggery, ghee",vegetarian,sweet,dessert,andhra pradesh,south,
-Bandar laddu,"besan, jaggery, cardamom powder, ghee, cashews and raisins, jaggery syrup, sugar",vegetarian,sweet,dessert,andhra pradesh,south,
-Chikki,"peanuts, jaggery",vegetarian,sweet,dessert,maharashtra,west,
-Dharwad pedha,"milk, sugar, dharwadi buffalo milk",vegetarian,sweet,dessert,karnataka,south,
-Double ka meetha,"loaf bread, milk",vegetarian,sweet,dessert,telangana,south,
-Gavvalu,"rice flour, sugar, salt, ghee, semolina",vegetarian,sweet,dessert,andhra pradesh,south,
-Kakinada khaja,"wheat flour, sugar",vegetarian,sweet,dessert,andhra pradesh,south,
-Kuzhi paniyaram,"black lentils, rice",vegetarian,sweet,dessert,kerala,south,
-Mysore pak,"besan flour, semolina, mung bean, jaggery, coconut, skimmed milk powder, sugar, ghee",vegetarian,sweet,dessert,karnataka,south,
-Obbattu holige,"maida flour, turmeric, coconut, chickpeas, jaggery, ghee, cardamom",vegetarian,sweet,main course,karnataka,south,
-Palathalikalu,"rice flour, milk",vegetarian,sweet,dessert,andhra pradesh,south,
-Poornalu,"chana dal, jaggery",vegetarian,sweet,dessert,andhra pradesh,south,
-Pongal,"rice, jaggery, cashews, ghee",vegetarian,sweet,dessert,tamil nadu,south,
-Pootharekulu,"rice flour, powdered sugar, ghee",vegetarian,sweet,dessert,andhra pradesh,south,
-Qubani ka meetha,"apricots, sugar syrup",vegetarian,sweet,dessert,telangana,south,
-Sheer korma,"vermicelli pudding, milk",vegetarian,sweet,dessert,telangana,south,
-Unni Appam,"rice flour, banana, jaggery, coconut",vegetarian,sweet,dessert,tamil nadu,south,
-Kajjikaya,"rice flour, jaggery, coconut",vegetarian,sweet,dessert,andhra pradesh,south,
-Anarsa,"rice flour, jaggery, khus-khus seeds",vegetarian,sweet,dessert,maharashtra,west,
-Basundi,"sugar, milk, nuts",vegetarian,sweet,dessert,gujarat,west,
-Dhondas,"cucumber, rava",vegetarian,sweet,dessert,maharashtra,west,
-Doodhpak,"milk, rice, sugar, dry fruits",vegetarian,sweet,dessert,gujarat,west,
-Mahim halwa,"semolina, sugar",vegetarian,sweet,dessert,maharashtra,west,
-Modak,"rice flour, coconut, jaggery",vegetarian,sweet,dessert,maharashtra,west,
-Shankarpali,"sugar, ghee, maida flour, semolina",vegetarian,sweet,dessert,maharashtra,west,
-Shrikhand,"curd, sugar, saffron, cardamom",vegetarian,sweet,dessert,maharashtra,west,
-Sutar feni,"maida, sugar, ghee",vegetarian,sweet,dessert,maharashtra,west,
-Maach Jhol,"fish, potol, tomato, chillies, ginger, garlic",non vegetarian,spicy,main course,assam,north east,
-Pork Bharta,"boiled pork, onions, chillies, ginger and garlic",non vegetarian,spicy,main course,tripura,north east,
-Chak Hao Kheer,"rice, milk, sugar, cardamom",vegetarian,sweet,dessert,manipur,north east,
-Galho,"rice, axone, salt, water, chillies, pork",non vegetarian,spicy,main course,nagaland,north east,
-Aloo gobi,"cauliflower, potato, garam masala, turmeric, curry leaves",vegetarian,spicy,main course,punjab,north,
-Aloo tikki,"rice flour, potato, bread crumbs, garam masala, salt",vegetarian,spicy,main course,punjab,north,chaat
-Aloo matar,"potato, peas, chillies, ginger, garam masala, garlic",vegetarian,spicy,main course,punjab,north,
-Aloo methi,"potato, fenugreek leaves, chillies, salt, oil",vegetarian,bitter,main course,punjab,north,
-Aloo shimla mirch,"potato, shimla mirch, garam masala, amchur powder, salt",vegetarian,spicy,main course,punjab,north,
-Bhatura,"chole, rava, yogurt, plain flour, baking soda",vegetarian,spicy,main course,punjab,north,
-Bhindi masala,"ladies finger, garam masala, kasuri methi, tomatoes, chili powder",vegetarian,spicy,main course,punjab,north,
-Biryani,"chicken thighs, basmati rice, star anise, sweet, green chillies",non vegetarian,spicy,main course,telangana,south,
-Butter chicken,"chicken, greek yogurt, cream, garam masala powder, cashew nuts, butter",non vegetarian,spicy,main course,nct of delhi,north,
-Chana masala,"chickpeas, tomato paste, garam masala, ginger, red onion, avocado oil",vegetarian,spicy,main course,punjab,north,
-Chapati,"whole wheat flour, olive oil, hot water, all purpose flour",vegetarian,,main course,maharashtra,west,
-Chicken razala,"chicken, dahi, sesame seeds, garam masala powder, cashew nuts, saffron",non vegetarian,spicy,main course,west bengal,east,
-Chicken Tikka masala,"naan bread, tomato sauce, skinless chicken breasts, heavy cream, garam masala",non vegetarian,spicy,main course,punjab,north,
-Chicken Tikka,"chicken, whole wheat bread, rice flour, garam masala powder, whole egg",non vegetarian,spicy,starter,punjab,north,
-Chole bhature,"chole, bhatura, garam masala, bay leaf, cinnamon stick",vegetarian,spicy,main course,punjab,north,
-Daal baati churma,"moong dal, masoor dal, chana dal, wheat flour, almond",vegetarian,spicy,main course,rajasthan,west,
-Daal puri,"moong dal, garam masala powder, garlic, green chilli, all purpose flour",vegetarian,spicy,main course,west bengal,east,
-Dal makhani,"red kidney beans, urad dal, cream, garam masala, chili powder",vegetarian,sweet,main course,punjab,north,
-Dal tadka,"pigeon peas, garam masala, ginger, red onion, kasuri methi",vegetarian,spicy,main course,punjab,north,
-Dum aloo,"baby potatoes, garam masala, cashew nuts, kasuri methi, tomatoes",vegetarian,spicy,main course,jammu & kashmir,north,
-Poha,"beaten rice flakes, potato, curry leaves, green chilies, lemon juice",vegetarian,spicy,snack,maharashtra,west,
-Fara,"chana dal, whole wheat flour, arhar dal, white urad dal, garam masala powder",vegetarian,spicy,snack,chhattisgarh,central,
-Kachori,"moong dal, rava, garam masala, dough, fennel seeds",vegetarian,spicy,snack,uttar pradesh,north,chaat
-Kadai paneer,"cottage cheese, bell peppers, gravy, garam masala, cashew nuts",vegetarian,spicy,main course,punjab,north,
-Kadhi pakoda,"besan, garam masala powder, gram flour, ginger, curry leaves",vegetarian,spicy,main course,haryana,north,
-Karela bharta,"bitter gourd, fennel, garam masala powder, chili powder, amchur powder",vegetarian,bitter,main course,punjab,north,
-Khichdi,"moong dal, green peas, ginger, tomato, green chili",vegetarian,spicy,main course,,,
-Kofta,"paneer, potato, cream, corn flour, garam masala",vegetarian,spicy,main course,uttar pradesh,north,
-Kulfi falooda,"rose syrup, falooda sev, mixed nuts, saffron, sugar",vegetarian,sweet,dessert,,,
-Lauki ke kofte,"bottle gourd, garam masala powder, gram flour, ginger, chillies",vegetarian,spicy,main course,uttar pradesh,north,
-Lauki ki subji,"bottle gourd, coconut oil, garam masala, ginger, green chillies",vegetarian,spicy,main course,,,
-Litti chokha,"wheat flour, roasted gram flour, tomato, nigella seeds, chilli",vegetarian,spicy,main course,bihar,north,
-Makki di roti sarson da saag,"palak, makki atta, mustard green, garam masala, ginger",vegetarian,spicy,main course,punjab,north,
-Misi roti,"whole wheat flour, chickpea flour, green chilies",vegetarian,spicy,main course,punjab,north,
-Mushroom do pyaza,"mushroom, malai, garam masala, ginger, capsicum",vegetarian,spicy,main course,punjab,north,
-Mushroom matar,"canned coconut milk, frozen green peas, wild mushrooms, garam masala, tomatoes",vegetarian,spicy,main course,punjab,north,
-Naan,"whole wheat flour, honey, butter, garlic",vegetarian,,main course,punjab,north,
-Navrattan korma,"green beans, potatoes, khus khus, low fat, garam masala powder",vegetarian,spicy,main course,uttar pradesh,north,
-Palak paneer,"cottage cheese, palak, cream, garam masala, butter",vegetarian,spicy,main course,punjab,north,
-Paneer butter masala,"paneer, whipping cream, garam masala, cashew nuts, butter",vegetarian,spicy,main course,punjab,north,
-Paneer tikka masala,"paneer, greek yogurt, tandoori masala, cream, bell pepper",vegetarian,spicy,main course,punjab,north,
-Pani puri,"kala chana, mashed potato, boondi, sev, lemon",vegetarian,spicy,snack,,,chaat
-Panjeeri,"whole wheat flour, musk melon seeds, poppy seeds, edible gum, semolina",vegetarian,sweet,dessert,uttar pradesh,,
-Papad,"urad dal, sev, lemon juice, chopped tomatoes",vegetarian,spicy,snack,,,chaat
-Paratha,"wheat flour, butter, potato, coriander",vegetarian,spicy,main course,punjab,north,
-Pattor,"arbi ke patte, sesame seeds, gur, bengal gram flour, imli",vegetarian,spicy,main course,rajasthan,west,
-Pindi chana,"fennel, tea bags, tomato, kasuri methi, cinnamon",vegetarian,spicy,main course,punjab,north,
-Rajma chaval,"red kidney beans, garam masala powder, ginger, tomato, mustard oil",vegetarian,spicy,main course,,north,
-Rongi,"garam masala powder, tomato, kasuri methi, cinnamon, mustard oil",vegetarian,,main course,punjab,north,
-Samosa,"potatoes, green peas, garam masala, ginger, dough",vegetarian,spicy,snack,,,chaat
-Sattu ki roti,"sattu, atta, dough, filling, mustard oil",vegetarian,spicy,main course,bihar,north,
-Shahi paneer,"cottage cheese, malai, garam masala, ginger, tomato",vegetarian,spicy,main course,punjab,north,
-Shahi tukra,"rose water, milk, white bread slices, saffron, almonds",vegetarian,sweet,dessert,telangana,south,
-Vegetable jalfrezi,"baby corn, french beans, garam masala, ginger, carrot",vegetarian,spicy,main course,punjab,north,
-Tandoori Chicken,"greek yogurt, garam masala, kasuri methi, marinade, mustard oil",non vegetarian,spicy,main course,punjab,north,
-Tandoori Fish Tikka,"chickpea flour, biryani masala powder, yogurt, fish fillets, green bell pepper",non vegetarian,spicy,starter,punjab,north,
-Attu,"whole wheat flour, arhar dal, ginger, kala jeera, green chilli",vegetarian,spicy,snack,andhra pradesh,south,
-Avial,"raw banana, elephant foot yam, long beans, tindora, urad dal",vegetarian,spicy,main course,kerala,south,
-Bisi bele bath,"split pigeon peas, chana dal, urad dal, green peas, french beans",vegetarian,spicy,main course,karnataka,south,
-Currivepillai sadam,"chana dal, urad dal, fresh coconut, sesame seeds, curry leaves",vegetarian,spicy,main course,tamil nadu,south,
-Dosa,"chana dal, urad dal, whole urad dal, blend rice, rock salt",vegetarian,spicy,snack,,south,chaat
-Idiappam,"rice flour, hot water, grated coconut",vegetarian,spicy,snack,tamil nadu,south,
-Idli,"split urad dal, urad dal, idli rice, thick poha, rock salt",vegetarian,spicy,snack,,south,
-Kanji,"carrot, yellow mustard, red chilli, black salt",vegetarian,,snack,kerala,south,
-Kaara kozhambu,"sesame oil, drumstick, tamarind paste, sambar powder, tomato",vegetarian,spicy,main course,tamil nadu,south,
-Keerai kootu,"moong dal, chana dal, spinach, urad dal, coconut oil",vegetarian,spicy,main course,tamil nadu,south,
-Keerai masiyal,"urad dal, curry leaves, sugar, mustard seeds, spinach",vegetarian,spicy,main course,tamil nadu,south,
-Keerai sadam,"greens, tomato, mustard seeds, fenugreek seeds",vegetarian,spicy,main course,tamil nadu,south,
-Keerai poriyal,"amaranth leaves, split urad dal, mustard seeds, grated coconut, red chili",vegetarian,spicy,main course,tamil nadu,south,
-Beef Fry,"beef, coconut, garam masala, curry leaves, green chilies, chili powder",non vegetarian,spicy,main course,kerala,south,
-Kootu,"chana dal, urad dal, potato, beans, peas",vegetarian,spicy,main course,tamil nadu,south,
-Kos kootu,"moong dal, chana dal, cabbage, tamarind, curry leaves",vegetarian,spicy,main course,tamil nadu,south,
-Koshambri,"moong dal, cucumber, curry leaves, green chili, lemon juice",vegetarian,spicy,main course,karnataka,south,
-Kothamali sadam,"chana dal, urad dal, gooseberry, raw rice, curry leaves",vegetarian,spicy,main course,tamil nadu,south,
-Kuzhakkattai,"sesame oil, raw rice, jaggery, grated coconut",vegetarian,spicy,main course,tamil nadu,south,
-Kuzhambu,"pearl onions, urad dal, drumsticks, tomato, curry leaves",vegetarian,spicy,main course,tamil nadu,south,
-Masala Dosa,"chana dal, urad dal, potatoes, idli rice, thick poha",vegetarian,spicy,snack,,south,chaat
-Pachadi,"coconut oil, cucumber, curd, curry leaves, mustard seeds",vegetarian,,main course,,south,
-Paniyaram,"yogurt, ginger, curry leaves, baking soda, green chilli",vegetarian,,main course,tamil nadu,south,
-Papadum,"lentils, black pepper, vegetable oil",vegetarian,spicy,snack,kerala,south,chaat
-Paravannam,"raw rice, jaggery, milk",vegetarian,spicy,main course,kerala,south,
-Payasam,"rice, cashew nuts, milk, raisins, sugar",vegetarian,sweet,dessert,,south,
-Paruppu sadam,"arhar dal, sambar powder, tomato, curry leaves, fennel seeds",vegetarian,,main course,tamil nadu,south,
-Pesarattu,"green moong beans, rice flour",vegetarian,spicy,snack,andhra pradesh,south,
-Poriyal,"chana dal, urad dal, beans, coconut, mustard",vegetarian,spicy,main course,tamil nadu,south,
-Puli sadam,"urad dal, lemon, tamarind, cooked rice, curry leaves",vegetarian,,main course,tamil nadu,south,
-Rasam,"tomato, curry leaves, garlic, mustard seeds, hot water",vegetarian,spicy,main course,,south,
-Puttu,"brown rice flour, sugar, grated coconut",vegetarian,,main course,kerala,south,
-Sambar,"pigeon peas, eggplant, drumsticks, sambar powder, tamarind",vegetarian,spicy,main course,,south,
-Sandige,"thin rice flakes, black sesame seeds, curry leaves",vegetarian,,main course,karnataka,south,
-Sevai,"sevai, parboiled rice, steamer",vegetarian,,main course,,south,
-Thayir sadam,"urad dal, curd, sesame oil, ginger, curry leaves, mustard seeds",vegetarian,,main course,tamil nadu,south,
-Theeyal,"coconut, whole red beans, masala, sesame oil, tamarind",vegetarian,,main course,kerala,south,
-Uttapam,"chana dal, urad dal, thick poha, tomato, butter",vegetarian,spicy,snack,,south,chaat
-Vada,"urad dal, ginger, curry leaves, green chilies, black pepper",vegetarian,spicy,snack,,south,chaat
-Chicken Varuval,"meat curry powder, chicken chunks, ginger, tomato, cinnamon",non vegetarian,spicy,main course,tamil nadu,south,
-Upma,"chana dal, urad dal, ginger, curry leaves, sugar",vegetarian,spicy,snack,,,
-Amti,"kala masala, arhar dal, curry leaves, mustard seeds, hot water",vegetarian,spicy,main course,maharashtra,west,
-Zunka,"gram flour, mustard, garlic, turmeric, red chilli",vegetarian,spicy,main course,maharashtra,west,
-Kolim Jawla,"baingan, fish, coconut oil, fresh coconut, ginger",non vegetarian,spicy,main course,maharashtra,west,
-Saath,"urad dal, potatoes, wheat flour, sooji",vegetarian,spicy,main course,gujarat,west,
-Bajri no rotlo,"wheat flour, pearl millet flour, hot water",vegetarian,spicy,main course,gujarat,west,
-Coconut vadi,"condensed milk, mawa, desiccated coconut, almonds, cashews",vegetarian,sweet,dessert,maharashtra,west,
-Bhakri,"jowar flour, sesame seeds",vegetarian,,main course,maharashtra,west,
-Bombil fry,"bombay duck, malvani masala, rice flour, bombay rava, green chilies",non vegetarian,spicy,main course,maharashtra,west,
-Chakali,"rice flour, sesame, plain flour, turmeric, red chilli",vegetarian,spicy,snack,maharashtra,west,chaat
-Chevdo,"citric acid, fry, raisins, sugar, chana daal",vegetarian,spicy,snack,gujarat,west,chaat
-Chorafali,"urad dal, bengal gram flour, dried mango, baking soda, black salt",vegetarian,spicy,snack,gujarat,west,chaat
-Copra paak,"condensed milk, nestle cream, coconut ice, red food coloring, desiccated coconut",vegetarian,,main course,gujarat,west,
-Daal Dhokli,"whole wheat flour, dal, kokum, gur, bengal gram flour",vegetarian,spicy,main course,gujarat,west,
-Kutchi dabeli,"pav, aloo, peanut, pomegranate, star anise",vegetarian,spicy,snack,gujarat,west,chaat
-Dahi vada,"urad dal, bhuna chana, garam masala, dates, tamarind",vegetarian,,snack,maharashtra,west,chaat
-Dalithoy,"arhar dal, coconut oil, curry leaves, mustard seeds, red chilli",vegetarian,,main course,maharashtra,west,
-Dhokla,"rava, coconut, gram flour, mustard, sesame",vegetarian,spicy,snack,gujarat,west,chaat
-Dudhi halwa,"bottle gourd, green, raisins, sugar, clarified butter",vegetarian,sweet,dessert,gujarat,west,
-Gatta curry,"yogurt, besan, sauce, garam masala powder, gram flour",vegetarian,spicy,main course,rajasthan,west,
-Gud papdi,"wheat flour, jaggery, clarified butter, sliced almonds",vegetarian,sweet,dessert,gujarat,west,
-Ghooghra,"dry fruits, semolina, all purpose flour",vegetarian,spicy,snack,gujarat,west,chaat
-Handwo,"bottle gourd, chana dal, cabbage, urad dal, toor dal",vegetarian,spicy,snack,gujarat,west,chaat
-Halvasan,"whole wheat rava, chia seed, lemon, edible gum, litre milk",vegetarian,sweet,dessert,gujarat,west,
-Jeera Aloo,"green chilies, lemon juice, chili powder, boiled potatoes",vegetarian,spicy,main course,gujarat,west,
-Kansar,"wheat flour, cashews, rapeseed oil",vegetarian,,main course,gujarat,west,
-Keri no ras,"mango, sugar",vegetarian,sour,main course,gujarat,west,
-Khakhra,"whole wheat flour, low fat, bengal gram flour",vegetarian,spicy,snack,gujarat,west,chaat
-Khandvi,"green chili paste, white sesame seeds, gram flour, curry leaves, green chili",vegetarian,spicy,snack,gujarat,west,chaat
-Kombdi vade,"rice flour, urad dal, wheat flour, gram flour, turmeric",vegetarian,spicy,snack,maharashtra,west,
-Laapsi,"cinnamon, jaggery, clarified butter, dry roasted",vegetarian,spicy,main course,madhya pradesh,central,
-Koshimbir,"cucumber, carrot, tomatoes, cilantro",vegetarian,spicy,main course,maharashtra,west,
-Methi na Gota,"rava, gram flour, lemon juice, turmeric, fenugreek leaves",vegetarian,bitter,main course,gujarat,west,
-Mohanthal,"rose water, pistachio, badam, bengal gram flour, saffron",vegetarian,sweet,dessert,gujarat,west,
-Muthiya,"bottle gourd, whole wheat flour, rava, sesame seeds, bengal gram flour",vegetarian,bitter,snack,gujarat,west,chaat
-Patra,"arbi ke patte, sesame seeds, gur, bengal gram flour, imli",vegetarian,spicy,snack,gujarat,west,chaat
-Pav Bhaji,"pav bhaji masala, gobi, potatoes, green peas, dinner rolls",vegetarian,spicy,main course,maharashtra,west,
-Puri Bhaji,"aloo, urad dal, mustard, ginger, curry leaves",vegetarian,spicy,main course,maharashtra,west,
-Sabudana Khichadi,"raw peanuts, sabudana, lemon, avocado oil, curry leaves, green chili",vegetarian,spicy,snack,maharashtra,west,
-Sev khamani,"khaman, pomegranate, sev, powdered sugar, garlic",vegetarian,spicy,main course,gujarat,west,chaat
-Sev tameta,"sev, ginger, tomato, sugar",vegetarian,spicy,main course,gujarat,west,chaat
-Namakpara,"wheat flour, baking soda, all purpose flour, black pepper, sunflower oil",vegetarian,spicy,snack,gujarat,west,chaat
-Sukhdi,"whole wheat flour, gur, clarified butter",vegetarian,sweet,dessert,maharashtra,west,
-Surnoli,"rice flakes, yogurt, raw rice, jaggery, grated coconut",vegetarian,spicy,snack,maharashtra,west,
-Thalipeeth,"whole wheat flour, rice flour, pearl millet flour, sorghum flour, sesame seeds",vegetarian,spicy,main course,maharashtra,west,
-Undhiyu,"sweet potato, surti papdi, baby potatoes, valor papdi, green peas",vegetarian,spicy,main course,gujarat,west,
-Veg Kolhapuri,"gobi, potato, beans, khus khus, coconut",vegetarian,spicy,main course,maharashtra,west,
-Vindaloo,"chicken, coconut oil, wine vinegar, ginger, green, cinnamon",non vegetarian,spicy,main course,goa,west,
-Lilva Kachori,"green garlic chutney, fresh green peas, ginger, lemon juice, plain flour",vegetarian,spicy,snack,gujarat,west,chaat
-Mag Dhokli,"moong beans, jaggery, red chillies, oil, salt",vegetarian,spicy,snack,gujarat,west,
-Khichu,"rice flour, sesame seeds, baking soda, peanut oil",vegetarian,spicy,snack,gujarat,west,
-Thepla,"chickpea flour, methi leaves, jowar flour, wheat flour",vegetarian,spicy,snack,gujarat,west,
-Farsi Puri,"semolina, clarified butter, oil, white flour, black pepper",vegetarian,,snack,gujarat,west,chaat
-Khaman,"yogurt, fresh coconut, sesame seeds, semolina, gram flour",vegetarian,spicy,snack,gujarat,west,chaat
-Turiya Patra Vatana sabji,"ridge gourd, baking soda, sugar, grated coconut, peas",vegetarian,spicy,main course,gujarat,west,
-Churma Ladoo,"whole wheat flour, khus khus, sesame seeds, dry coconut, gur",vegetarian,sweet,dessert,rajasthan,west,
-Cheera Doi,"rice, mango, curd",vegetarian,sweet,dessert,west bengal,east,
-Gheela Pitha,"sticky rice, rice flour, jaggery, orange rind",vegetarian,sweet,dessert,assam,north east,
-Khar,"raw papaya, panch phoran masala, nigella seeds, mustard oil, fennel seeds",vegetarian,,main course,assam,north east,
-Kumol Sawul,"rice, eggs, carrot, beetroot",non vegetarian,spicy,main course,assam,north east,
-Luchi,"maida, vegetable oil",vegetarian,,main course,west bengal,east,
-Alu Pitika,"potatoes, mustard oil, fish, green chillies",non vegetarian,spicy,main course,assam,north east,
-Masor tenga,"ridge gourd, fish, lemon, tomatoes, mustard oil",non vegetarian,spicy,main course,assam,north east,
-Bengena Pitika,"brinjal, onions, salt, sesame seeds, coriander",vegetarian,,main course,assam,north east,
-Bilahi Maas,"potatoes, garam masala, tomatoes, mustard oil, bay leaf",non vegetarian,,main course,assam,north east,
-Black rice,"forbidden black rice, chicken, olive oil, slivered almonds, garlic powder",non vegetarian,,main course,manipur,north east,
-Bora Sawul,"biryani masala, mixed vegetables, yellow moong daal, whole red, mustard seeds",vegetarian,spicy,main course,assam,north east,
-Brown Rice,"brown rice, soy sauce, olive oil",vegetarian,,main course,,,
-Chingri malai curry,"coconut milk, lobster, fresh green chilli, ginger, red onion",non vegetarian,spicy,main course,west bengal,east,
-Goja,"baking soda, clarified butter, oil, all purpose flour",vegetarian,sweet,dessert,west bengal,east,
-Hando Guri,"jaggery, raisins",vegetarian,sweet,dessert,assam,north east,
-Haq Maas,"lamb, garam masala powder, curd, turmeric, bay leaf",non vegetarian,spicy,main course,assam,north east,
-Chingri Bhape,"coconut, prawns, curd, mustard seed, green chili",non vegetarian,,main course,west bengal,east,
-Kabiraji,"fish fillet, besan, lemon, mint, ginger",non vegetarian,spicy,main course,west bengal,east,
-Khorisa,"fermented bamboo shoot, potato, ginger, green, mustard oil",vegetarian,spicy,main course,assam,north east,
-Koldil Chicken,"banana flower, chicken, green chili, mustard oil, lemon juice",non vegetarian,spicy,main course,assam,north east,
-Konir Dom,"aloo, tomatoes, mustard oil, bay leaf, cinnamon stick",non vegetarian,spicy,main course,assam,north east,
-Koldil Duck,"rice flour, mutton, banana, gram flour, olive oil, baking powder",non vegetarian,spicy,main course,assam,north east,
-Masor Koni,"fish roe, pumpkin flowers, mustard oil, turmeric, tomato",non vegetarian,spicy,main course,assam,north east,
-Mishti Chholar Dal,"chana dal, fresh coconut, ginger, cinnamon, raisins",vegetarian,sweet,main course,west bengal,east,
-Pakhala,"curd, cooked rice, curry leaves, dry chilli",vegetarian,,main course,odisha,east,
-Pani Pitha,"tea leaves, white sesame seeds, dry coconut, soaked rice",vegetarian,,main course,assam,north east,
-Payokh,"basmati rice, rose water, sugar, clarified butter, cardamom pods",vegetarian,sweet,dessert,assam,north east,
-Prawn malai curry,"coconut milk, prawns, garlic, turmeric, sugar",non vegetarian,spicy,main course,west bengal,east,
-Red Rice,"red pepper, red onion, butter, watercress, olive oil",vegetarian,,main course,,,
-Shukto,"green beans, bitter gourd, ridge gourd, banana, brinjal",vegetarian,spicy,main course,west bengal,east,
-Til Pitha,"glutinous rice, black sesame seeds, gur",vegetarian,sweet,dessert,assam,north east,
-Bebinca,"coconut milk, egg yolks, clarified butter, all purpose flour",vegetarian,sweet,dessert,goa,west,
-Shufta,"cottage cheese, dry dates, dried rose petals, pistachio, badam",vegetarian,sweet,dessert,jammu & kashmir,north,
-Mawa Bati,"milk powder, dry fruits, arrowroot powder, all purpose flour",vegetarian,sweet,dessert,madhya pradesh,central,
-Pinaca,"brown rice, fennel seeds, grated coconut, black pepper, ginger powder",vegetarian,sweet,dessert,goa,west,
+name,ingredients,diet,flavor,course,state,region,style,category,source
+Balu shahi,"maida flour, yogurt, oil, sugar",vegetarian,sweet,dessert,west bengal,east,,,indian_food
+Boondi,"gram flour, ghee, sugar",vegetarian,sweet,dessert,rajasthan,west,,,indian_food
+Gajar ka halwa,"carrots, milk, sugar, ghee, cashews, raisins",vegetarian,sweet,dessert,punjab,north,,,indian_food
+Ghevar,"flour, ghee, kewra, milk, clarified butter, sugar, almonds, pistachio, saffron, green cardamom",vegetarian,sweet,dessert,rajasthan,west,,,indian_food
+Gulab jamun,"milk powder, plain flour, baking powder, ghee, milk, sugar, water, rose water",vegetarian,sweet,dessert,west bengal,east,,,indian_food
+Imarti,"sugar syrup, lentil flour",vegetarian,sweet,dessert,west bengal,east,,,indian_food
+Jalebi,"maida, corn flour, baking soda, vinegar, curd, water, turmeric, saffron, cardamom",vegetarian,sweet,dessert,uttar pradesh,north,,,indian_food
+Kaju katli,"cashews, ghee, cardamom, sugar",vegetarian,sweet,dessert,,,,,indian_food
+Kalakand,"milk, cottage cheese, sugar",vegetarian,sweet,dessert,west bengal,east,,,indian_food
+Kheer,"milk, rice, sugar, dried fruits",vegetarian,sweet,dessert,,,,,indian_food
+Laddu,"gram flour, ghee, sugar",vegetarian,sweet,dessert,,,,,indian_food
+Lassi,"yogurt, milk, nuts, sugar",vegetarian,sweet,dessert,punjab,north,,,indian_food
+Nankhatai,"refined flour, besan, ghee, powdered sugar, yoghurt, green cardamom",vegetarian,sweet,dessert,,,,,indian_food
+Petha,"firm white pumpkin, sugar, kitchen lime, alum powder",vegetarian,sweet,dessert,uttar pradesh,north,,,indian_food
+Phirni,"rice, sugar, nuts",vegetarian,sweet,dessert,odisha,east,,,indian_food
+Rabri,"condensed milk, sugar, spices, nuts",vegetarian,sweet,dessert,uttar pradesh,north,,,indian_food
+Sheera,"semolina, ghee, nuts, milk",vegetarian,sweet,dessert,maharashtra,west,,,indian_food
+Singori,"khoa, coconut, molu leaf",vegetarian,sweet,dessert,uttarakhand,north,,,indian_food
+Sohan halwa,"corn flour, ghee, dry fruits",vegetarian,sweet,dessert,uttar pradesh,north,,,indian_food
+Sohan papdi,"gram flour, ghee, sugar, milk, cardamom",vegetarian,sweet,dessert,maharashtra,west,,,indian_food
+Chhena jalebi,"chhena, sugar, ghee",vegetarian,sweet,dessert,odisha,east,,,indian_food
+Chhena kheeri,"chhena, sugar, milk",vegetarian,sweet,dessert,odisha,east,,,indian_food
+Chhena poda,"sugar, chenna cheese",vegetarian,sweet,dessert,odisha,east,,,indian_food
+Cham cham,"flour, cream, sugar, saffron, lemon juice, coconut flakes",vegetarian,sweet,dessert,west bengal,east,,,indian_food
+Kheer sagar,"chenna, condensed milk, sugar, saffron, cardamom",vegetarian,sweet,dessert,odisha,east,,,indian_food
+Ledikeni,"chhena, sugar, ghee",vegetarian,sweet,dessert,west bengal,east,,,indian_food
+Lyangcha,"flour, fried milk power, sugar syrup",vegetarian,sweet,dessert,assam,north east,,,indian_food
+Malapua,"yoghurt, refined flour, ghee, fennel seeds",vegetarian,sweet,dessert,bihar,north,,,indian_food
+Mihidana,"besan flour, sugar, ghee",vegetarian,sweet,dessert,west bengal,east,,,indian_food
+Misti doi,"milk, jaggery",vegetarian,sweet,dessert,west bengal,east,,,indian_food
+Pantua,"chhena, sugar, ghee, flour",vegetarian,sweet,dessert,west bengal,east,,,indian_food
+Pithe,"rice flour, wheat flour",vegetarian,sweet,dessert,assam,north east,,,indian_food
+Rasabali,"chenna, sweetened milk",vegetarian,sweet,dessert,odisha,east,,,indian_food
+Ras malai,"chhena, reduced milk, pistachio",vegetarian,sweet,dessert,west bengal,east,,,indian_food
+Rasgulla,"chhena, sugar, cardamom",vegetarian,sweet,dessert,west bengal,east,,,indian_food
+Sandesh,"milk, sugar, saffron, cardamom",vegetarian,sweet,dessert,west bengal,east,,,indian_food
+Adhirasam,"rice flour, jaggery, ghee, vegetable oil, elachi",vegetarian,sweet,dessert,west bengal,east,,,indian_food
+Ariselu,"rice flour, jaggery, ghee",vegetarian,sweet,dessert,andhra pradesh,south,,,indian_food
+Bandar laddu,"besan, jaggery, cardamom powder, ghee, cashews and raisins, jaggery syrup, sugar",vegetarian,sweet,dessert,andhra pradesh,south,,,indian_food
+Chikki,"peanuts, jaggery",vegetarian,sweet,dessert,maharashtra,west,,,indian_food
+Dharwad pedha,"milk, sugar, dharwadi buffalo milk",vegetarian,sweet,dessert,karnataka,south,,,indian_food
+Double ka meetha,"loaf bread, milk",vegetarian,sweet,dessert,telangana,south,,,indian_food
+Gavvalu,"rice flour, sugar, salt, ghee, semolina",vegetarian,sweet,dessert,andhra pradesh,south,,,indian_food
+Kakinada khaja,"wheat flour, sugar",vegetarian,sweet,dessert,andhra pradesh,south,,,indian_food
+Kuzhi paniyaram,"black lentils, rice",vegetarian,sweet,dessert,kerala,south,,,indian_food
+Mysore pak,"besan flour, semolina, mung bean, jaggery, coconut, skimmed milk powder, sugar, ghee",vegetarian,sweet,dessert,karnataka,south,,,indian_food
+Obbattu holige,"maida flour, turmeric, coconut, chickpeas, jaggery, ghee, cardamom",vegetarian,sweet,main course,karnataka,south,,,indian_food
+Palathalikalu,"rice flour, milk",vegetarian,sweet,dessert,andhra pradesh,south,,,indian_food
+Poornalu,"chana dal, jaggery",vegetarian,sweet,dessert,andhra pradesh,south,,,indian_food
+Pongal,"rice, jaggery, cashews, ghee",vegetarian,sweet,dessert,tamil nadu,south,,,indian_food
+Pootharekulu,"rice flour, powdered sugar, ghee",vegetarian,sweet,dessert,andhra pradesh,south,,,indian_food
+Qubani ka meetha,"apricots, sugar syrup",vegetarian,sweet,dessert,telangana,south,,,indian_food
+Sheer korma,"vermicelli pudding, milk",vegetarian,sweet,dessert,telangana,south,,,indian_food
+Unni Appam,"rice flour, banana, jaggery, coconut",vegetarian,sweet,dessert,tamil nadu,south,,,indian_food
+Kajjikaya,"rice flour, jaggery, coconut",vegetarian,sweet,dessert,andhra pradesh,south,,,indian_food
+Anarsa,"rice flour, jaggery, khus-khus seeds",vegetarian,sweet,dessert,maharashtra,west,,,indian_food
+Basundi,"sugar, milk, nuts",vegetarian,sweet,dessert,gujarat,west,,,indian_food
+Dhondas,"cucumber, rava",vegetarian,sweet,dessert,maharashtra,west,,,indian_food
+Doodhpak,"milk, rice, sugar, dry fruits",vegetarian,sweet,dessert,gujarat,west,,,indian_food
+Mahim halwa,"semolina, sugar",vegetarian,sweet,dessert,maharashtra,west,,,indian_food
+Modak,"rice flour, coconut, jaggery",vegetarian,sweet,dessert,maharashtra,west,,,indian_food
+Shankarpali,"sugar, ghee, maida flour, semolina",vegetarian,sweet,dessert,maharashtra,west,,,indian_food
+Shrikhand,"curd, sugar, saffron, cardamom",vegetarian,sweet,dessert,maharashtra,west,,,indian_food
+Sutar feni,"maida, sugar, ghee",vegetarian,sweet,dessert,maharashtra,west,,,indian_food
+Maach Jhol,"fish, potol, tomato, chillies, ginger, garlic",non vegetarian,spicy,main course,assam,north east,,,indian_food
+Pork Bharta,"boiled pork, onions, chillies, ginger and garlic",non vegetarian,spicy,main course,tripura,north east,,,indian_food
+Chak Hao Kheer,"rice, milk, sugar, cardamom",vegetarian,sweet,dessert,manipur,north east,,,indian_food
+Galho,"rice, axone, salt, water, chillies, pork",non vegetarian,spicy,main course,nagaland,north east,,,indian_food
+Aloo gobi,"cauliflower, potato, garam masala, turmeric, curry leaves",vegetarian,spicy,main course,punjab,north,,,indian_food
+Aloo tikki,"rice flour, potato, bread crumbs, garam masala, salt",vegetarian,spicy,main course,punjab,north,chaat,,indian_food
+Aloo matar,"potato, peas, chillies, ginger, garam masala, garlic",vegetarian,spicy,main course,punjab,north,,,indian_food
+Aloo methi,"potato, fenugreek leaves, chillies, salt, oil",vegetarian,bitter,main course,punjab,north,,,indian_food
+Aloo shimla mirch,"potato, shimla mirch, garam masala, amchur powder, salt",vegetarian,spicy,main course,punjab,north,,,indian_food
+Bhatura,"chole, rava, yogurt, plain flour, baking soda",vegetarian,spicy,main course,punjab,north,,,indian_food
+Bhindi masala,"ladies finger, garam masala, kasuri methi, tomatoes, chili powder",vegetarian,spicy,main course,punjab,north,,,indian_food
+Biryani,"chicken thighs, basmati rice, star anise, sweet, green chillies",non vegetarian,spicy,main course,telangana,south,,,indian_food
+Butter chicken,"chicken, greek yogurt, cream, garam masala powder, cashew nuts, butter",non vegetarian,spicy,main course,nct of delhi,north,,,indian_food
+Chana masala,"chickpeas, tomato paste, garam masala, ginger, red onion, avocado oil",vegetarian,spicy,main course,punjab,north,,,indian_food
+Chapati,"whole wheat flour, olive oil, hot water, all purpose flour",vegetarian,,main course,maharashtra,west,,,indian_food
+Chicken razala,"chicken, dahi, sesame seeds, garam masala powder, cashew nuts, saffron",non vegetarian,spicy,main course,west bengal,east,,,indian_food
+Chicken Tikka masala,"naan bread, tomato sauce, skinless chicken breasts, heavy cream, garam masala",non vegetarian,spicy,main course,punjab,north,,,indian_food
+Chicken Tikka,"chicken, whole wheat bread, rice flour, garam masala powder, whole egg",non vegetarian,spicy,starter,punjab,north,,,indian_food
+Chole bhature,"chole, bhatura, garam masala, bay leaf, cinnamon stick",vegetarian,spicy,main course,punjab,north,,,indian_food
+Daal baati churma,"moong dal, masoor dal, chana dal, wheat flour, almond",vegetarian,spicy,main course,rajasthan,west,,,indian_food
+Daal puri,"moong dal, garam masala powder, garlic, green chilli, all purpose flour",vegetarian,spicy,main course,west bengal,east,,,indian_food
+Dal makhani,"red kidney beans, urad dal, cream, garam masala, chili powder",vegetarian,sweet,main course,punjab,north,,,indian_food
+Dal tadka,"pigeon peas, garam masala, ginger, red onion, kasuri methi",vegetarian,spicy,main course,punjab,north,,,indian_food
+Dum aloo,"baby potatoes, garam masala, cashew nuts, kasuri methi, tomatoes",vegetarian,spicy,main course,jammu & kashmir,north,,,indian_food
+Poha,"beaten rice flakes, potato, curry leaves, green chilies, lemon juice",vegetarian,spicy,snack,maharashtra,west,,,indian_food
+Fara,"chana dal, whole wheat flour, arhar dal, white urad dal, garam masala powder",vegetarian,spicy,snack,chhattisgarh,central,,,indian_food
+Kachori,"moong dal, rava, garam masala, dough, fennel seeds",vegetarian,spicy,snack,uttar pradesh,north,chaat,,indian_food
+Kadai paneer,"cottage cheese, bell peppers, gravy, garam masala, cashew nuts",vegetarian,spicy,main course,punjab,north,,,indian_food
+Kadhi pakoda,"besan, garam masala powder, gram flour, ginger, curry leaves",vegetarian,spicy,main course,haryana,north,,,indian_food
+Karela bharta,"bitter gourd, fennel, garam masala powder, chili powder, amchur powder",vegetarian,bitter,main course,punjab,north,,,indian_food
+Khichdi,"moong dal, green peas, ginger, tomato, green chili",vegetarian,spicy,main course,,,,,indian_food
+Kofta,"paneer, potato, cream, corn flour, garam masala",vegetarian,spicy,main course,uttar pradesh,north,,,indian_food
+Kulfi falooda,"rose syrup, falooda sev, mixed nuts, saffron, sugar",vegetarian,sweet,dessert,,,,,indian_food
+Lauki ke kofte,"bottle gourd, garam masala powder, gram flour, ginger, chillies",vegetarian,spicy,main course,uttar pradesh,north,,,indian_food
+Lauki ki subji,"bottle gourd, coconut oil, garam masala, ginger, green chillies",vegetarian,spicy,main course,,,,,indian_food
+Litti chokha,"wheat flour, roasted gram flour, tomato, nigella seeds, chilli",vegetarian,spicy,main course,bihar,north,,,indian_food
+Makki di roti sarson da saag,"palak, makki atta, mustard green, garam masala, ginger",vegetarian,spicy,main course,punjab,north,,,indian_food
+Misi roti,"whole wheat flour, chickpea flour, green chilies",vegetarian,spicy,main course,punjab,north,,,indian_food
+Mushroom do pyaza,"mushroom, malai, garam masala, ginger, capsicum",vegetarian,spicy,main course,punjab,north,,,indian_food
+Mushroom matar,"canned coconut milk, frozen green peas, wild mushrooms, garam masala, tomatoes",vegetarian,spicy,main course,punjab,north,,,indian_food
+Naan,"whole wheat flour, honey, butter, garlic",vegetarian,,main course,punjab,north,,,indian_food
+Navrattan korma,"green beans, potatoes, khus khus, low fat, garam masala powder",vegetarian,spicy,main course,uttar pradesh,north,,,indian_food
+Palak paneer,"cottage cheese, palak, cream, garam masala, butter",vegetarian,spicy,main course,punjab,north,,,indian_food
+Paneer butter masala,"paneer, whipping cream, garam masala, cashew nuts, butter",vegetarian,spicy,main course,punjab,north,,,indian_food
+Paneer tikka masala,"paneer, greek yogurt, tandoori masala, cream, bell pepper",vegetarian,spicy,main course,punjab,north,,,indian_food
+Pani puri,"kala chana, mashed potato, boondi, sev, lemon",vegetarian,spicy,snack,,,chaat,,indian_food
+Panjeeri,"whole wheat flour, musk melon seeds, poppy seeds, edible gum, semolina",vegetarian,sweet,dessert,uttar pradesh,,,,indian_food
+Papad,"urad dal, sev, lemon juice, chopped tomatoes",vegetarian,spicy,snack,,,chaat,,indian_food
+Paratha,"wheat flour, butter, potato, coriander",vegetarian,spicy,main course,punjab,north,,,indian_food
+Pattor,"arbi ke patte, sesame seeds, gur, bengal gram flour, imli",vegetarian,spicy,main course,rajasthan,west,,,indian_food
+Pindi chana,"fennel, tea bags, tomato, kasuri methi, cinnamon",vegetarian,spicy,main course,punjab,north,,,indian_food
+Rajma chaval,"red kidney beans, garam masala powder, ginger, tomato, mustard oil",vegetarian,spicy,main course,,north,,,indian_food
+Rongi,"garam masala powder, tomato, kasuri methi, cinnamon, mustard oil",vegetarian,,main course,punjab,north,,,indian_food
+Samosa,"potatoes, green peas, garam masala, ginger, dough",vegetarian,spicy,snack,,,chaat,,indian_food
+Sattu ki roti,"sattu, atta, dough, filling, mustard oil",vegetarian,spicy,main course,bihar,north,,,indian_food
+Shahi paneer,"cottage cheese, malai, garam masala, ginger, tomato",vegetarian,spicy,main course,punjab,north,,,indian_food
+Shahi tukra,"rose water, milk, white bread slices, saffron, almonds",vegetarian,sweet,dessert,telangana,south,,,indian_food
+Vegetable jalfrezi,"baby corn, french beans, garam masala, ginger, carrot",vegetarian,spicy,main course,punjab,north,,,indian_food
+Tandoori Chicken,"greek yogurt, garam masala, kasuri methi, marinade, mustard oil",non vegetarian,spicy,main course,punjab,north,,,indian_food
+Tandoori Fish Tikka,"chickpea flour, biryani masala powder, yogurt, fish fillets, green bell pepper",non vegetarian,spicy,starter,punjab,north,,,indian_food
+Attu,"whole wheat flour, arhar dal, ginger, kala jeera, green chilli",vegetarian,spicy,snack,andhra pradesh,south,,,indian_food
+Avial,"raw banana, elephant foot yam, long beans, tindora, urad dal",vegetarian,spicy,main course,kerala,south,,,indian_food
+Bisi bele bath,"split pigeon peas, chana dal, urad dal, green peas, french beans",vegetarian,spicy,main course,karnataka,south,,,indian_food
+Currivepillai sadam,"chana dal, urad dal, fresh coconut, sesame seeds, curry leaves",vegetarian,spicy,main course,tamil nadu,south,,,indian_food
+Dosa,"chana dal, urad dal, whole urad dal, blend rice, rock salt",vegetarian,spicy,snack,,south,chaat,,indian_food
+Idiappam,"rice flour, hot water, grated coconut",vegetarian,spicy,snack,tamil nadu,south,,,indian_food
+Idli,"split urad dal, urad dal, idli rice, thick poha, rock salt",vegetarian,spicy,snack,,south,,,indian_food
+Kanji,"carrot, yellow mustard, red chilli, black salt",vegetarian,,snack,kerala,south,,,indian_food
+Kaara kozhambu,"sesame oil, drumstick, tamarind paste, sambar powder, tomato",vegetarian,spicy,main course,tamil nadu,south,,,indian_food
+Keerai kootu,"moong dal, chana dal, spinach, urad dal, coconut oil",vegetarian,spicy,main course,tamil nadu,south,,,indian_food
+Keerai masiyal,"urad dal, curry leaves, sugar, mustard seeds, spinach",vegetarian,spicy,main course,tamil nadu,south,,,indian_food
+Keerai sadam,"greens, tomato, mustard seeds, fenugreek seeds",vegetarian,spicy,main course,tamil nadu,south,,,indian_food
+Keerai poriyal,"amaranth leaves, split urad dal, mustard seeds, grated coconut, red chili",vegetarian,spicy,main course,tamil nadu,south,,,indian_food
+Beef Fry,"beef, coconut, garam masala, curry leaves, green chilies, chili powder",non vegetarian,spicy,main course,kerala,south,,,indian_food
+Kootu,"chana dal, urad dal, potato, beans, peas",vegetarian,spicy,main course,tamil nadu,south,,,indian_food
+Kos kootu,"moong dal, chana dal, cabbage, tamarind, curry leaves",vegetarian,spicy,main course,tamil nadu,south,,,indian_food
+Koshambri,"moong dal, cucumber, curry leaves, green chili, lemon juice",vegetarian,spicy,main course,karnataka,south,,,indian_food
+Kothamali sadam,"chana dal, urad dal, gooseberry, raw rice, curry leaves",vegetarian,spicy,main course,tamil nadu,south,,,indian_food
+Kuzhakkattai,"sesame oil, raw rice, jaggery, grated coconut",vegetarian,spicy,main course,tamil nadu,south,,,indian_food
+Kuzhambu,"pearl onions, urad dal, drumsticks, tomato, curry leaves",vegetarian,spicy,main course,tamil nadu,south,,,indian_food
+Masala Dosa,"chana dal, urad dal, potatoes, idli rice, thick poha",vegetarian,spicy,snack,,south,chaat,,indian_food
+Pachadi,"coconut oil, cucumber, curd, curry leaves, mustard seeds",vegetarian,,main course,,south,,,indian_food
+Paniyaram,"yogurt, ginger, curry leaves, baking soda, green chilli",vegetarian,,main course,tamil nadu,south,,,indian_food
+Papadum,"lentils, black pepper, vegetable oil",vegetarian,spicy,snack,kerala,south,chaat,,indian_food
+Paravannam,"raw rice, jaggery, milk",vegetarian,spicy,main course,kerala,south,,,indian_food
+Payasam,"rice, cashew nuts, milk, raisins, sugar",vegetarian,sweet,dessert,,south,,,indian_food
+Paruppu sadam,"arhar dal, sambar powder, tomato, curry leaves, fennel seeds",vegetarian,,main course,tamil nadu,south,,,indian_food
+Pesarattu,"green moong beans, rice flour",vegetarian,spicy,snack,andhra pradesh,south,,,indian_food
+Poriyal,"chana dal, urad dal, beans, coconut, mustard",vegetarian,spicy,main course,tamil nadu,south,,,indian_food
+Puli sadam,"urad dal, lemon, tamarind, cooked rice, curry leaves",vegetarian,,main course,tamil nadu,south,,,indian_food
+Rasam,"tomato, curry leaves, garlic, mustard seeds, hot water",vegetarian,spicy,main course,,south,,,indian_food
+Puttu,"brown rice flour, sugar, grated coconut",vegetarian,,main course,kerala,south,,,indian_food
+Sambar,"pigeon peas, eggplant, drumsticks, sambar powder, tamarind",vegetarian,spicy,main course,,south,,,indian_food
+Sandige,"thin rice flakes, black sesame seeds, curry leaves",vegetarian,,main course,karnataka,south,,,indian_food
+Sevai,"sevai, parboiled rice, steamer",vegetarian,,main course,,south,,,indian_food
+Thayir sadam,"urad dal, curd, sesame oil, ginger, curry leaves, mustard seeds",vegetarian,,main course,tamil nadu,south,,,indian_food
+Theeyal,"coconut, whole red beans, masala, sesame oil, tamarind",vegetarian,,main course,kerala,south,,,indian_food
+Uttapam,"chana dal, urad dal, thick poha, tomato, butter",vegetarian,spicy,snack,,south,chaat,,indian_food
+Vada,"urad dal, ginger, curry leaves, green chilies, black pepper",vegetarian,spicy,snack,,south,chaat,,indian_food
+Chicken Varuval,"meat curry powder, chicken chunks, ginger, tomato, cinnamon",non vegetarian,spicy,main course,tamil nadu,south,,,indian_food
+Upma,"chana dal, urad dal, ginger, curry leaves, sugar",vegetarian,spicy,snack,,,,,indian_food
+Amti,"kala masala, arhar dal, curry leaves, mustard seeds, hot water",vegetarian,spicy,main course,maharashtra,west,,,indian_food
+Zunka,"gram flour, mustard, garlic, turmeric, red chilli",vegetarian,spicy,main course,maharashtra,west,,,indian_food
+Kolim Jawla,"baingan, fish, coconut oil, fresh coconut, ginger",non vegetarian,spicy,main course,maharashtra,west,,,indian_food
+Saath,"urad dal, potatoes, wheat flour, sooji",vegetarian,spicy,main course,gujarat,west,,,indian_food
+Bajri no rotlo,"wheat flour, pearl millet flour, hot water",vegetarian,spicy,main course,gujarat,west,,,indian_food
+Coconut vadi,"condensed milk, mawa, desiccated coconut, almonds, cashews",vegetarian,sweet,dessert,maharashtra,west,,,indian_food
+Bhakri,"jowar flour, sesame seeds",vegetarian,,main course,maharashtra,west,,,indian_food
+Bombil fry,"bombay duck, malvani masala, rice flour, bombay rava, green chilies",non vegetarian,spicy,main course,maharashtra,west,,,indian_food
+Chakali,"rice flour, sesame, plain flour, turmeric, red chilli",vegetarian,spicy,snack,maharashtra,west,chaat,,indian_food
+Chevdo,"citric acid, fry, raisins, sugar, chana daal",vegetarian,spicy,snack,gujarat,west,chaat,,indian_food
+Chorafali,"urad dal, bengal gram flour, dried mango, baking soda, black salt",vegetarian,spicy,snack,gujarat,west,chaat,,indian_food
+Copra paak,"condensed milk, nestle cream, coconut ice, red food coloring, desiccated coconut",vegetarian,,main course,gujarat,west,,,indian_food
+Daal Dhokli,"whole wheat flour, dal, kokum, gur, bengal gram flour",vegetarian,spicy,main course,gujarat,west,,,indian_food
+Kutchi dabeli,"pav, aloo, peanut, pomegranate, star anise",vegetarian,spicy,snack,gujarat,west,chaat,,indian_food
+Dahi vada,"urad dal, bhuna chana, garam masala, dates, tamarind",vegetarian,,snack,maharashtra,west,chaat,,indian_food
+Dalithoy,"arhar dal, coconut oil, curry leaves, mustard seeds, red chilli",vegetarian,,main course,maharashtra,west,,,indian_food
+Dhokla,"rava, coconut, gram flour, mustard, sesame",vegetarian,spicy,snack,gujarat,west,chaat,,indian_food
+Dudhi halwa,"bottle gourd, green, raisins, sugar, clarified butter",vegetarian,sweet,dessert,gujarat,west,,,indian_food
+Gatta curry,"yogurt, besan, sauce, garam masala powder, gram flour",vegetarian,spicy,main course,rajasthan,west,,,indian_food
+Gud papdi,"wheat flour, jaggery, clarified butter, sliced almonds",vegetarian,sweet,dessert,gujarat,west,,,indian_food
+Ghooghra,"dry fruits, semolina, all purpose flour",vegetarian,spicy,snack,gujarat,west,chaat,,indian_food
+Handwo,"bottle gourd, chana dal, cabbage, urad dal, toor dal",vegetarian,spicy,snack,gujarat,west,chaat,,indian_food
+Halvasan,"whole wheat rava, chia seed, lemon, edible gum, litre milk",vegetarian,sweet,dessert,gujarat,west,,,indian_food
+Jeera Aloo,"green chilies, lemon juice, chili powder, boiled potatoes",vegetarian,spicy,main course,gujarat,west,,,indian_food
+Kansar,"wheat flour, cashews, rapeseed oil",vegetarian,,main course,gujarat,west,,,indian_food
+Keri no ras,"mango, sugar",vegetarian,sour,main course,gujarat,west,,,indian_food
+Khakhra,"whole wheat flour, low fat, bengal gram flour",vegetarian,spicy,snack,gujarat,west,chaat,,indian_food
+Khandvi,"green chili paste, white sesame seeds, gram flour, curry leaves, green chili",vegetarian,spicy,snack,gujarat,west,chaat,,indian_food
+Kombdi vade,"rice flour, urad dal, wheat flour, gram flour, turmeric",vegetarian,spicy,snack,maharashtra,west,,,indian_food
+Laapsi,"cinnamon, jaggery, clarified butter, dry roasted",vegetarian,spicy,main course,madhya pradesh,central,,,indian_food
+Koshimbir,"cucumber, carrot, tomatoes, cilantro",vegetarian,spicy,main course,maharashtra,west,,,indian_food
+Methi na Gota,"rava, gram flour, lemon juice, turmeric, fenugreek leaves",vegetarian,bitter,main course,gujarat,west,,,indian_food
+Mohanthal,"rose water, pistachio, badam, bengal gram flour, saffron",vegetarian,sweet,dessert,gujarat,west,,,indian_food
+Muthiya,"bottle gourd, whole wheat flour, rava, sesame seeds, bengal gram flour",vegetarian,bitter,snack,gujarat,west,chaat,,indian_food
+Patra,"arbi ke patte, sesame seeds, gur, bengal gram flour, imli",vegetarian,spicy,snack,gujarat,west,chaat,,indian_food
+Pav Bhaji,"pav bhaji masala, gobi, potatoes, green peas, dinner rolls",vegetarian,spicy,main course,maharashtra,west,,,indian_food
+Puri Bhaji,"aloo, urad dal, mustard, ginger, curry leaves",vegetarian,spicy,main course,maharashtra,west,,,indian_food
+Sabudana Khichadi,"raw peanuts, sabudana, lemon, avocado oil, curry leaves, green chili",vegetarian,spicy,snack,maharashtra,west,,,indian_food
+Sev khamani,"khaman, pomegranate, sev, powdered sugar, garlic",vegetarian,spicy,main course,gujarat,west,chaat,,indian_food
+Sev tameta,"sev, ginger, tomato, sugar",vegetarian,spicy,main course,gujarat,west,chaat,,indian_food
+Namakpara,"wheat flour, baking soda, all purpose flour, black pepper, sunflower oil",vegetarian,spicy,snack,gujarat,west,chaat,,indian_food
+Sukhdi,"whole wheat flour, gur, clarified butter",vegetarian,sweet,dessert,maharashtra,west,,,indian_food
+Surnoli,"rice flakes, yogurt, raw rice, jaggery, grated coconut",vegetarian,spicy,snack,maharashtra,west,,,indian_food
+Thalipeeth,"whole wheat flour, rice flour, pearl millet flour, sorghum flour, sesame seeds",vegetarian,spicy,main course,maharashtra,west,,,indian_food
+Undhiyu,"sweet potato, surti papdi, baby potatoes, valor papdi, green peas",vegetarian,spicy,main course,gujarat,west,,,indian_food
+Veg Kolhapuri,"gobi, potato, beans, khus khus, coconut",vegetarian,spicy,main course,maharashtra,west,,,indian_food
+Vindaloo,"chicken, coconut oil, wine vinegar, ginger, green, cinnamon",non vegetarian,spicy,main course,goa,west,,,indian_food
+Lilva Kachori,"green garlic chutney, fresh green peas, ginger, lemon juice, plain flour",vegetarian,spicy,snack,gujarat,west,chaat,,indian_food
+Mag Dhokli,"moong beans, jaggery, red chillies, oil, salt",vegetarian,spicy,snack,gujarat,west,,,indian_food
+Khichu,"rice flour, sesame seeds, baking soda, peanut oil",vegetarian,spicy,snack,gujarat,west,,,indian_food
+Thepla,"chickpea flour, methi leaves, jowar flour, wheat flour",vegetarian,spicy,snack,gujarat,west,,,indian_food
+Farsi Puri,"semolina, clarified butter, oil, white flour, black pepper",vegetarian,,snack,gujarat,west,chaat,,indian_food
+Khaman,"yogurt, fresh coconut, sesame seeds, semolina, gram flour",vegetarian,spicy,snack,gujarat,west,chaat,,indian_food
+Turiya Patra Vatana sabji,"ridge gourd, baking soda, sugar, grated coconut, peas",vegetarian,spicy,main course,gujarat,west,,,indian_food
+Churma Ladoo,"whole wheat flour, khus khus, sesame seeds, dry coconut, gur",vegetarian,sweet,dessert,rajasthan,west,,,indian_food
+Cheera Doi,"rice, mango, curd",vegetarian,sweet,dessert,west bengal,east,,,indian_food
+Gheela Pitha,"sticky rice, rice flour, jaggery, orange rind",vegetarian,sweet,dessert,assam,north east,,,indian_food
+Khar,"raw papaya, panch phoran masala, nigella seeds, mustard oil, fennel seeds",vegetarian,,main course,assam,north east,,,indian_food
+Kumol Sawul,"rice, eggs, carrot, beetroot",non vegetarian,spicy,main course,assam,north east,,,indian_food
+Luchi,"maida, vegetable oil",vegetarian,,main course,west bengal,east,,,indian_food
+Alu Pitika,"potatoes, mustard oil, fish, green chillies",non vegetarian,spicy,main course,assam,north east,,,indian_food
+Masor tenga,"ridge gourd, fish, lemon, tomatoes, mustard oil",non vegetarian,spicy,main course,assam,north east,,,indian_food
+Bengena Pitika,"brinjal, onions, salt, sesame seeds, coriander",vegetarian,,main course,assam,north east,,,indian_food
+Bilahi Maas,"potatoes, garam masala, tomatoes, mustard oil, bay leaf",non vegetarian,,main course,assam,north east,,,indian_food
+Black rice,"forbidden black rice, chicken, olive oil, slivered almonds, garlic powder",non vegetarian,,main course,manipur,north east,,,indian_food
+Bora Sawul,"biryani masala, mixed vegetables, yellow moong daal, whole red, mustard seeds",vegetarian,spicy,main course,assam,north east,,,indian_food
+Brown Rice,"brown rice, soy sauce, olive oil",vegetarian,,main course,,,,,indian_food
+Chingri malai curry,"coconut milk, lobster, fresh green chilli, ginger, red onion",non vegetarian,spicy,main course,west bengal,east,,,indian_food
+Goja,"baking soda, clarified butter, oil, all purpose flour",vegetarian,sweet,dessert,west bengal,east,,,indian_food
+Hando Guri,"jaggery, raisins",vegetarian,sweet,dessert,assam,north east,,,indian_food
+Haq Maas,"lamb, garam masala powder, curd, turmeric, bay leaf",non vegetarian,spicy,main course,assam,north east,,,indian_food
+Chingri Bhape,"coconut, prawns, curd, mustard seed, green chili",non vegetarian,,main course,west bengal,east,,,indian_food
+Kabiraji,"fish fillet, besan, lemon, mint, ginger",non vegetarian,spicy,main course,west bengal,east,,,indian_food
+Khorisa,"fermented bamboo shoot, potato, ginger, green, mustard oil",vegetarian,spicy,main course,assam,north east,,,indian_food
+Koldil Chicken,"banana flower, chicken, green chili, mustard oil, lemon juice",non vegetarian,spicy,main course,assam,north east,,,indian_food
+Konir Dom,"aloo, tomatoes, mustard oil, bay leaf, cinnamon stick",non vegetarian,spicy,main course,assam,north east,,,indian_food
+Koldil Duck,"rice flour, mutton, banana, gram flour, olive oil, baking powder",non vegetarian,spicy,main course,assam,north east,,,indian_food
+Masor Koni,"fish roe, pumpkin flowers, mustard oil, turmeric, tomato",non vegetarian,spicy,main course,assam,north east,,,indian_food
+Mishti Chholar Dal,"chana dal, fresh coconut, ginger, cinnamon, raisins",vegetarian,sweet,main course,west bengal,east,,,indian_food
+Pakhala,"curd, cooked rice, curry leaves, dry chilli",vegetarian,,main course,odisha,east,,,indian_food
+Pani Pitha,"tea leaves, white sesame seeds, dry coconut, soaked rice",vegetarian,,main course,assam,north east,,,indian_food
+Payokh,"basmati rice, rose water, sugar, clarified butter, cardamom pods",vegetarian,sweet,dessert,assam,north east,,,indian_food
+Prawn malai curry,"coconut milk, prawns, garlic, turmeric, sugar",non vegetarian,spicy,main course,west bengal,east,,,indian_food
+Red Rice,"red pepper, red onion, butter, watercress, olive oil",vegetarian,,main course,,,,,indian_food
+Shukto,"green beans, bitter gourd, ridge gourd, banana, brinjal",vegetarian,spicy,main course,west bengal,east,,,indian_food
+Til Pitha,"glutinous rice, black sesame seeds, gur",vegetarian,sweet,dessert,assam,north east,,,indian_food
+Bebinca,"coconut milk, egg yolks, clarified butter, all purpose flour",vegetarian,sweet,dessert,goa,west,,,indian_food
+Shufta,"cottage cheese, dry dates, dried rose petals, pistachio, badam",vegetarian,sweet,dessert,jammu & kashmir,north,,,indian_food
+Mawa Bati,"milk powder, dry fruits, arrowroot powder, all purpose flour",vegetarian,sweet,dessert,madhya pradesh,central,,,indian_food
+Pinaca,"brown rice, fennel seeds, grated coconut, black pepper, ginger powder",vegetarian,sweet,dessert,goa,west,,,indian_food
+Kara Kozhukattai (2 Pcs),,,,,,,,recommended,swiggy_bangalore
+Sweet Kozhukattai (2 Pcs),,,,,,,,recommended,swiggy_bangalore
+Green Peas Masala,,,,,,,,recommended,swiggy_bangalore
+Palak Mushroom,,,,,,,,recommended,swiggy_bangalore
+Kaju Masala,,,,,,,,recommended,swiggy_bangalore
+Kadai Vegetable,,,,,,,,recommended,swiggy_bangalore
+Panneer Butter Masala,,,,,,,,recommended,swiggy_bangalore
+Mushroom Masala,,,,,,,,recommended,swiggy_bangalore
+Kadai Panneer,,,,,,,,recommended,swiggy_bangalore
+Navarathna Kuruma,,,,,,,,recommended,swiggy_bangalore
+Malai Koftha,,,,,,,,recommended,swiggy_bangalore
+Veg Mix Masala Curry,,,,,,,,recommended,swiggy_bangalore
+Dhal Makhani,,,,,,,,recommended,swiggy_bangalore
+Kaju Mutter,,,,,,,,recommended,swiggy_bangalore
+Dhal Fry,,,,,,,,recommended,swiggy_bangalore
+Dhal Thadka,,,,,,,,recommended,swiggy_bangalore
+Alu Gobi Masala,,,,,,,,recommended,swiggy_bangalore
+Veg Kollapuri,,,,,,,,recommended,swiggy_bangalore
+Margherita,,,,,,,,recommended,swiggy_bangalore
+Veggie Feast,,,,,,,,recommended,swiggy_bangalore
+Tandoori Paneer,,,,,,,,recommended,swiggy_bangalore
+Country Feast,,,,,,,,recommended,swiggy_bangalore
+Veggie Supreme,,,,,,,,recommended,swiggy_bangalore
+Chicken Sausage,,,,,,,,recommended,swiggy_bangalore
+Murg Malai Chicken,,,,,,,,recommended,swiggy_bangalore
+Chicken Supreme,,,,,,,,recommended,swiggy_bangalore
+Triple Chicken Feast,,,,,,,,recommended,swiggy_bangalore
+Classic Onion Capsicum,,,,,,,,recommended,swiggy_bangalore
+Cheesy Spicy Delight,,,,,,,,recommended,swiggy_bangalore
+Chilli Paneer Sizzle,,,,,,,,recommended,swiggy_bangalore
+Classic Chicken Pepperoni & Onion,,,,,,,,recommended,swiggy_bangalore
+Classic Herbed Chicken & Capsicum,,,,,,,,recommended,swiggy_bangalore
+Chatpata Chicken Feast,,,,,,,,recommended,swiggy_bangalore
+Bold BBQ Veggie Thin n Crispy,,,,,,,,recommended,swiggy_bangalore
+Spicy Schezwan Pasta Chicken,,,,,,,,recommended,swiggy_bangalore
+Spicy Red Schezwan Pasta,,,,,,,,recommended,swiggy_bangalore
+Sprinkled Fries - New,,,,,,,,recommended,swiggy_bangalore
+Spicy Baked Chicken Wings 4pc,,,,,,,,recommended,swiggy_bangalore
+Chicken Pepperoni Pizza - Medium,,,,,,,,flash sale pizzas,swiggy_bangalore
+Bold BBQ Veggies Pizza - Medium,,,,,,,,flash sale pizzas,swiggy_bangalore
+Schezwan Margherita,,,,,,,,veg pizza,swiggy_bangalore
+Mexican Fiesta,,,,,,,,veg pizza,swiggy_bangalore
+Bold BBQ Veggies,,,,,,,,veg pizza,swiggy_bangalore
+Ultimate Tandoori Veggie,,,,,,,,veg pizza,swiggy_bangalore
+Mazedar Makhni Paneer,,,,,,,,veg pizza,swiggy_bangalore
+Corn & Cheese,,,,,,,,veg pizza,swiggy_bangalore
+Spiced Paneer,,,,,,,,veg pizza,swiggy_bangalore
+Margherita Pizza,,,,,,,,veg pizza,swiggy_bangalore
+Sausage & Sweet Corn.,,,,,,,,non veg pizza,swiggy_bangalore
+Dhabe Da Keema,,,,,,,,non veg pizza,swiggy_bangalore
+Sizzling Schezwan Chicken,,,,,,,,non veg pizza,swiggy_bangalore
+Nawabi Murg Makhni,,,,,,,,non veg pizza,swiggy_bangalore
+Chicken Pepperoni,,,,,,,,non veg pizza,swiggy_bangalore
+Chicken Tikka Supreme,,,,,,,,non veg pizza,swiggy_bangalore
+Tandoori Paneer Thin n Crispy,,,,,,,,thin n crispy pizzas,swiggy_bangalore
+Mexican Fiesta Thin n Crispy,,,,,,,,thin n crispy pizzas,swiggy_bangalore
+Dhabe Da Keema Thin n Crispy,,,,,,,,thin n crispy pizzas,swiggy_bangalore
+Chicken Pepperoni Thin n Crispy,,,,,,,,thin n crispy pizzas,swiggy_bangalore
+Chicken Supreme Thin n Crispy,,,,,,,,thin n crispy pizzas,swiggy_bangalore
+Cold Coffee,,,,,,,,hut café,swiggy_bangalore
+Cold Chocolate,,,,,,,,hut café,swiggy_bangalore
+Frappe Mocha,,,,,,,,hut café,swiggy_bangalore
+Masala Pop,,,,,,,,hut café,swiggy_bangalore
+Lemon Mint Mojito,,,,,,,,hut café,swiggy_bangalore
+Masala Lemonade,,,,,,,,hut café,swiggy_bangalore
+Masala Pepsi,,,,,,,,hut café,swiggy_bangalore
+Pepsi Glass,,,,,,,,hut café,swiggy_bangalore
+7Up Glass,,,,,,,,hut café,swiggy_bangalore
+Cosy Comfort White Sauce Pasta,,,,,,,,pasta,swiggy_bangalore
+Cosy Comfort White Sauce Chicken Pasta,,,,,,,,pasta,swiggy_bangalore
+Classic Mushroom Pasta,,,,,,,,pasta,swiggy_bangalore
+Tomato Twist Red Sauce Pasta,,,,,,,,pasta,swiggy_bangalore
+Tandoori Murg Pasta,,,,,,,,pasta,swiggy_bangalore
+Tandoori Paneer Pasta,,,,,,,,pasta,swiggy_bangalore
+Penne McN Cheese Pasta,,,,,,,,pasta,swiggy_bangalore
+Penne McN Cheese & Chicken Pasta,,,,,,,,pasta,swiggy_bangalore
+Super Value Deal : 2 Medium Veg Pizzas starting at Rs 719 (Save Upto 41%).,,,,,,,,one plus one medium @649,swiggy_bangalore
+Super Value Deal : 2 Medium Non-Veg Pizzas starting at Rs 749 (Save Upto 39%).,,,,,,,,one plus one medium @649,swiggy_bangalore
+Cheese Garlic Bread,,,,,,,,garlic bread,swiggy_bangalore
+Exotica Veggie Garlic Bread,,,,,,,,garlic bread,swiggy_bangalore
+Classic Bread Stix,,,,,,,,garlic bread,swiggy_bangalore
+Loaded Bread Stix,,,,,,,,garlic bread,swiggy_bangalore
+Garlic Bread Spicy Supreme,,,,,,,,garlic bread,swiggy_bangalore
+Masala Keema Garlic Bread,,,,,,,,garlic bread,swiggy_bangalore
+Cheezy Sprinkled Fries,,,,,,,,appetizer,swiggy_bangalore
+BBQ Baked Chicken Wings 6pc,,,,,,,,appetizer,swiggy_bangalore
+BBQ Baked Chicken Wings 4pc,,,,,,,,appetizer,swiggy_bangalore
+Spicy Baked Chicken Wings 6pc,,,,,,,,appetizer,swiggy_bangalore
+Jalapeno Poppers,,,,,,,,appetizer,swiggy_bangalore
+Jalapeno Pepper Dip,,,,,,,,appetizer,swiggy_bangalore
+Veg Mayonnaise Dip,,,,,,,,appetizer,swiggy_bangalore
+Tomato Ketchup,,,,,,,,appetizer,swiggy_bangalore
+Momo Dip,,,,,,,,appetizer,swiggy_bangalore
+Eggless Butterscotch & Milk Chocolate Cake [1/2kg],,,,,,,,recommended,swiggy_bangalore
+Eggless Rich Chocolate Cake [500g],,,,,,,,recommended,swiggy_bangalore
+Eggless Dutch Truffle Cake [500g],,,,,,,,recommended,swiggy_bangalore
+Eggless Fresh Cream Pineapple Cake (500gms),,,,,,,,recommended,swiggy_bangalore
+Chocoholic Cake [500g],,,,,,,,recommended,swiggy_bangalore
+Eggless Dutch Truffle Cake [1kg],,,,,,,,recommended,swiggy_bangalore
+Dutch Truffle Cake [500g],,,,,,,,recommended,swiggy_bangalore
+Fresh Cream Pineapple Cake (500gms),,,,,,,,recommended,swiggy_bangalore
+Premium Gift Hamper Basket,,,,,,,,recommended,swiggy_bangalore
+Premium Gift Hamper Basket (Eggless),,,,,,,,recommended,swiggy_bangalore
+Luxury Gift Hamper Basket,,,,,,,,recommended,swiggy_bangalore
+Indulgence Gift Hamper Basket,,,,,,,,recommended,swiggy_bangalore
+Indulgence Gift Hamper Basket (Eggless),,,,,,,,recommended,swiggy_bangalore
+Almond Rocks (250g),,,,,,,,recommended,swiggy_bangalore
+Almond Rocks (500g),,,,,,,,recommended,swiggy_bangalore
+Eggless Butterscotch & Milk Chocolate Pastry [1 Piece],,,,,,,,recommended,swiggy_bangalore
+Eggless Rich Chocolate Pastry [1 Piece],,,,,,,,recommended,swiggy_bangalore
+Eggless Dutch Truffle Pastry [1 Piece],,,,,,,,recommended,swiggy_bangalore
+Eggless Fresh Cream Pineapple Pastry [1 Piece],,,,,,,,recommended,swiggy_bangalore
+Chocoholic Pastry [1 Piece],,,,,,,,recommended,swiggy_bangalore
+Butter Croissant [1 Piece],,,,,,,,croissants & danishes,swiggy_bangalore
+Pain Au Chocolat [1 Piece],,,,,,,,croissants & danishes,swiggy_bangalore
+Blueberry Danish [1 Piece],,,,,,,,croissants & danishes,swiggy_bangalore
+Wheat Bread Loaf [400g],,,,,,,,breads,swiggy_bangalore
+French Baguette [140g],,,,,,,,breads,swiggy_bangalore
+Multigrain Loaf [400g],,,,,,,,breads,swiggy_bangalore
+Wheat Sourdough Loaf [350g],,,,,,,,breads,swiggy_bangalore
+8-Cheese Pizza,,,,,,,,recommended,swiggy_bangalore
+Four Cheese Pizza,,,,,,,,recommended,swiggy_bangalore
+Deluxe Veggie Pizza,,,,,,,,recommended,swiggy_bangalore
+Blazing Onion & Paprika Pizza,,,,,,,,recommended,swiggy_bangalore
+Country Feast Pizza,,,,,,,,recommended,swiggy_bangalore
+Fiery Jalapeno & Paprika Pizza,,,,,,,,recommended,swiggy_bangalore
+Creamy Spinach Popeye Pizza,,,,,,,,recommended,swiggy_bangalore
+Mexican Wave Pizza,,,,,,,,recommended,swiggy_bangalore
+Ultimate Spinach Pizza,,,,,,,,recommended,swiggy_bangalore
+Peppy Paneer Pizza,,,,,,,,recommended,swiggy_bangalore
+Paneer Red-Hot Pizza,,,,,,,,recommended,swiggy_bangalore
+Farmhouse Pizza,,,,,,,,recommended,swiggy_bangalore
+Five Pepper Pizza,,,,,,,,recommended,swiggy_bangalore
+Farmer's Pick Pizza,,,,,,,,recommended,swiggy_bangalore
+Smoked Hawaiian Pizza,,,,,,,,recommended,swiggy_bangalore
+Veggie Volcano Pizza,,,,,,,,recommended,swiggy_bangalore
+Four Seasons Pizza,,,,,,,,recommended,swiggy_bangalore
+Greek Goddess Pizza,,,,,,,,recommended,swiggy_bangalore
+Mediterranean Pizza,,,,,,,,recommended,swiggy_bangalore
+8-Cheese Forest Chicken Pizza,,,,,,,,oh-so-cheesy (new launch),swiggy_bangalore
+8-Cheese Spinach Mushroom Pizza,,,,,,,,oh-so-cheesy (new launch),swiggy_bangalore
+Four Cheese Forest Chicken Pizza,,,,,,,,oh-so-cheesy (new launch),swiggy_bangalore
+Four Cheese Spinach Mushroom Pizza,,,,,,,,oh-so-cheesy (new launch),swiggy_bangalore
+Garlic Breadsticks,,,,,,,,stuffed garlic breads,swiggy_bangalore
+Classic Stuffed Garlic Bread,,,,,,,,stuffed garlic breads,swiggy_bangalore
+Corn And Cheese Stuffed Garlic Bread,,,,,,,,stuffed garlic breads,swiggy_bangalore
+Paneer Tikka Stuffed Garlic Bread,,,,,,,,stuffed garlic breads,swiggy_bangalore
+Chicken Pepperoni Pizza,,,,,,,,pepperoni pizza - chef's special,swiggy_bangalore
+Pork Pepperoni Pizza,,,,,,,,pepperoni pizza - chef's special,swiggy_bangalore
+Spicy Chicken Pepperoni Pizza,,,,,,,,pepperoni pizza - chef's special,swiggy_bangalore
+Pepperoni Bacon Pie Pizza,,,,,,,,pepperoni pizza - chef's special,swiggy_bangalore
+Non-Veg Loaded Nachos,,,,,,,,loaded nachos,swiggy_bangalore
+Veg Loaded Nachos,,,,,,,,loaded nachos,swiggy_bangalore
+Cheesy Mania Corn Pizza Box,,,,,,,,cheesy pizza mania box,swiggy_bangalore
+Cheesy Mania Herbed Chicken Pizza Box,,,,,,,,cheesy pizza mania box,swiggy_bangalore
+Cheesy Mania Peri Peri Paneer Pizza Box,,,,,,,,cheesy pizza mania box,swiggy_bangalore
+Chessy Mania Margherita Pizza Box,,,,,,,,cheesy pizza mania box,swiggy_bangalore
+Deluxe Veggie Pizza [Multigrain],,,,,,,,guiltfree by eatfit!,swiggy_bangalore
+Paneer Red Hot Pizza [Multigrain],,,,,,,,guiltfree by eatfit!,swiggy_bangalore
+Farmhouse Pizza [Multigrain],,,,,,,,guiltfree by eatfit!,swiggy_bangalore
+Fiery Chicken Pizza [Multigrain],,,,,,,,guiltfree by eatfit!,swiggy_bangalore
+Cheddar Chicken Tikka Pizza [Multigrain],,,,,,,,guiltfree by eatfit!,swiggy_bangalore
+Chicken Kingdom Pizza [Multigrain],,,,,,,,guiltfree by eatfit!,swiggy_bangalore
+Chicken Pepperoni Pizza [Multigrain],,,,,,,,guiltfree by eatfit!,swiggy_bangalore
+Cheeseburst - Chicken Kingdom Pizza,,,,,,,,cheese burst pizza,swiggy_bangalore
+Cheeseburst - Farmhouse Pizza,,,,,,,,cheese burst pizza,swiggy_bangalore
+Cheeseburst - Spicy Chicken Treat Pizza,,,,,,,,cheese burst pizza,swiggy_bangalore
+Cheeseburst - Veg Overload Pizza,,,,,,,,cheese burst pizza,swiggy_bangalore
+Kids Birthday Pizza Party with Chocolate Cake (pack of 10),,,,,,,,kids special - pizza party,swiggy_bangalore
+Kids Birthday Pizza Party with Chocolate Cake (pack of 5),,,,,,,,kids special - pizza party,swiggy_bangalore
+Motu Patlu Kids Cheesy Corn Pizza Party,,,,,,,,kids special - pizza party,swiggy_bangalore
+Motu Patlu Kids Herbed Chicken Pizza Party,,,,,,,,kids special - pizza party,swiggy_bangalore
+Motu Patlu Kids Margherita Pizza Party,,,,,,,,kids special - pizza party,swiggy_bangalore
+Motu Patlu Kids Peri Peri Paneer Pizza Party,,,,,,,,kids special - pizza party,swiggy_bangalore
+Motu Patlu Kids Pizza Big Party Combo (Pack of 10),,,,,,,,kids special - pizza party,swiggy_bangalore
+Motu Patlu Kids Pizza Mini Party Combo (Pack of 5),,,,,,,,kids special - pizza party,swiggy_bangalore
+Italian Cheese Garlic Bread,,,,,,,,house special garlic breads!,swiggy_bangalore
+Italian Chicken Pepperoni Cheese Garlic Bread,,,,,,,,house special garlic breads!,swiggy_bangalore
+Italian Pork Pepperoni Cheese Garlic Bread,,,,,,,,house special garlic breads!,swiggy_bangalore
+Bacon Cheese Garlic Bread,,,,,,,,house special garlic breads!,swiggy_bangalore
+Hawaiian Pineapple Garlic Bread,,,,,,,,house special garlic breads!,swiggy_bangalore
+Popeye's Spinach Garlic Bread,,,,,,,,house special garlic breads!,swiggy_bangalore
+Chicken Tikka Garlic Bread,,,,,,,,house special garlic breads!,swiggy_bangalore
+Creamy Spinach & Mushroom Garlic Bread,,,,,,,,house special garlic breads!,swiggy_bangalore
+Herbed Chicken Mushroom Spinach Garlic Bread,,,,,,,,house special garlic breads!,swiggy_bangalore
+Signature Garlic Knots with Cheesy Dip,,,,,,,,signature garlic knots,swiggy_bangalore
+Peri-Peri Garlic Knots with Cheesy Dip,,,,,,,,signature garlic knots,swiggy_bangalore
+Garlic Knots  Infinity Bucket (35 units),,,,,,,,signature garlic knots,swiggy_bangalore
+The Royal Garlic Knots with Cheesy Dip,,,,,,,,signature garlic knots,swiggy_bangalore
+Al Pesto Genovese Pasta,,,,,,,,pastas,swiggy_bangalore
+Classic Arrabbiata Pasta,,,,,,,,pastas,swiggy_bangalore
+Herbed Chicken Pesto Pasta,,,,,,,,pastas,swiggy_bangalore
+Pollo Di Arrabbiata Pasta,,,,,,,,pastas,swiggy_bangalore
+Chicken Kingdom Arrabbiata Pasta,,,,,,,,pastas,swiggy_bangalore
+Chicken Kingdom Pesto Pasta,,,,,,,,pastas,swiggy_bangalore
+Forest Chicken Arrabbiata Pasta,,,,,,,,pastas,swiggy_bangalore
+Forest Chicken Pesto Pasta,,,,,,,,pastas,swiggy_bangalore
+Paneer Loaded Arrabiatta Pasta,,,,,,,,pastas,swiggy_bangalore
+Paneer Loaded Pesto Pasta,,,,,,,,pastas,swiggy_bangalore
+Diet Coke,,,,,,,,beverages,swiggy_bangalore
+Coke,,,,,,,,beverages,swiggy_bangalore
+Thums Up,,,,,,,,beverages,swiggy_bangalore
+HRX 25g Protein Shake (Chocolate),,,,,,,,beverages,swiggy_bangalore
+Lemon Iced Tea,,,,,,,,beverages,swiggy_bangalore
+Peach Iced Tea,,,,,,,,beverages,swiggy_bangalore
+Chocolate Iced Glazed  Doughnut,,,,,,,,krispy kreme doughnuts and coffee,swiggy_bangalore
+Original Glazed Doughnut,,,,,,,,krispy kreme doughnuts and coffee,swiggy_bangalore
+Chocolate Dream Cake Doughnut,,,,,,,,krispy kreme doughnuts and coffee,swiggy_bangalore
+Vanilla Choco Chip Doughnut,,,,,,,,krispy kreme doughnuts and coffee,swiggy_bangalore
+Lunch Box - Al Pesto Genovese Pasta,,,,,,,,pasta lunch box,swiggy_bangalore
+Lunch Box - Classic Arrabbiata Pasta,,,,,,,,pasta lunch box,swiggy_bangalore
+Lunch Box - Herbed Chicken Pesto Pasta,,,,,,,,pasta lunch box,swiggy_bangalore
+Lunch Box - Pollo Di Arrabbiata Pasta,,,,,,,,pasta lunch box,swiggy_bangalore
+Choco Lava Cake,,,,,,,,desserts,swiggy_bangalore
+Tiramisu Doughnut Cake,,,,,,,,desserts,swiggy_bangalore
+Half &Half Medium Pizza,,,,,,,,half & half pizza,swiggy_bangalore
+Half &Half Large Pizza,,,,,,,,half & half pizza,swiggy_bangalore
+Corn and Onion Pizza + Knots Combo,,,,,,,,crazy deals,swiggy_bangalore
+Deluxe Veggie Pizza + Knots Combo,,,,,,,,crazy deals,swiggy_bangalore
+Royal 4in1 Non Veg Pizza,,,,,,,,royal 4in1 pizza,swiggy_bangalore
+Royal 4in1 Veg Pizza,,,,,,,,royal 4in1 pizza,swiggy_bangalore
+Royal 4in1 Chef's Special Chicken Pizza,,,,,,,,royal 4in1 pizza,swiggy_bangalore
+Royal 4in1 Gourmet Veg Pizza,,,,,,,,royal 4in1 pizza,swiggy_bangalore
+Mango & Cream Gelato,,,,,,,,newly launched italian gelatos,swiggy_bangalore
+Blueberry Cheesecake Gelato,,,,,,,,newly launched italian gelatos,swiggy_bangalore
+Cotton Candy Burst Gelato,,,,,,,,newly launched italian gelatos,swiggy_bangalore
+Berry Me In Cheesecake Gelato Sundae,,,,,,,,newly launched italian gelatos,swiggy_bangalore
+Cotton Candy Wonderland Gelato Sundae,,,,,,,,newly launched italian gelatos,swiggy_bangalore
+Mango & Cream Gelato Sundae,,,,,,,,newly launched italian gelatos,swiggy_bangalore
+Mississippi Mud Ice Cream,,,,,,,,chocolate ice creams,swiggy_bangalore
+Bavarian Chocolate Ice Cream,,,,,,,,chocolate ice creams,swiggy_bangalore
+Mint Milk Chocolate Chips Ice Cream,,,,,,,,chocolate ice creams,swiggy_bangalore
+Gold Medal Ribbon Ice Cream,,,,,,,,chocolate ice creams,swiggy_bangalore
+Dutch Chocolate Ice Cream,,,,,,,,chocolate ice creams,swiggy_bangalore
+Three Cheers Chocolate Ice Cream,,,,,,,,chocolate ice creams,swiggy_bangalore
+Chocolate Almond Praline Ice Cream,,,,,,,,chocolate ice creams,swiggy_bangalore
+Chocolate Mousse Royale Ice Cream,,,,,,,,chocolate ice creams,swiggy_bangalore
+Ferrero Moments Mousse Ice Cream,,,,,,,,chocolate ice creams,swiggy_bangalore
+Naughty Nutella Ice Cream,,,,,,,,chocolate ice creams,swiggy_bangalore
+Vanilla Ice Cream,,,,,,,,classic & nuts ice creams,swiggy_bangalore
+Honey Nut Crunch Ice Cream,,,,,,,,classic & nuts ice creams,swiggy_bangalore
+Cotton Candy Ice Cream,,,,,,,,classic & nuts ice creams,swiggy_bangalore
+Roasted Californian Almond Ice Cream,,,,,,,,classic & nuts ice creams,swiggy_bangalore
+Butterscotch Ribbon Ice Cream,,,,,,,,classic & nuts ice creams,swiggy_bangalore
+Splish Splash Ice Cream,,,,,,,,classic & nuts ice creams,swiggy_bangalore
+Roasted Coffee Creme Ice Cream,,,,,,,,classic & nuts ice creams,swiggy_bangalore
+Hop Scotch Butterscotch Ice Cream,,,,,,,,classic & nuts ice creams,swiggy_bangalore
+Pralines 'N Cream Ice Cream,,,,,,,,classic & nuts ice creams,swiggy_bangalore
+Cookies 'N Cream Ice Cream,,,,,,,,classic & nuts ice creams,swiggy_bangalore
+Lotus Biscoff Ice Cream,,,,,,,,classic & nuts ice creams,swiggy_bangalore
+Salted Butter Popcorn Ice Cream,,,,,,,,classic & nuts ice creams,swiggy_bangalore
+Very Berry Strawberry Ice Cream,,,,,,,,fruit ice creams,swiggy_bangalore
+Alphonso Mango Ice Cream,,,,,,,,fruit ice creams,swiggy_bangalore
+Banana 'N Strawberry Ice Cream,,,,,,,,fruit ice creams,swiggy_bangalore
+Black Currant Ice Cream,,,,,,,,fruit ice creams,swiggy_bangalore
+Tender Coconut Ice Cream,,,,,,,,fruit ice creams,swiggy_bangalore
+Fruit Overload Ice Cream,,,,,,,,fruit ice creams,swiggy_bangalore
+Shooting Star Ice Cream,,,,,,,,fruit ice creams,swiggy_bangalore
+Blueberry 'N White Chocolate Ice Cream,,,,,,,,fruit ice creams,swiggy_bangalore
+Chocolate Fudge Brownie,,,,,,,,accompaniments,swiggy_bangalore
+Cheesecake (1pc),,,,,,,,accompaniments,swiggy_bangalore
+Croissant,,,,,,,,accompaniments,swiggy_bangalore
+Cotton Candy Ice Cream Rocks,,,,,,,,ice cream rocks,swiggy_bangalore
+Caramel Biscuit Ice Cream Rocks,,,,,,,,ice cream rocks,swiggy_bangalore
+Funwich Cookie Sandwich (90ml),,,,,,,,ice cream snacks,swiggy_bangalore
+Funwich Caramel Biscuit (90ml),,,,,,,,ice cream snacks,swiggy_bangalore
+Choco Fudge Doublet Bar (65ml),,,,,,,,ice cream snacks,swiggy_bangalore
+Very Berry Strawberry Ice Cream  (Family Prepack 700ml),,,,,,,,family prepacks,swiggy_bangalore
+Black Currant Ice Cream (Family Prepack 450ml),,,,,,,,family prepacks,swiggy_bangalore
+Hop Scotch Butterscotch Ice Cream (Family Prepack 450 Ml),,,,,,,,family prepacks,swiggy_bangalore
+Dutch Chocolate Ice Cream (Family Prepack 700 Ml),,,,,,,,family prepacks,swiggy_bangalore
+Alphonso Mango Ice Cream (Family Prepack),,,,,,,,family prepacks,swiggy_bangalore
+Vanilla Ice Cream (Family Prepack),,,,,,,,family prepacks,swiggy_bangalore
+Cotton Candy Ice Cream (Family Prepack),,,,,,,,family prepacks,swiggy_bangalore
+Honey Nut Crunch Ice Cream(family Prepack),,,,,,,,family prepacks,swiggy_bangalore
+Mississippi Mud Ice Cream (Tub),,,,,,,,freshly scooped tubs,swiggy_bangalore
+Three Cheers Chocolate Ice Cream (Tub),,,,,,,,freshly scooped tubs,swiggy_bangalore
+Dutch Chocolate Ice Cream (Tub),,,,,,,,freshly scooped tubs,swiggy_bangalore
+Chocolate Almond Praline Ice Cream (Tub),,,,,,,,freshly scooped tubs,swiggy_bangalore
+Mint Milk Chocolate Chips Ice Cream (Tub),,,,,,,,freshly scooped tubs,swiggy_bangalore
+Bavarian Chocolate Ice Cream (Tub),,,,,,,,freshly scooped tubs,swiggy_bangalore
+Chocolate Mousse Royale Ice Cream (Tub),,,,,,,,freshly scooped tubs,swiggy_bangalore
+Gold Medal Ribbon Ice Cream (Tub),,,,,,,,freshly scooped tubs,swiggy_bangalore
+Ferrero Moments Mousse Ice Cream (Tub),,,,,,,,freshly scooped tubs,swiggy_bangalore
+Naughty Nutella Ice Cream (Tub),,,,,,,,freshly scooped tubs,swiggy_bangalore
+Vanilla Ice Cream (Tub),,,,,,,,freshly scooped tubs,swiggy_bangalore
+Butterscotch Ribbon Ice Cream (Tub),,,,,,,,freshly scooped tubs,swiggy_bangalore
+Roasted Californian Almond Ice Cream (Tub),,,,,,,,freshly scooped tubs,swiggy_bangalore
+Splish Splash Ice Cream (Tub),,,,,,,,freshly scooped tubs,swiggy_bangalore
+Cotton Candy Ice Cream (Tub),,,,,,,,freshly scooped tubs,swiggy_bangalore
+Honey Nut Crunch Ice Cream (Tub),,,,,,,,freshly scooped tubs,swiggy_bangalore
+Roasted Coffee Creme Ice Cream (Tub),,,,,,,,freshly scooped tubs,swiggy_bangalore
+Hop Scotch Butterscotch Ice Cream (Tub),,,,,,,,freshly scooped tubs,swiggy_bangalore
+Pralines 'N Cream Ice Cream (Tub),,,,,,,,freshly scooped tubs,swiggy_bangalore
+Cookies 'N Cream Ice Cream (Tub),,,,,,,,freshly scooped tubs,swiggy_bangalore
+Lotus Biscoff Ice Cream (Tub),,,,,,,,freshly scooped tubs,swiggy_bangalore
+Jello Mello Ice Cream (Tub),,,,,,,,freshly scooped tubs,swiggy_bangalore
+Very Berry Strawberry Ice Cream (Tub),,,,,,,,freshly scooped tubs,swiggy_bangalore
+Banana 'N Strawberry Ice Cream (Tub),,,,,,,,freshly scooped tubs,swiggy_bangalore
+Alphonso Mango Ice Cream (Tub),,,,,,,,freshly scooped tubs,swiggy_bangalore
+Fruit Overload Ice Cream (Tub),,,,,,,,freshly scooped tubs,swiggy_bangalore
+Black Currant Ice Cream (Tub),,,,,,,,freshly scooped tubs,swiggy_bangalore
+Shooting Star Ice Cream (Tub),,,,,,,,freshly scooped tubs,swiggy_bangalore
+Blueberry 'N White Chocolate Ice Cream (Tub),,,,,,,,freshly scooped tubs,swiggy_bangalore
+Mango & Cream Gelato (Tub),,,,,,,,freshly scooped tubs,swiggy_bangalore
+Blueberry Cheesecake Gelato (Tub),,,,,,,,freshly scooped tubs,swiggy_bangalore
+Cotton Candy Burst Gelato (Tub),,,,,,,,freshly scooped tubs,swiggy_bangalore
+Variety Pack,,,,,,,,gifting and sharing,swiggy_bangalore
+Vanilla Ice Cream.,,,,,,,,value scoops,swiggy_bangalore
+Alphonso Mango Ice Cream (Small Scoop),,,,,,,,value scoops,swiggy_bangalore
+Alphonso Mango Ice Cream.,,,,,,,,value scoops,swiggy_bangalore
+Banana 'N Strawberry Ice Cream (Small Scoop),,,,,,,,value scoops,swiggy_bangalore
+Fruit Overload Ice Cream (Small Scoop),,,,,,,,value scoops,swiggy_bangalore
+Jello Mello Ice Cream (Small Scoop),,,,,,,,value scoops,swiggy_bangalore
+Roasted Californian Almond Ice Cream (Small Scoop),,,,,,,,value scoops,swiggy_bangalore
+Splish Splash Ice Cream (Small Scoop),,,,,,,,value scoops,swiggy_bangalore
+Bavarian Chocolate Ice Cream (Small Scoop),,,,,,,,value scoops,swiggy_bangalore
+Blueberry 'N White Chocolate Ice Cream (Small Scoop),,,,,,,,value scoops,swiggy_bangalore
+Butterscotch Ribbon Ice Cream (Regular Scoop),,,,,,,,value scoops,swiggy_bangalore
+Alphonso Mango Ice Cream (Regular Scoop),,,,,,,,value scoops,swiggy_bangalore
+Banana 'N Strawberry  Ice Cream (Regular Scoop),,,,,,,,value scoops,swiggy_bangalore
+Bavarian Chocolate Ice Cream (Regular Scoop),,,,,,,,value scoops,swiggy_bangalore
+Black Currant Ice Cream (Regular Scoop),,,,,,,,value scoops,swiggy_bangalore
+Chocolate Almond Praline Ice Cream (Small Scoop),,,,,,,,value scoops,swiggy_bangalore
+Chocolate Mousse Royale Ice Cream (Small Scoop),,,,,,,,value scoops,swiggy_bangalore
+Crunchy Honeycomb Ice Cream (Small Scoop),,,,,,,,value scoops,swiggy_bangalore
+Ferrero Moments Mousse Ice Cream (Small Scoop),,,,,,,,value scoops,swiggy_bangalore
+Cookies 'N Cream Ice Cream (Small Scoop),,,,,,,,value scoops,swiggy_bangalore
+Cotton Candy Ice Cream (Small Scoop),,,,,,,,value scoops,swiggy_bangalore
+Cotton Candy Ice Cream.,,,,,,,,value scoops,swiggy_bangalore
+Cotton Candy Ice Cream (Regular Scoop),,,,,,,,value scoops,swiggy_bangalore
+Dutch Chocolate Ice Cream (Regular Scoop),,,,,,,,value scoops,swiggy_bangalore
+Dutch Chocolate Ice Cream (Small Scoop),,,,,,,,value scoops,swiggy_bangalore
+Gold Medal Ribbon Ice Cream (Small Scoop),,,,,,,,value scoops,swiggy_bangalore
+Fruit Overload Ice Cream (Regular Scoop),,,,,,,,value scoops,swiggy_bangalore
+Mint Milk Chocolate Chips Ice Cream (Small Scoop),,,,,,,,value scoops,swiggy_bangalore
+Mississippi Mud Ice Cream (Small Scoop),,,,,,,,value scoops,swiggy_bangalore
+Mississippi Mud Ice Cream (Regular Scoop),,,,,,,,value scoops,swiggy_bangalore
+Hop Scotch Butterscotch Ice Cream (Small Scoop),,,,,,,,value scoops,swiggy_bangalore
+Honey Nut Crunch Ice Cream (Small Scoop),,,,,,,,value scoops,swiggy_bangalore
+Lotus Biscoff Ice Cream (Small Scoop),,,,,,,,value scoops,swiggy_bangalore
+Jello Mello Ice Cream (Regular Scoop),,,,,,,,value scoops,swiggy_bangalore
+Lotus Biscoff Ice Cream (Regular Scoop),,,,,,,,value scoops,swiggy_bangalore
+Naughty Nutella Ice Cream (Small Scoop),,,,,,,,value scoops,swiggy_bangalore
+Pralines 'N Cream Ice Cream (Small Scoop),,,,,,,,value scoops,swiggy_bangalore
+Roasted Coffee Creme Ice Cream (Small Scoop),,,,,,,,value scoops,swiggy_bangalore
+Rabdi Jalebi Ice Cream (Small Scoop),,,,,,,,value scoops,swiggy_bangalore
+Salted Butter Popcorn Ice Cream (Small Scoop),,,,,,,,value scoops,swiggy_bangalore
+Shooting Star Ice Cream (Small Scoop),,,,,,,,value scoops,swiggy_bangalore
+Roasted Californian Almond Ice Cream (Regular Scoop),,,,,,,,value scoops,swiggy_bangalore
+Splish Splash Ice Cream (Regular Scoop),,,,,,,,value scoops,swiggy_bangalore
+Tender Coconut Ice Cream (Regular Scoop),,,,,,,,value scoops,swiggy_bangalore
+Three Cheers Chocolate Ice Cream (Regular Scoop),,,,,,,,value scoops,swiggy_bangalore
+Vanilla Ice Cream (Regular Scoop),,,,,,,,value scoops,swiggy_bangalore
+Very Berry Strawberry Ice Cream (Regular Scoop),,,,,,,,value scoops,swiggy_bangalore
+Tender Coconut Ice Cream.(small Scoop),,,,,,,,flash sale,swiggy_bangalore
+Very Berry Strawberry Ice Cream.(small Scoop),,,,,,,,flash sale,swiggy_bangalore
+Vanilla Ice Cream.(small Scoop),,,,,,,,flash sale,swiggy_bangalore
+Three Cheers Chocolate Ice Cream.(small Scoop),,,,,,,,flash sale,swiggy_bangalore
+Veg Family Bucket Biryani,,,,,,,,recommended,swiggy_bangalore
+Paneer Makhani Family Bucket Biryani,,,,,,,,recommended,swiggy_bangalore
+Curd Rice Dal Khichdi,,,,,,,,recommended,swiggy_bangalore
+Andhra Veg Meals (For 2),,,,,,,,recommended,swiggy_bangalore
+Andhra Veg Carrier Meals (For 3-4),,,,,,,,recommended,swiggy_bangalore
+Andhra Non-veg Meals (For 1),,,,,,,,recommended,swiggy_bangalore
+Andhra Non-Veg Carrier Meals (for 3-4),,,,,,,,recommended,swiggy_bangalore
+Andhra Gun Powder Khichdi,,,,,,,,recommended,swiggy_bangalore
+Ghee Podi Khichdi,,,,,,,,recommended,swiggy_bangalore
+Paneer Hyderabadi Biryani,,,,,,,,recommended,swiggy_bangalore
+Paneer Makhni Biryani,,,,,,,,recommended,swiggy_bangalore
+Andhra Style Chicken Biryani,,,,,,,,recommended,swiggy_bangalore
+Egg Biryani,,,,,,,,recommended,swiggy_bangalore
+Boneless Kebab Biryani,,,,,,,,recommended,swiggy_bangalore
+Chicken Tikka Masala Biryani,,,,,,,,recommended,swiggy_bangalore
+Bhai Biryani - Khushka with Egg,,,,,,,,recommended,swiggy_bangalore
+Bhai Biryani Khushka with Egg - Family Pack (Serves 3-4),,,,,,,,recommended,swiggy_bangalore
+Fried Chicken Kebab (Boneless),,,,,,,,recommended,swiggy_bangalore
+Andhra Pepper Chicken Boneless,,,,,,,,recommended,swiggy_bangalore
+Ghee Gulab Jamun (2 Pcs),,,,,,,,recommended,swiggy_bangalore
+Sambar Rice Bowl,,,,,,,,lite and wholesome,swiggy_bangalore
+Curd And Poriyal Rice Bowl,,,,,,,,lite and wholesome,swiggy_bangalore
+Sambar Dal Khichdi,,,,,,,,lite and wholesome,swiggy_bangalore
+Deccan Dal Khichdi,,,,,,,,lite and wholesome,swiggy_bangalore
+Rasam and Poriyal Rice Bowl,,,,,,,,lite and wholesome,swiggy_bangalore
+Andhra Veg Meals (For 1),,,,,,,,authentic andhra meals,swiggy_bangalore
+Andhra Non-veg Meals (For 2),,,,,,,,authentic andhra meals,swiggy_bangalore
+Gunpowder Ghee Rice Bowl,,,,,,,,andhra bowls,swiggy_bangalore
+Pappu Rice Bowl,,,,,,,,andhra bowls,swiggy_bangalore
+Brinjal Curry Rice Bowl,,,,,,,,andhra bowls,swiggy_bangalore
+Chicken Pulusu Rice Bowl,,,,,,,,andhra bowls,swiggy_bangalore
+Egg Curry Rice Bowl (Andhra Style),,,,,,,,andhra bowls,swiggy_bangalore
+Andhra Chicken Curry Rice Bowl,,,,,,,,andhra bowls,swiggy_bangalore
+Sambar Rice and Chicken Masala Fry Rice Bowl,,,,,,,,andhra bowls,swiggy_bangalore
+Rasam Rice and Bangalore Kebab Bowl,,,,,,,,andhra bowls,swiggy_bangalore
+Chicken Tikka Rice Bowl,,,,,,,,andhra bowls,swiggy_bangalore
+Sambar Rice and Bangalore Kebab Bowl,,,,,,,,andhra bowls,swiggy_bangalore
+Rasam Rice and Chicken Masala Fry Bowl,,,,,,,,andhra bowls,swiggy_bangalore
+Pappu Ghee Rice Bowl,,,,,,,,ghee rice bowls,swiggy_bangalore
+Butter Paneer Masala Ghee Rice Bowl,,,,,,,,ghee rice bowls,swiggy_bangalore
+Chicken Tikka Ghee Rice Bowl,,,,,,,,ghee rice bowls,swiggy_bangalore
+Chicken Pulusu Ghee Rice Bowl,,,,,,,,ghee rice bowls,swiggy_bangalore
+Guntur Chicken Ghee Rice Bowl,,,,,,,,ghee rice bowls,swiggy_bangalore
+Coastal Chicken Curry Ghee Rice Bowl,,,,,,,,ghee rice bowls,swiggy_bangalore
+Butter Chicken Ghee Rice Bowl,,,,,,,,ghee rice bowls,swiggy_bangalore
+Payasam (200 g),,,,,,,,desserts,swiggy_bangalore
+Ghee Gulab Jamun (4 Pcs),,,,,,,,desserts,swiggy_bangalore
+Dry Fruit Rabdi,,,,,,,,desserts,swiggy_bangalore
+Rabdi,,,,,,,,desserts,swiggy_bangalore
+Shahi Tukda.,,,,,,,,desserts,swiggy_bangalore
+Nizami Kheer,,,,,,,,desserts,swiggy_bangalore
+Tender Coconut Pudding,,,,,,,,desserts,swiggy_bangalore
+Hummus & Bell Pepper Wrap,,,,,,,,recommended,swiggy_bangalore
+Hummus & Olives Wrap,,,,,,,,recommended,swiggy_bangalore
+Deviled Egg & Sriracha Wrap,,,,,,,,recommended,swiggy_bangalore
+Fried Chicken & Mozzarella Wrap,,,,,,,,recommended,swiggy_bangalore
+Peri-Peri Chicken & Mozzarella Wrap,,,,,,,,recommended,swiggy_bangalore
+Estelle (Veggies & Mozza Sandwich),,,,,,,,recommended,swiggy_bangalore
+Laura (Mozza & Basil Pesto Sandwich),,,,,,,,recommended,swiggy_bangalore
+Sophie (Feta & Olives Sandwich),,,,,,,,recommended,swiggy_bangalore
+Olivia (Mushroom & Feta Sandwich),,,,,,,,recommended,swiggy_bangalore
+Franck (Deviled Egg & Sriracha Sandwich),,,,,,,,recommended,swiggy_bangalore
+Hugo (Fried Chicken & Mozza Sandwich),,,,,,,,recommended,swiggy_bangalore
+Michel (Chicken & Mozza Sandwich),,,,,,,,recommended,swiggy_bangalore
+Aime (Chicken & Chilli Sandwich),,,,,,,,recommended,swiggy_bangalore
+Victor (Lamb & Garlic Aioli Sandwich),,,,,,,,recommended,swiggy_bangalore
+Jacques (Butter Garlic Prawns & Aioli Sandwich),,,,,,,,recommended,swiggy_bangalore
+Jean (Bacon & Feta Sandwich),,,,,,,,recommended,swiggy_bangalore
+Cajun Spiced Fries,,,,,,,,recommended,swiggy_bangalore
+Fries with Cheese Dip,,,,,,,,recommended,swiggy_bangalore
+Hummus with Olives & Toasted Bread,,,,,,,,recommended,swiggy_bangalore
+Onion Rings,,,,,,,,recommended,swiggy_bangalore
+Dark Chocolate Crepe,,,,,,,,sweet crepes,swiggy_bangalore
+Salted Caramel & Biscuit Crepe,,,,,,,,sweet crepes,swiggy_bangalore
+Nutella Crepe,,,,,,,,sweet crepes,swiggy_bangalore
+Dark Chocolate Torte with Vanilla Ice-cream,,,,,,,,desserts,swiggy_bangalore
+Salted Caramel Cream Cup,,,,,,,,desserts,swiggy_bangalore
+Chunky Chocolate Cookie,,,,,,,,desserts,swiggy_bangalore
+Traditional Tiramisu,,,,,,,,desserts,swiggy_bangalore
+Apple Crumble Cake with Vanilla Ice-cream,,,,,,,,desserts,swiggy_bangalore
+European Hot Chocolate,,,,,,,,hot chocolate,swiggy_bangalore
+French Vanilla Biscuit Shake,,,,,,,,shakes,swiggy_bangalore
+Oreo & Chocolate Shake,,,,,,,,shakes,swiggy_bangalore
+Strawberry Cheesecake Shake,,,,,,,,shakes,swiggy_bangalore
+Fresh Watermelon & Mint Juice,,,,,,,,cold drinks,swiggy_bangalore
+Homemade Ginger Ale,,,,,,,,cold drinks,swiggy_bangalore
+Fresh Iced Tea - Peach,,,,,,,,cold drinks,swiggy_bangalore
+Fresh Iced Tea - Lemon & Mint,,,,,,,,cold drinks,swiggy_bangalore
+Classic Cold Coffee,,,,,,,,cold drinks,swiggy_bangalore
+Hazelnut Cold Coffee,,,,,,,,cold drinks,swiggy_bangalore
+Virgin Pina Colada,,,,,,,,cold drinks,swiggy_bangalore
+Blueberry Lemonade Kombucha,,,,,,,,canned beverages,swiggy_bangalore
+Salted Lime Kombucha,,,,,,,,canned beverages,swiggy_bangalore
+Coke - 300ml Can,,,,,,,,canned beverages,swiggy_bangalore
+Diet Coke - 300ml Can,,,,,,,,canned beverages,swiggy_bangalore
+Thums Up - 300ml Can,,,,,,,,canned beverages,swiggy_bangalore
+Americano,,,,,,,,specialty coffee by mannheim,swiggy_bangalore
+Cafe Latte,,,,,,,,specialty coffee by mannheim,swiggy_bangalore
+Cappuccino,,,,,,,,specialty coffee by mannheim,swiggy_bangalore
+Flat White,,,,,,,,specialty coffee by mannheim,swiggy_bangalore
+Mocha,,,,,,,,specialty coffee by mannheim,swiggy_bangalore
+Iced Americano,,,,,,,,specialty coffee by mannheim,swiggy_bangalore
+Spanish Latte,,,,,,,,specialty coffee by mannheim,swiggy_bangalore
+Iced Latte,,,,,,,,specialty coffee by mannheim,swiggy_bangalore
+Iced Cappuccino,,,,,,,,specialty coffee by mannheim,swiggy_bangalore
+Iced Spanish Latte,,,,,,,,specialty coffee by mannheim,swiggy_bangalore
+Fresh Coconut Water & Espresso,,,,,,,,specialty coffee by mannheim,swiggy_bangalore
+Korean & Thai Roll Chicken Meal,,,,,,,,recommended,swiggy_bangalore
+Indian Tandoori Roll Chicken Meal,,,,,,,,recommended,swiggy_bangalore
+Korean Tangy Roll & Popcorn Chicken Meal,,,,,,,,recommended,swiggy_bangalore
+Thai Spicy Roll & Zinger Chicken Meal,,,,,,,,recommended,swiggy_bangalore
+American Roll & Popcorn Chicken Meal,,,,,,,,recommended,swiggy_bangalore
+Thai Spicy Roll & Popcorn Chicken Meal,,,,,,,,recommended,swiggy_bangalore
+Korean Tangy Roll & Zinger Chicken Meal,,,,,,,,recommended,swiggy_bangalore
+Korean Tangy Chicken Roll,,,,,,,,recommended,swiggy_bangalore
+Thai Spicy Chicken Roll,,,,,,,,recommended,swiggy_bangalore
+Indian Tandoori Chicken Roll,,,,,,,,recommended,swiggy_bangalore
+Indian Spicy Veg Roll,,,,,,,,recommended,swiggy_bangalore
+Classic Chicken Roll,,,,,,,,recommended,swiggy_bangalore
+Double Chicken Roll,,,,,,,,recommended,swiggy_bangalore
+Gold Edition - Chicken Zinger Burger & Fries,,,,,,,,recommended,swiggy_bangalore
+Gold Edition - Veg Zinger Burger,,,,,,,,recommended,swiggy_bangalore
+Chatpata Chana Veg Burger - 2 pc,,,,,,,,recommended,swiggy_bangalore
+2 x Chatpata Chana Veg Burger & Fries combo,,,,,,,,recommended,swiggy_bangalore
+2 x Chatpata Chana Veg Burger Meal,,,,,,,,recommended,swiggy_bangalore
+Spicy Zinger Burger and Popcorn Meal,,,,,,,,recommended,swiggy_bangalore
+Spicy Zinger Burger,,,,,,,,recommended,swiggy_bangalore
+Spicy Zinger Burger and Chicken Meal,,,,,,,,burgers,swiggy_bangalore
+Zinger Pro Burger & Popcorn Meal,,,,,,,,burgers,swiggy_bangalore
+Zinger Pro Burger,,,,,,,,burgers,swiggy_bangalore
+Zinger Pro Burger & Chicken Meal,,,,,,,,burgers,swiggy_bangalore
+Chicken Burger Buddy Meal,,,,,,,,burgers,swiggy_bangalore
+Mixed Chicken Zinger Burger Doubles,,,,,,,,burgers,swiggy_bangalore
+Classic Zinger Mojito Combo,,,,,,,,burgers,swiggy_bangalore
+Chicken Zinger Burger - Classic with Cheese,,,,,,,,burgers,swiggy_bangalore
+Chicken Zinger Burger - Tandoori with Cheese,,,,,,,,burgers,swiggy_bangalore
+Paneer Zinger Burger,,,,,,,,burgers,swiggy_bangalore
+Veg Zinger Burger with Cheese,,,,,,,,burgers,swiggy_bangalore
+Chicken Zinger Burger - Classic,,,,,,,,burgers,swiggy_bangalore
+Chicken Longer Burger & 2 Strips Combo,,,,,,,,burgers,swiggy_bangalore
+Veg Longer Burger - 2pc,,,,,,,,burgers,swiggy_bangalore
+Chicken Zinger Burger - Tandoori,,,,,,,,burgers,swiggy_bangalore
+2 Classic Chicken Krisper Burgers,,,,,,,,burgers,swiggy_bangalore
+Veg Krisper Burgers - 2pc,,,,,,,,burgers,swiggy_bangalore
+All Chicken Box,,,,,,,,all day lunch special meal box (save rs 115),swiggy_bangalore
+Classic Zinger Box,,,,,,,,all day lunch special meal box (save rs 115),swiggy_bangalore
+Rice Box Meal,,,,,,,,all day lunch special meal box (save rs 115),swiggy_bangalore
+Roll Meal Box,,,,,,,,all day lunch special meal box (save rs 115),swiggy_bangalore
+Veg Box Meal,,,,,,,,all day lunch special meal box (save rs 115),swiggy_bangalore
+Peri Peri Chicken 5 Leg Piece Meal,,,,,,,,peri peri chicken strips & leg pc (up to 25% off),swiggy_bangalore
+Peri Peri 10 Pc Chicken Strips & 2 Dips,,,,,,,,peri peri chicken strips & leg pc (up to 25% off),swiggy_bangalore
+5 Leg Pc & Pepsi Bottle Combo,,,,,,,,peri peri chicken strips & leg pc (up to 25% off),swiggy_bangalore
+Peri Peri Chicken 5 Leg Piece Bucket,,,,,,,,peri peri chicken strips & leg pc (up to 25% off),swiggy_bangalore
+Peri Peri Chicken Strips - 6 Pc,,,,,,,,peri peri chicken strips & leg pc (up to 25% off),swiggy_bangalore
+Chicken Bucket for Two,,,,,,,,epic value meals for 1-2 (up to 22% off),swiggy_bangalore
+Classic Chicken Krisper Burger Combo,,,,,,,,epic value meals for 1-2 (up to 22% off),swiggy_bangalore
+Chicken Mingles Bucket Meal,,,,,,,,epic value meals for 1-2 (up to 22% off),swiggy_bangalore
+Chicken Mingles Bucket,,,,,,,,epic value meals for 1-2 (up to 22% off),swiggy_bangalore
+Chicken & French Fries Bucket,,,,,,,,epic value meals for 1-2 (up to 22% off),swiggy_bangalore
+2 X Veg Krispers Burger Meal,,,,,,,,epic value meals for 1-2 (up to 22% off),swiggy_bangalore
+Classic Zinger Pepsi Bottle Combo,,,,,,,,epic value meals for 1-2 (up to 22% off),swiggy_bangalore
+2 Veg Longer Burger & 2 Pepsi Reusable,,,,,,,,epic value meals for 1-2 (up to 22% off),swiggy_bangalore
+Classic Chicken Roll Feast,,,,,,,,epic value meals for 1-2 (up to 22% off),swiggy_bangalore
+Double Chicken Roll Combo,,,,,,,,epic value meals for 1-2 (up to 22% off),swiggy_bangalore
+Classic Chicken Roll & Popcorn Meal,,,,,,,,epic value meals for 1-2 (up to 22% off),swiggy_bangalore
+Rice & Chicken Popcorn Delight Meal,,,,,,,,epic value meals for 1-2 (up to 22% off),swiggy_bangalore
+Veg Rice & Patty Duo meal,,,,,,,,epic value meals for 1-2 (up to 22% off),swiggy_bangalore
+Ultimate Savings Chicken Bucket,,,,,,,,epic savings bucket for 3-4 (up to 32% off),swiggy_bangalore
+All in One Chicken Bucket,,,,,,,,epic savings bucket for 3-4 (up to 32% off),swiggy_bangalore
+Stay Home Chicken Bucket,,,,,,,,epic savings bucket for 3-4 (up to 32% off),swiggy_bangalore
+Big 12 - Chicken Bucket,,,,,,,,epic savings bucket for 3-4 (up to 32% off),swiggy_bangalore
+Big 8 - Chicken Bucket,,,,,,,,epic savings bucket for 3-4 (up to 32% off),swiggy_bangalore
+Duo Popcorn Chicken Rice Bowl - Biryani Style,,,,,,,,rice bowlz,swiggy_bangalore
+Popcorn Rice & Pepsi Bottle Combo,,,,,,,,rice bowlz,swiggy_bangalore
+Classic Chicken Rice Bowl - Biryani Style,,,,,,,,rice bowlz,swiggy_bangalore
+Smoky Red Chicken Rice Bowl - Biryani Style,,,,,,,,rice bowlz,swiggy_bangalore
+Popcorn Chicken Rice Bowl - Biryani Style,,,,,,,,rice bowlz,swiggy_bangalore
+Veg Rice Bowl - Biryani Style,,,,,,,,rice bowlz,swiggy_bangalore
+Popcorn Chicken Rice Bowlz & Wings Meal,,,,,,,,rice bowlz,swiggy_bangalore
+Plain Rice Bowlz,,,,,,,,rice bowlz,swiggy_bangalore
+Hot & Crispy Chicken - 8 pcs,,,,,,,,hot & crispy chicken & wings,swiggy_bangalore
+Hot & Crispy Chicken - 6 pcs,,,,,,,,hot & crispy chicken & wings,swiggy_bangalore
+Hot & Crispy Chicken - 4 pcs,,,,,,,,hot & crispy chicken & wings,swiggy_bangalore
+Hot & Crispy Chicken- 2 pcs,,,,,,,,hot & crispy chicken & wings,swiggy_bangalore
+Hot Chicken Wings - 4 pcs,,,,,,,,hot & crispy chicken & wings,swiggy_bangalore
+Hot & Crispy Chicken - 1 pc,,,,,,,,hot & crispy chicken & wings,swiggy_bangalore
+Chicken Popcorn - Large,,,,,,,,boneless chicken popcorn,swiggy_bangalore
+Chicken Popcorn - Medium,,,,,,,,boneless chicken popcorn,swiggy_bangalore
+2 x Medium Chicken Popcorn,,,,,,,,boneless chicken popcorn,swiggy_bangalore
+Chicken Popcorn - Regular,,,,,,,,boneless chicken popcorn,swiggy_bangalore
+5 Pc Smoky Chicken Mojito Combo,,,,,,,,grilled smoky red chicken,swiggy_bangalore
+Smoky Red Grilled Chicken - 5 pc,,,,,,,,grilled smoky red chicken,swiggy_bangalore
+Smoky Red Grilled Chicken - 2 pc,,,,,,,,grilled smoky red chicken,swiggy_bangalore
+Smoky Red Grilled Chicken - 1 pc,,,,,,,,grilled smoky red chicken,swiggy_bangalore
+Gold Edition - Regular Fries,,,,,,,,sides and dips,swiggy_bangalore
+Peri Peri Chicken Strips - 3 pc,,,,,,,,sides and dips,swiggy_bangalore
+Peri Peri Chicken Leg Piece - 1 pc,,,,,,,,sides and dips,swiggy_bangalore
+2 pc Veg Patty,,,,,,,,sides and dips,swiggy_bangalore
+French Fries - Large,,,,,,,,sides and dips,swiggy_bangalore
+French Fries - Medium,,,,,,,,sides and dips,swiggy_bangalore
+Pack of 4 Dips,,,,,,,,sides and dips,swiggy_bangalore
+Pack of 2 Dips,,,,,,,,sides and dips,swiggy_bangalore
+Tandoori Flavour Dip - 20 gm,,,,,,,,sides and dips,swiggy_bangalore
+Rizz Fizz,,,,,,,,desserts & beverages,swiggy_bangalore
+Cold Coffee - Reusable Bottle,,,,,,,,desserts & beverages,swiggy_bangalore
+Virgin Mojito Reusable Bottle,,,,,,,,desserts & beverages,swiggy_bangalore
+Masala Pepsi Reusable Bottle,,,,,,,,desserts & beverages,swiggy_bangalore
+Masala Mirinda Reusable Bottle,,,,,,,,desserts & beverages,swiggy_bangalore
+Dew Mojito Reusable Bottle,,,,,,,,desserts & beverages,swiggy_bangalore
+Pepsi Reusable Bottle,,,,,,,,desserts & beverages,swiggy_bangalore
+7Up Reusable Bottle,,,,,,,,desserts & beverages,swiggy_bangalore
+Mirinda Reusable Bottle,,,,,,,,desserts & beverages,swiggy_bangalore
+Mountain Dew Reusable Bottle,,,,,,,,desserts & beverages,swiggy_bangalore
+Choco Mud Pie,,,,,,,,desserts & beverages,swiggy_bangalore
+Pepsi Can 300 ml,,,,,,,,desserts & beverages,swiggy_bangalore
+7UP Can 300 ml,,,,,,,,desserts & beverages,swiggy_bangalore
+Pepsi Black Can 300 ml,,,,,,,,desserts & beverages,swiggy_bangalore
+Mirinda Can 300 ml,,,,,,,,desserts & beverages,swiggy_bangalore
+Craving Saving meal,,,,,,,,late night specials (starting at 199),swiggy_bangalore
+Party Bucket Meal,,,,,,,,late night specials (starting at 199),swiggy_bangalore
+Insta Reel Korean Roll Meal,,,,,,,,late night specials (starting at 199),swiggy_bangalore
+Night Owl Roll combo,,,,,,,,late night specials (starting at 199),swiggy_bangalore
+Rice Krunch Bowl Combo,,,,,,,,late night specials (starting at 199),swiggy_bangalore
+Peri Peri Binge Watch combo,,,,,,,,late night specials (starting at 199),swiggy_bangalore
+Thai Roll Dream meal,,,,,,,,late night specials (starting at 199),swiggy_bangalore
+Night Shift Zinger Pro Meal,,,,,,,,late night specials (starting at 199),swiggy_bangalore
+Rice & Bites combo,,,,,,,,late night specials (starting at 199),swiggy_bangalore
+Midnight Spicy Zinger & Popcorn Meal,,,,,,,,late night specials (starting at 199),swiggy_bangalore
+Gaming Night Korean Roll meal,,,,,,,,late night specials (starting at 199),swiggy_bangalore
+Lazy BFF Rice combo,,,,,,,,late night specials (starting at 199),swiggy_bangalore
+Night Bite Veg Roll combo,,,,,,,,late night specials (starting at 199),swiggy_bangalore
+Still Awake Veg Zinger Meal,,,,,,,,late night specials (starting at 199),swiggy_bangalore
+Crispy Veggie Burger + McVeggie Burger + Fries (M).,,,,,,,,mexican range & new offerings,swiggy_bangalore
+Crispy Veggie Burger Meal (M),,,,,,,,mexican range & new offerings,swiggy_bangalore
+Mc Crispy Chicken Burger Meal (M).,,,,,,,,mexican range & new offerings,swiggy_bangalore
+Mc Crispy Chicken Burger + McChicken Burger + Fries (M).,,,,,,,,mexican range & new offerings,swiggy_bangalore
+Mc Crispy Chicken Burger + McSpicy Chicken Wings - 2 pc + Coke (M)..,,,,,,,,mexican range & new offerings,swiggy_bangalore
+Korean Chicken Surprise Burger Combo (M),,,,,,,,mexican range & new offerings,swiggy_bangalore
+Korean Mc Aloo Tikki Burger.,,,,,,,,mexican range & new offerings,swiggy_bangalore
+Korean Mc Aloo Tikki Burger Combo (M),,,,,,,,mexican range & new offerings,swiggy_bangalore
+Korean Mc Egg Burger Combo (M).,,,,,,,,mexican range & new offerings,swiggy_bangalore
+Korean Mc Spicy Chicken Burger Combo (M),,,,,,,,mexican range & new offerings,swiggy_bangalore
+Korean Mc Spicy Paneer Burger Combo (M),,,,,,,,mexican range & new offerings,swiggy_bangalore
+Korean Mc Spicy Premium Chicken Burger Combo (M),,,,,,,,mexican range & new offerings,swiggy_bangalore
+Korean Mc Spicy Premium Paneer Burger Combo (M),,,,,,,,mexican range & new offerings,swiggy_bangalore
+Korean Yuzu-Pop Sprite.,,,,,,,,mexican range & new offerings,swiggy_bangalore
+McSaver Korean Chicken Surprise Burger.,,,,,,,,mexican range & new offerings,swiggy_bangalore
+McSaver Korean Mc Aloo Tikki Burger.,,,,,,,,mexican range & new offerings,swiggy_bangalore
+McSaver Korean Mc Egg Burger.,,,,,,,,mexican range & new offerings,swiggy_bangalore
+Mexican Corn and Cheese Burger + Coke (M).,,,,,,,,mexican range & new offerings,swiggy_bangalore
+Mexican Corn & Cheese Burger.,,,,,,,,mexican range & new offerings,swiggy_bangalore
+Mexican Corn & Cheese Burger Combo (M).,,,,,,,,mexican range & new offerings,swiggy_bangalore
+Mexican Corn & Cheese Burger + Fries (M),,,,,,,,mexican range & new offerings,swiggy_bangalore
+Mexican Grilled Chicken Cheese Burger + Coke (M).,,,,,,,,mexican range & new offerings,swiggy_bangalore
+Mexican Grilled Chicken & Cheese Burger.,,,,,,,,mexican range & new offerings,swiggy_bangalore
+Mexican Grilled Chicken & Cheese Burger Combo (M),,,,,,,,mexican range & new offerings,swiggy_bangalore
+Mexican Grilled Chicken & Cheese Burger + Fries (M),,,,,,,,mexican range & new offerings,swiggy_bangalore
+Cappuccino (S) + Iced Coffee (S),,,,,,,,mcsaver combos (2 pc meals),swiggy_bangalore
+Veg Pizza McPuff + McSpicy Chicken Burger,,,,,,,,mcsaver combos (2 pc meals),swiggy_bangalore
+McVeggie Burger + McAloo Tikki Burger,,,,,,,,mcsaver combos (2 pc meals),swiggy_bangalore
+McChicken Burger + Fries (M),,,,,,,,mcsaver combos (2 pc meals),swiggy_bangalore
+McVeggie Burger + Fries (M),,,,,,,,mcsaver combos (2 pc meals),swiggy_bangalore
+McAloo Tikki Burger + Veg Pizza McPuff + Coke,,,,,,,,mcsaver combos (2 pc meals),swiggy_bangalore
+McAloo Tikki + Fries (R),,,,,,,,mcsaver combos (2 pc meals),swiggy_bangalore
+Mexican McAloo Tikki Burger + Fries (R),,,,,,,,mcsaver combos (2 pc meals),swiggy_bangalore
+McChicken Burger + Veg Pizza McPuff,,,,,,,,mcsaver combos (2 pc meals),swiggy_bangalore
+McVeggie Burger + Veg Pizza McPuff,,,,,,,,mcsaver combos (2 pc meals),swiggy_bangalore
+McVeggie Burger + Fries (R),,,,,,,,mcsaver combos (2 pc meals),swiggy_bangalore
+Mexican McAloo Tikki Burger + Fries (L),,,,,,,,mcsaver combos (2 pc meals),swiggy_bangalore
+McChicken Burger + Fries (L),,,,,,,,mcsaver combos (2 pc meals),swiggy_bangalore
+McVeggie Burger + Fries (L),,,,,,,,mcsaver combos (2 pc meals),swiggy_bangalore
+2 Fries (R),,,,,,,,mcsaver combos (2 pc meals),swiggy_bangalore
+Grilled Chicken & Cheese Burger + Coke,,,,,,,,mcsaver combos (2 pc meals),swiggy_bangalore
+McAloo Tikki Burger + Veg Pizza McPuff + Fries (R),,,,,,,,mcsaver combos (2 pc meals),swiggy_bangalore
+McVeggie Burger + Fries (M) + Piri Piri Mix,,,,,,,,mcsaver combos (2 pc meals),swiggy_bangalore
+McVeggie Burger + Veg Pizza McPuff + Fries (L),,,,,,,,mcsaver combos (2 pc meals),swiggy_bangalore
+6 Pc Chicken Nuggets + Fries (M) + Piri Piri Spice Mix,,,,,,,,mcsaver combos (2 pc meals),swiggy_bangalore
+McAloo Tikki Burger + Veg Pizza McPuff + Piri Piri Spice Mix,,,,,,,,mcsaver combos (2 pc meals),swiggy_bangalore
+Grilled Chicken & Cheese Burger + Veg Pizza McPuff,,,,,,,,mcsaver combos (2 pc meals),swiggy_bangalore
+Corn & Cheese Burger + Veg Pizza McPuff,,,,,,,,mcsaver combos (2 pc meals),swiggy_bangalore
+Corn & Cheese Burger + Fries (R),,,,,,,,mcsaver combos (2 pc meals),swiggy_bangalore
+Corn & Cheese Burger + Coke,,,,,,,,mcsaver combos (2 pc meals),swiggy_bangalore
+2 Cappuccino,,,,,,,,mcsaver combos (2 pc meals),swiggy_bangalore
+2 McFlurry Oreo (S),,,,,,,,mcsaver combos (2 pc meals),swiggy_bangalore
+2 Hot Fudge Sundae,,,,,,,,mcsaver combos (2 pc meals),swiggy_bangalore
+Chocolate Flavoured Shake+ Fries (M),,,,,,,,mcsaver combos (2 pc meals),swiggy_bangalore
+Strawberry Shake + Fries (M),,,,,,,,mcsaver combos (2 pc meals),swiggy_bangalore
+2 Iced Coffee,,,,,,,,mcsaver combos (2 pc meals),swiggy_bangalore
+McSpicy Chicken Burger + Fries (M) + Piri Piri Spice Mix,,,,,,,,mcsaver combos (2 pc meals),swiggy_bangalore
+McSpicy Paneer Burger + Fries (M) + Piri Piri Spice Mix,,,,,,,,mcsaver combos (2 pc meals),swiggy_bangalore
+McSpicy Paneer + Mexican Cheesy Fries,,,,,,,,mcsaver combos (2 pc meals),swiggy_bangalore
+Black Forest Mcflurry (M) BOGO,,,,,,,,mcsaver combos (2 pc meals),swiggy_bangalore
+New McSaver Chicken Surprise,,,,,,,,mcsaver combos (2 pc meals),swiggy_bangalore
+New McSaver Chicken Nuggets (4 Pc),,,,,,,,mcsaver combos (2 pc meals),swiggy_bangalore
+New McSaver Masala McEgg,,,,,,,,mcsaver combos (2 pc meals),swiggy_bangalore
+New McSaver McAloo Tikki,,,,,,,,mcsaver combos (2 pc meals),swiggy_bangalore
+New McSaver Mexican McAloo Tikki,,,,,,,,mcsaver combos (2 pc meals),swiggy_bangalore
+New McSaver Pizza McPuff,,,,,,,,mcsaver combos (2 pc meals),swiggy_bangalore
+Chicken Surprise Burger + Fries (M),,,,,,,,mcsaver combos (2 pc meals),swiggy_bangalore
+Crispy Veggie Burger +  Mexican Cheesy Fries,,,,,,,,mcsaver combos (2 pc meals),swiggy_bangalore
+Crispy Veggie Burger + McAloo Tikki,,,,,,,,mcsaver combos (2 pc meals),swiggy_bangalore
+Crispy Veggie Burger + Piri Piri Fries (M),,,,,,,,mcsaver combos (2 pc meals),swiggy_bangalore
+Mc Crispy Chicken Burger + Piri Piri Fries (M),,,,,,,,mcsaver combos (2 pc meals),swiggy_bangalore
+Mc Crispy Chicken Burger + Mexican Cheesy Fries,,,,,,,,mcsaver combos (2 pc meals),swiggy_bangalore
+Chicken Surprise Burger + Cold Coffee,,,,,,,,mcsaver combos (2 pc meals),swiggy_bangalore
+McAloo Tikki Burger + Cold Coffee,,,,,,,,mcsaver combos (2 pc meals),swiggy_bangalore
+Choco Crunch Cookie + McAloo Tikki Burger,,,,,,,,mcsaver combos (2 pc meals),swiggy_bangalore
+Choco Crunch Cookie + McVeggie Burger,,,,,,,,mcsaver combos (2 pc meals),swiggy_bangalore
+Lemon Ice Tea + Choco Crunch Cookie,,,,,,,,mcsaver combos (2 pc meals),swiggy_bangalore
+Veg Pizza McPuff + Choco Crunch Cookie,,,,,,,,mcsaver combos (2 pc meals),swiggy_bangalore
+Korean Chicken Surprise Burger + Korean Yuzu-Pop Sprite,,,,,,,,mcsaver combos (2 pc meals),swiggy_bangalore
+Korean Mc Aloo Tikki Burger + Korean Mc Spicy Paneer Burger,,,,,,,,mcsaver combos (2 pc meals),swiggy_bangalore
+Korean Mc Aloo Tikki Burger+ Korean Yuzu-Pop Sprite,,,,,,,,mcsaver combos (2 pc meals),swiggy_bangalore
+Korean Mc Spicy Chicken Burger +Korean Yuzu- Pop Sprite Combo,,,,,,,,mcsaver combos (2 pc meals),swiggy_bangalore
+Korean Mc Spicy Paneer Burger +Korean Yuzu- Pop Sprite Combo,,,,,,,,mcsaver combos (2 pc meals),swiggy_bangalore
+McSaver Korean Chicken Surprise Burger,,,,,,,,mcsaver combos (2 pc meals),swiggy_bangalore
+McSaver Korean Mc Aloo Tikki Burger,,,,,,,,mcsaver combos (2 pc meals),swiggy_bangalore
+McSaver Korean Mc Egg Burger,,,,,,,,mcsaver combos (2 pc meals),swiggy_bangalore
+Korean Chicken Surprise + Korean Shake Shake Fries (M),,,,,,,,mcsaver combos (2 pc meals),swiggy_bangalore
+Korean Mc Aloo Tikki Burger+ Korean Shake Shake Fries (M),,,,,,,,mcsaver combos (2 pc meals),swiggy_bangalore
+Korean Mc Spicy Chicken Burger  + Korean Shake Shake Fries (M),,,,,,,,mcsaver combos (2 pc meals),swiggy_bangalore
+Korean Mc Spicy Paneer Burger + Korean Shake Shake Fries (M),,,,,,,,mcsaver combos (2 pc meals),swiggy_bangalore
+Korean Shake Shake Chicken Nuggets 6 pc.,,,,,,,,mcsaver combos (2 pc meals),swiggy_bangalore
+Korean Shake Shake Fries (M),,,,,,,,mcsaver combos (2 pc meals),swiggy_bangalore
+Butter Croissant + Cappuccino.,,,,,,,,mcsaver combos (2 pc meals),swiggy_bangalore
+Butter Croissant + Iced Coffee.,,,,,,,,mcsaver combos (2 pc meals),swiggy_bangalore
+Mexican Corn and Cheese Burger + Coke (M),,,,,,,,mcsaver combos (2 pc meals),swiggy_bangalore
+Mexican Corn & Cheese Burger + Fries (M).,,,,,,,,mcsaver combos (2 pc meals),swiggy_bangalore
+Mexican Grilled Chicken Cheese Burger + Coke (M),,,,,,,,mcsaver combos (2 pc meals),swiggy_bangalore
+Mexican Grilled Chicken & Cheese Burger + Fries (M).,,,,,,,,mcsaver combos (2 pc meals),swiggy_bangalore
+1 Pc Crispy Fried Chicken,,,,,,,,fried chicken & wings,swiggy_bangalore
+2 Crispy Fried Chicken + 2 McSpicy Fried Chicken + 2 Dips + 2 Coke,,,,,,,,fried chicken & wings,swiggy_bangalore
+2 Pc Crispy Fried Chicken,,,,,,,,fried chicken & wings,swiggy_bangalore
+1 McSpicy Fried Chk + 1 Crispy Fried Chk + 4 Wings + 2 Coke + 2 Dips,,,,,,,,fried chicken & wings,swiggy_bangalore
+1 Pc McSpicy Fried Chicken,,,,,,,,fried chicken & wings,swiggy_bangalore
+2 Pc McSpicy Chicken Wings,,,,,,,,fried chicken & wings,swiggy_bangalore
+2 Pc McSpicy Fried Chicken,,,,,,,,fried chicken & wings,swiggy_bangalore
+3 Pc McSpicy Fried Chicken Bucket + 1 Coke,,,,,,,,fried chicken & wings,swiggy_bangalore
+4 Pc McSpicy Chicken Wings,,,,,,,,fried chicken & wings,swiggy_bangalore
+4 Pc McSpicy Fried Chicken Bucket,,,,,,,,fried chicken & wings,swiggy_bangalore
+5 Pc McSpicy Fried Chicken Bucket,,,,,,,,fried chicken & wings,swiggy_bangalore
+12 Pc Feast Chicken Bucket,,,,,,,,fried chicken & wings,swiggy_bangalore
+Chicken Lover's Bucket,,,,,,,,fried chicken & wings,swiggy_bangalore
+4 Chicken Wings + 2 McSpicy Fried Chicken + 2 Coke + 2 Dips,,,,,,,,fried chicken & wings,swiggy_bangalore
+4 McSpicy Fried Chicken Bucket + 2 Dips + 2 Coke,,,,,,,,fried chicken & wings,swiggy_bangalore
+5 McSpicy Fried Chicken Bucket + 2 Dips + 2 Coke,,,,,,,,fried chicken & wings,swiggy_bangalore
+8 McSpicy Chicken Wings Bucket + 2 Coke + 1 Dip,,,,,,,,fried chicken & wings,swiggy_bangalore
+Chicken Surprise Burger with Multi-Millet Bun,,,,,,,,protein plus and burgers with millet bun,swiggy_bangalore
+McAloo Tikki Burger with Multi-Millet Bun,,,,,,,,protein plus and burgers with millet bun,swiggy_bangalore
+McChicken Burger with Multi-Millet Bun,,,,,,,,protein plus and burgers with millet bun,swiggy_bangalore
+McSpicy Chicken Burger with Multi-Millet Bun,,,,,,,,protein plus and burgers with millet bun,swiggy_bangalore
+McSpicy Paneer Burger with Multi-Millet Bun,,,,,,,,protein plus and burgers with millet bun,swiggy_bangalore
+McVeggie Burger with Multi-Millet Bun,,,,,,,,protein plus and burgers with millet bun,swiggy_bangalore
+Crispy Veggie Burger Protein Plus (1 Slice),,,,,,,,protein plus and burgers with millet bun,swiggy_bangalore
+Crispy Veggie Burger Protein Plus (2 Slices),,,,,,,,protein plus and burgers with millet bun,swiggy_bangalore
+Crispy Veggie Burger Protein Plus + Corn + Coke Zero,,,,,,,,protein plus and burgers with millet bun,swiggy_bangalore
+Masala McEgg Burger Protein Plus (1 Slice),,,,,,,,protein plus and burgers with millet bun,swiggy_bangalore
+Masala McEgg Burger Protein Plus (2 Slices),,,,,,,,protein plus and burgers with millet bun,swiggy_bangalore
+McAloo Tikki Burger Protein Plus (1 Slice),,,,,,,,protein plus and burgers with millet bun,swiggy_bangalore
+McAloo Tikki Burger Protein Plus (2 Slices),,,,,,,,protein plus and burgers with millet bun,swiggy_bangalore
+McAloo Tikki Burger Protein Plus+ Corn + Coke Zero,,,,,,,,protein plus and burgers with millet bun,swiggy_bangalore
+McCheese Chicken Burger Protein Plus (1 Slice),,,,,,,,protein plus and burgers with millet bun,swiggy_bangalore
+McCheese Chicken Burger Protein Plus (2 Slices),,,,,,,,protein plus and burgers with millet bun,swiggy_bangalore
+McCheese Chicken Burger Protein Plus + 4 Pc Chicken Nuggets+ Coke Zero,,,,,,,,protein plus and burgers with millet bun,swiggy_bangalore
+McChicken Burger Protein Plus (1 Slice),,,,,,,,protein plus and burgers with millet bun,swiggy_bangalore
+McChicken Burger Protein Plus + 4 Pc Chicken Nuggets + Coke Zero,,,,,,,,protein plus and burgers with millet bun,swiggy_bangalore
+McChicken Protein Burger Plus (2 Slices),,,,,,,,protein plus and burgers with millet bun,swiggy_bangalore
+McCrispy Chicken Burger Protein Plus (1 Slice),,,,,,,,protein plus and burgers with millet bun,swiggy_bangalore
+McCrispy Chicken Burger Protein Plus (2 Slices),,,,,,,,protein plus and burgers with millet bun,swiggy_bangalore
+McCrispy Chicken Burger Protein Plus + 4 Pc Chicken Nugget + Coke Zero,,,,,,,,protein plus and burgers with millet bun,swiggy_bangalore
+McEgg Burger Protein Plus + 4 Pc Chicken Nuggets + Coke Zero,,,,,,,,protein plus and burgers with millet bun,swiggy_bangalore
+McSpicy Chicken Burger Protein Plus (1 Slice),,,,,,,,protein plus and burgers with millet bun,swiggy_bangalore
+McSpicy Chicken Burger Protein Plus (2 Slices),,,,,,,,protein plus and burgers with millet bun,swiggy_bangalore
+McSpicy Chicken Burger Protein Plus + 4 Pc Chicken Nuggets + Coke Zero,,,,,,,,protein plus and burgers with millet bun,swiggy_bangalore
+McSpicy Paneer Burger Protein Plus (1 Slice),,,,,,,,protein plus and burgers with millet bun,swiggy_bangalore
+McSpicy Paneer Burger Protein Plus (2 Slices),,,,,,,,protein plus and burgers with millet bun,swiggy_bangalore
+McSpicy Paneer Burger Protein Plus  + Corn + Coke Zero,,,,,,,,protein plus and burgers with millet bun,swiggy_bangalore
+McSpicy Premium Burger Veg Protein Plus (2 Slices),,,,,,,,protein plus and burgers with millet bun,swiggy_bangalore
+McSpicy Premium Chicken Burger Protein Plus (1 Slice),,,,,,,,protein plus and burgers with millet bun,swiggy_bangalore
+McSpicy Premium Chicken Burger Protein Plus (2 Slices),,,,,,,,protein plus and burgers with millet bun,swiggy_bangalore
+McSpicy Premium Chicken Protein Plus + 4 Pc Chicken Nugget + Coke Zero,,,,,,,,protein plus and burgers with millet bun,swiggy_bangalore
+McSpicy Premium Veg Burger Protein Plus (1 Slice),,,,,,,,protein plus and burgers with millet bun,swiggy_bangalore
+McSpicy Premium Veg Burger Protein Plus + Corn + Coke Zero,,,,,,,,protein plus and burgers with millet bun,swiggy_bangalore
+McVeggie Burger Protein Plus (1 Slice),,,,,,,,protein plus and burgers with millet bun,swiggy_bangalore
+McVeggie Burger Protein Plus (2 Slices),,,,,,,,protein plus and burgers with millet bun,swiggy_bangalore
+McVeggie Burger Protein Plus + Corn + Coke Zero,,,,,,,,protein plus and burgers with millet bun,swiggy_bangalore
+McCheese Burger Veg.,,,,,,,,shravan specials,swiggy_bangalore
+McCheese Burger Veg Combo.,,,,,,,,shravan specials,swiggy_bangalore
+Mango Smoothie.,,,,,,,,shravan specials,swiggy_bangalore
+Strawberry Shake.,,,,,,,,shravan specials,swiggy_bangalore
+McAloo Tikki Burger NONG,,,,,,,,shravan specials,swiggy_bangalore
+Mexican McAloo Tikki Burger NONG,,,,,,,,shravan specials,swiggy_bangalore
+Classic Corn Cup.,,,,,,,,shravan specials,swiggy_bangalore
+McCheese Burger Veg Combo with Corn.,,,,,,,,shravan specials,swiggy_bangalore
+McFlurry Oreo ( M ).,,,,,,,,shravan specials,swiggy_bangalore
+Mcflurry Oreo ( S ).,,,,,,,,shravan specials,swiggy_bangalore
+Crispy Veggie Burger..,,,,,,,,shravan specials,swiggy_bangalore
+Crispy Veggie Burger Meal (M)..,,,,,,,,shravan specials,swiggy_bangalore
+2 Crispy Veggie Burger  + Fries (L) + 2 Coke,,,,,,,,group sharing combos,swiggy_bangalore
+2 Crispy Veggie Burger  + 2 Fries (M) + Veg Pizza McPuff,,,,,,,,group sharing combos,swiggy_bangalore
+Burger Combo for 2: McAloo Tikki,,,,,,,,group sharing combos,swiggy_bangalore
+6 Pc Chicken Nuggets + McChicken Burger + Coke,,,,,,,,group sharing combos,swiggy_bangalore
+Burger Combo for 2: McSpicy Chicken + McChicken,,,,,,,,group sharing combos,swiggy_bangalore
+Burger Combo for 2: Corn & Cheese + McVeggie,,,,,,,,group sharing combos,swiggy_bangalore
+Burger Combo for 2: McSpicy Chicken Burger with Pizza McPuff,,,,,,,,group sharing combos,swiggy_bangalore
+Burger Combo for 2: McSpicy Paneer + McAloo Tikki with Pizza McPuff,,,,,,,,group sharing combos,swiggy_bangalore
+Burger Combo for 2: McChicken Burger,,,,,,,,group sharing combos,swiggy_bangalore
+Burger Combo for 2: McSpicy Chicken Burger,,,,,,,,group sharing combos,swiggy_bangalore
+Burger Combo for 2: McVeggie Burger,,,,,,,,group sharing combos,swiggy_bangalore
+2 Chicken Maharaja Mac Burger + 2 Coke + Fries (L) + McFlurry Oreo (M),,,,,,,,group sharing combos,swiggy_bangalore
+Burger Combo for 2: Corn & Cheese Burger,,,,,,,,group sharing combos,swiggy_bangalore
+Burger Combo for 2: Grilled Chicken & Cheese,,,,,,,,group sharing combos,swiggy_bangalore
+Burger Combo for 2: McSpicy Deluxe Chicken Burger,,,,,,,,group sharing combos,swiggy_bangalore
+Burger Combo for 2: McSpicy Deluxe Paneer Burger,,,,,,,,group sharing combos,swiggy_bangalore
+2 Mc Crispy Chicken Burger + Fries (L) + 2 Coke,,,,,,,,group sharing combos,swiggy_bangalore
+Crispy Veggie Burger + McVeggie Burger + Fries (M),,,,,,,,group sharing combos,swiggy_bangalore
+Mc Crispy Chicken Burger + McChicken Burger + Fries (M),,,,,,,,group sharing combos,swiggy_bangalore
+Mc Crispy Chicken Burger + McSpicy Chicken Wings - 2 pc + Coke (M),,,,,,,,group sharing combos,swiggy_bangalore
+McChicken Double Patty Burger Combo,,,,,,,,burger combos ( 3 pc meals ),swiggy_bangalore
+McSpicy Chicken Double Patty Burger combo,,,,,,,,burger combos ( 3 pc meals ),swiggy_bangalore
+McChicken Burger Happy Meal,,,,,,,,burger combos ( 3 pc meals ),swiggy_bangalore
+McVeggie Burger Happy Meal,,,,,,,,burger combos ( 3 pc meals ),swiggy_bangalore
+McAloo Tikki Burger Happy Meal,,,,,,,,burger combos ( 3 pc meals ),swiggy_bangalore
+McSpicy Chicken Burger Combo,,,,,,,,burger combos ( 3 pc meals ),swiggy_bangalore
+Veg Maharaja Mac Burger Combo,,,,,,,,burger combos ( 3 pc meals ),swiggy_bangalore
+Big Spicy Chicken Wrap Combo,,,,,,,,burger combos ( 3 pc meals ),swiggy_bangalore
+McVeggie Burger Combo,,,,,,,,burger combos ( 3 pc meals ),swiggy_bangalore
+Chicken Maharaja Mac Burger Combo,,,,,,,,burger combos ( 3 pc meals ),swiggy_bangalore
+Big Spicy Paneer Wrap Combo,,,,,,,,burger combos ( 3 pc meals ),swiggy_bangalore
+McSpicy Paneer Burger Combo,,,,,,,,burger combos ( 3 pc meals ),swiggy_bangalore
+McChicken Burger Combo,,,,,,,,burger combos ( 3 pc meals ),swiggy_bangalore
+9 Pc Chicken Nuggets Combo,,,,,,,,burger combos ( 3 pc meals ),swiggy_bangalore
+Chicken McNuggets 6 Pcs Combo,,,,,,,,burger combos ( 3 pc meals ),swiggy_bangalore
+Mexican McAloo Tikki Burger Combo,,,,,,,,burger combos ( 3 pc meals ),swiggy_bangalore
+Masala McEgg Burger Combo,,,,,,,,burger combos ( 3 pc meals ),swiggy_bangalore
+Birthday Party Package - McChicken,,,,,,,,burger combos ( 3 pc meals ),swiggy_bangalore
+Birthday Party Package - McVeggie,,,,,,,,burger combos ( 3 pc meals ),swiggy_bangalore
+McEgg Burger Happy Meal,,,,,,,,burger combos ( 3 pc meals ),swiggy_bangalore
+McSpicy Premium Burger Chicken Combo,,,,,,,,burger combos ( 3 pc meals ),swiggy_bangalore
+McSpicy Premium Burger Veg Combo,,,,,,,,burger combos ( 3 pc meals ),swiggy_bangalore
+McCheese Burger Chicken Combo,,,,,,,,burger combos ( 3 pc meals ),swiggy_bangalore
+McCheese Burger Veg Combo,,,,,,,,burger combos ( 3 pc meals ),swiggy_bangalore
+Corn & cheese Burger Combo,,,,,,,,burger combos ( 3 pc meals ),swiggy_bangalore
+Grilled Cheese and Chicken Burger Combo,,,,,,,,burger combos ( 3 pc meals ),swiggy_bangalore
+McAloo Tikki Burger Combo,,,,,,,,burger combos ( 3 pc meals ),swiggy_bangalore
+McCheese Burger Veg Combo with Corn,,,,,,,,burger combos ( 3 pc meals ),swiggy_bangalore
+2 Pc Chicken Nuggets Happy Meal,,,,,,,,burger combos ( 3 pc meals ),swiggy_bangalore
+4 Pc Chicken Nuggets Happy Meal,,,,,,,,burger combos ( 3 pc meals ),swiggy_bangalore
+McSpicy Deluxe Chicken Burger Combo,,,,,,,,burger combos ( 3 pc meals ),swiggy_bangalore
+McSpicy Deluxe Paneer Burger Combo,,,,,,,,burger combos ( 3 pc meals ),swiggy_bangalore
+Chicken Surprise Burger + 4 Pc Chicken McNuggets + Coke,,,,,,,,burger combos ( 3 pc meals ),swiggy_bangalore
+Chicken Surprise Burger Combo,,,,,,,,burger combos ( 3 pc meals ),swiggy_bangalore
+Crispy Veggie Burger Meal (M).,,,,,,,,burger combos ( 3 pc meals ),swiggy_bangalore
+Mc Crispy Chicken Burger Meal (M),,,,,,,,burger combos ( 3 pc meals ),swiggy_bangalore
+Choco Crunch Cookie + McAloo Tikki Burger + Lemon Ice Tea,,,,,,,,burger combos ( 3 pc meals ),swiggy_bangalore
+Veg Pizza McPuff + Choco Crunch Cookie + Americano,,,,,,,,burger combos ( 3 pc meals ),swiggy_bangalore
+Korean Chicken Surprise Burger Combo (M).,,,,,,,,burger combos ( 3 pc meals ),swiggy_bangalore
+Korean Mc Aloo Tikki Burger Combo (M).,,,,,,,,burger combos ( 3 pc meals ),swiggy_bangalore
+Korean Mc Egg Burger Combo (M),,,,,,,,burger combos ( 3 pc meals ),swiggy_bangalore
+Korean Mc Spicy Chicken Burger Combo (M).,,,,,,,,burger combos ( 3 pc meals ),swiggy_bangalore
+Korean Mc Spicy Paneer Burger Combo (M).,,,,,,,,burger combos ( 3 pc meals ),swiggy_bangalore
+Korean Mc Spicy Premium Chicken Burger Combo (M).,,,,,,,,burger combos ( 3 pc meals ),swiggy_bangalore
+Korean Mc Spicy Premium Paneer Burger Combo (M).,,,,,,,,burger combos ( 3 pc meals ),swiggy_bangalore
+Mexican Corn & Cheese Burger Combo (M),,,,,,,,burger combos ( 3 pc meals ),swiggy_bangalore
+Mexican Grilled Chicken & Cheese Burger Combo (M).,,,,,,,,burger combos ( 3 pc meals ),swiggy_bangalore
+Mexican McAloo Tikki Double Patty Burger,,,,,,,,burgers & wraps,swiggy_bangalore
+McAloo Tikki Double Patty Burger,,,,,,,,burgers & wraps,swiggy_bangalore
+McAloo Tikki Burger,,,,,,,,burgers & wraps,swiggy_bangalore
+Mexican McAloo Tikki Burger,,,,,,,,burgers & wraps,swiggy_bangalore
+McAloo Tikki Burger NONG.,,,,,,,,burgers & wraps,swiggy_bangalore
+Mexican McAloo Tikki Burger NONG.,,,,,,,,burgers & wraps,swiggy_bangalore
+McAloo Tikki Burger with Cheese,,,,,,,,burgers & wraps,swiggy_bangalore
+Mexican McAloo Tikki with Cheese,,,,,,,,burgers & wraps,swiggy_bangalore
+Korean Mc Aloo Tikki Burger,,,,,,,,burgers & wraps,swiggy_bangalore
+Mexican Corn & Cheese Burger,,,,,,,,burgers & wraps,swiggy_bangalore
+Mexican Grilled Chicken & Cheese Burger,,,,,,,,burgers & wraps,swiggy_bangalore
+Piri Piri Spice Mix,,,,,,,,fries & sides,swiggy_bangalore
+Veg Pizza McPuff,,,,,,,,fries & sides,swiggy_bangalore
+Fries (Regular),,,,,,,,fries & sides,swiggy_bangalore
+Fries (Medium),,,,,,,,fries & sides,swiggy_bangalore
+Fries (Large),,,,,,,,fries & sides,swiggy_bangalore
+Tomato Ketchup Sachet,,,,,,,,fries & sides,swiggy_bangalore
+9 Pc Chicken Nuggets,,,,,,,,fries & sides,swiggy_bangalore
+6 Pc Chicken Nuggets,,,,,,,,fries & sides,swiggy_bangalore
+Chilli Sauce Sachet,,,,,,,,fries & sides,swiggy_bangalore
+Classic Corn Cup,,,,,,,,fries & sides,swiggy_bangalore
+Fries (M) + Piri Piri Mix,,,,,,,,fries & sides,swiggy_bangalore
+Mexican Cheesy Fries,,,,,,,,fries & sides,swiggy_bangalore
+20 Pc Chicken Nuggets,,,,,,,,fries & sides,swiggy_bangalore
+Barbeque Sauce,,,,,,,,fries & sides,swiggy_bangalore
+4 Pcs Chicken Nuggets,,,,,,,,fries & sides,swiggy_bangalore
+Mustard Sauce,,,,,,,,fries & sides,swiggy_bangalore
+Spicy Sauce,,,,,,,,fries & sides,swiggy_bangalore
+Korean Shake Shake Chicken Nuggets 6 pc,,,,,,,,fries & sides,swiggy_bangalore
+Korean Shake Shake Fries (M).,,,,,,,,fries & sides,swiggy_bangalore
+Korean Spice Mix,,,,,,,,fries & sides,swiggy_bangalore
+Coke zero can,,,,,,,,coffee & beverages (hot and cold),swiggy_bangalore
+Schweppes Water bottle,,,,,,,,coffee & beverages (hot and cold),swiggy_bangalore
+Fanta,,,,,,,,coffee & beverages (hot and cold),swiggy_bangalore
+Mixed Fruit Beverage,,,,,,,,coffee & beverages (hot and cold),swiggy_bangalore
+Sprite,,,,,,,,coffee & beverages (hot and cold),swiggy_bangalore
+American Mud Pie Shake,,,,,,,,coffee & beverages (hot and cold),swiggy_bangalore
+Mango Smoothie,,,,,,,,coffee & beverages (hot and cold),swiggy_bangalore
+Mixed Berry Smoothie,,,,,,,,coffee & beverages (hot and cold),swiggy_bangalore
+Hot Chocolate (R),,,,,,,,coffee & beverages (hot and cold),swiggy_bangalore
+Latte Coffee (R),,,,,,,,coffee & beverages (hot and cold),swiggy_bangalore
+Americano Coffee (R),,,,,,,,coffee & beverages (hot and cold),swiggy_bangalore
+Americano Coffee (S),,,,,,,,coffee & beverages (hot and cold),swiggy_bangalore
+McCafe-Ice Coffee,,,,,,,,coffee & beverages (hot and cold),swiggy_bangalore
+Ice Americano Coffee,,,,,,,,coffee & beverages (hot and cold),swiggy_bangalore
+Mocha Coffee (R),,,,,,,,coffee & beverages (hot and cold),swiggy_bangalore
+Mocha Coffee (S),,,,,,,,coffee & beverages (hot and cold),swiggy_bangalore
+Moroccan Mint Green Tea (R ),,,,,,,,coffee & beverages (hot and cold),swiggy_bangalore
+Strawberry Green Tea (S),,,,,,,,coffee & beverages (hot and cold),swiggy_bangalore
+Cappuccino Coffee (S),,,,,,,,coffee & beverages (hot and cold),swiggy_bangalore
+Cappuccino Coffee (R),,,,,,,,coffee & beverages (hot and cold),swiggy_bangalore
+Chocolate Flavoured Shake,,,,,,,,coffee & beverages (hot and cold),swiggy_bangalore
+McCafe-Classic Coffee,,,,,,,,coffee & beverages (hot and cold),swiggy_bangalore
+Mocha Frappe,,,,,,,,coffee & beverages (hot and cold),swiggy_bangalore
+Berry Lemonade Regular,,,,,,,,coffee & beverages (hot and cold),swiggy_bangalore
+Cappuccino Small with Hazelnut,,,,,,,,coffee & beverages (hot and cold),swiggy_bangalore
+Iced Coffee with French Vanilla,,,,,,,,coffee & beverages (hot and cold),swiggy_bangalore
+Ice Tea - Green Apple flavour,,,,,,,,coffee & beverages (hot and cold),swiggy_bangalore
+Strawberry Shake,,,,,,,,coffee & beverages (hot and cold),swiggy_bangalore
+Cappuccino Small with French Vanilla,,,,,,,,coffee & beverages (hot and cold),swiggy_bangalore
+Classic Coffee Regular with French Vanilla,,,,,,,,coffee & beverages (hot and cold),swiggy_bangalore
+Classic Coffee Regular with Hazelnut,,,,,,,,coffee & beverages (hot and cold),swiggy_bangalore
+Iced Coffee with Hazelnut,,,,,,,,coffee & beverages (hot and cold),swiggy_bangalore
+Mint Lime Cooler,,,,,,,,coffee & beverages (hot and cold),swiggy_bangalore
+Korean Yuzu-Pop Sprite,,,,,,,,coffee & beverages (hot and cold),swiggy_bangalore
+Chocochip Muffin,,,,,,,,cakes brownies and cookies,swiggy_bangalore
+Choco Crunch Cookie,,,,,,,,cakes brownies and cookies,swiggy_bangalore
+Cinnamon Raisin Cookie,,,,,,,,cakes brownies and cookies,swiggy_bangalore
+Indulge Choco Jar Dessert,,,,,,,,cakes brownies and cookies,swiggy_bangalore
+Cold Coffee  Combo,,,,,,,,cakes brownies and cookies,swiggy_bangalore
+Hot  Coffee Combo,,,,,,,,cakes brownies and cookies,swiggy_bangalore
+Indulge Combo,,,,,,,,cakes brownies and cookies,swiggy_bangalore
+Take a break Combo,,,,,,,,cakes brownies and cookies,swiggy_bangalore
+Treat Combo,,,,,,,,cakes brownies and cookies,swiggy_bangalore
+Butter Croissant,,,,,,,,cakes brownies and cookies,swiggy_bangalore
+Butter Croissant + Cappuccino,,,,,,,,cakes brownies and cookies,swiggy_bangalore
+Butter Croissant + Iced Coffee,,,,,,,,cakes brownies and cookies,swiggy_bangalore
+Mcflurry Oreo ( S ),,,,,,,,desserts,swiggy_bangalore
+McFlurry Oreo ( M ),,,,,,,,desserts,swiggy_bangalore
+Hot Fudge Sundae,,,,,,,,desserts,swiggy_bangalore
+Strawberry Sundae,,,,,,,,desserts,swiggy_bangalore
+Oreo Sundae ( M ),,,,,,,,desserts,swiggy_bangalore
+Black Forest McFlurry Medium,,,,,,,,desserts,swiggy_bangalore
+Hot Fudge Brownie Sundae,,,,,,,,desserts,swiggy_bangalore
+Hashbrown,,,,,,,,mcbreakfast and value mornings,swiggy_bangalore
+Double Cheese McMuffin- Sandwich,,,,,,,,mcbreakfast and value mornings,swiggy_bangalore
+Egg & Cheese McMuffin - Sandwich,,,,,,,,mcbreakfast and value mornings,swiggy_bangalore
+Sausage & Egg McMuffin - Sandwich,,,,,,,,mcbreakfast and value mornings,swiggy_bangalore
+Sausage McMuffin - Sandwich,,,,,,,,mcbreakfast and value mornings,swiggy_bangalore
+Sausage with Egg McMuffin 3 Pc Meal,,,,,,,,mcbreakfast and value mornings,swiggy_bangalore
+Spicy Egg McMuffin - Sandwich,,,,,,,,mcbreakfast and value mornings,swiggy_bangalore
+Veg McMuffin - Sandwich,,,,,,,,mcbreakfast and value mornings,swiggy_bangalore
+Veg McMuffin 3 Pc Meal,,,,,,,,mcbreakfast and value mornings,swiggy_bangalore
+Chicken Surprise Burger + Hashbrown,,,,,,,,mcbreakfast and value mornings,swiggy_bangalore
+Egg & Cheese McMuffin + Hashbrown,,,,,,,,mcbreakfast and value mornings,swiggy_bangalore
+Hashbrown + Cappuccino,,,,,,,,mcbreakfast and value mornings,swiggy_bangalore
+Hashbrown + Cold Coffee,,,,,,,,mcbreakfast and value mornings,swiggy_bangalore
+Hashbrown + Iced Coffee,,,,,,,,mcbreakfast and value mornings,swiggy_bangalore
+McAloo Tikki  Burger + Hashbrown,,,,,,,,mcbreakfast and value mornings,swiggy_bangalore
+Sausage McMuffin + Hashbrown,,,,,,,,mcbreakfast and value mornings,swiggy_bangalore
+Veg McMuffin + Hashbrown,,,,,,,,mcbreakfast and value mornings,swiggy_bangalore
+Egg & Cheese McMuffin Protein Plus Meal,,,,,,,,mcbreakfast and value mornings,swiggy_bangalore
+Egg & Cheese McMuffin Protien Plus,,,,,,,,mcbreakfast and value mornings,swiggy_bangalore
+Sausage McMuffin Protein Plus,,,,,,,,mcbreakfast and value mornings,swiggy_bangalore
+Sausage McMuffin with Egg with protein plus,,,,,,,,mcbreakfast and value mornings,swiggy_bangalore
+Veg McMuffin with protein plus,,,,,,,,mcbreakfast and value mornings,swiggy_bangalore
+Veg McMuffin with protein plus Meal,,,,,,,,mcbreakfast and value mornings,swiggy_bangalore
+Big Big 6in1 Pizza - Non Veg,,,,,,,,recommended,swiggy_bangalore
+Big Big 6in1 Pizza - Veg,,,,,,,,recommended,swiggy_bangalore
+Big Big 6in1 Pizza – Veg Cheezilla,,,,,,,,recommended,swiggy_bangalore
+Peppy Paneer Cheese Burst,,,,,,,,recommended,swiggy_bangalore
+Farmhouse Cheese Burst,,,,,,,,recommended,swiggy_bangalore
+Veggie Paradise Cheese Burst,,,,,,,,recommended,swiggy_bangalore
+Margherita Cheese Burst,,,,,,,,recommended,swiggy_bangalore
+Spiced Double Chicken Pizza,,,,,,,,recommended,swiggy_bangalore
+Mexican Green Wave Cheese Burst,,,,,,,,recommended,swiggy_bangalore
+Pepper Barbecue Chicken Cheese Burst,,,,,,,,recommended,swiggy_bangalore
+Indi Tandoori Paneer Cheese Burst,,,,,,,,recommended,swiggy_bangalore
+Indi Chicken Tikka Cheese Burst,,,,,,,,recommended,swiggy_bangalore
+Double Cheese Margherita Cheese Burst,,,,,,,,recommended,swiggy_bangalore
+Cheese n Corn Cheese Burst,,,,,,,,recommended,swiggy_bangalore
+Chicken Golden Delight Cheese Burst,,,,,,,,recommended,swiggy_bangalore
+Chicken Fiesta Cheese Burst,,,,,,,,recommended,swiggy_bangalore
+Fresh Veggie Cheese Burst,,,,,,,,recommended,swiggy_bangalore
+Chicken Pepperoni Cheese Burst,,,,,,,,recommended,swiggy_bangalore
+Achari Do Pyaza Cheese Burst,,,,,,,,recommended,swiggy_bangalore
+The 5 Chicken Feast Cheese Burst,,,,,,,,recommended,swiggy_bangalore
+Chicken Sausage Cheese Burst,,,,,,,,cheese burst - 3 new flavours,swiggy_bangalore
+Chicken Platter for 2-Korean Sweet Chilli Dip,,,,,,,,chicken feast,swiggy_bangalore
+Chicken Platter for 4-Cream & Onion Dip,,,,,,,,chicken feast,swiggy_bangalore
+Chicken Platter for 2-Cream & Onion Dip,,,,,,,,chicken feast,swiggy_bangalore
+Chicken Platter for 4-Korean Sweet Chilli Dip,,,,,,,,chicken feast,swiggy_bangalore
+Saucy Boneless Chicken - Cream & Onion,,,,,,,,chicken feast,swiggy_bangalore
+Saucy Boneless Chicken - Peri Peri,,,,,,,,chicken feast,swiggy_bangalore
+Saucy Chicken Pops - Cream & Onion,,,,,,,,chicken feast,swiggy_bangalore
+Saucy Chicken Pops - Peri Peri,,,,,,,,chicken feast,swiggy_bangalore
+Juicy Boneless Chicken,,,,,,,,chicken feast,swiggy_bangalore
+Grilled Wings Signature Garlic,,,,,,,,chicken feast,swiggy_bangalore
+Grilled Wings Lemon Pepper,,,,,,,,chicken feast,swiggy_bangalore
+Grilled wings Southern Spice,,,,,,,,chicken feast,swiggy_bangalore
+Mini Garlic Cheesiken Rice,,,,,,,,chicken feast,swiggy_bangalore
+Mini Tangy Tomato Cheesiken Rice,,,,,,,,chicken feast,swiggy_bangalore
+Mini Hot & Fiery Cheesiken Rice,,,,,,,,chicken feast,swiggy_bangalore
+Spicy Chicken Pops,,,,,,,,chicken feast,swiggy_bangalore
+Spicy Chicken Bombs,,,,,,,,chicken feast,swiggy_bangalore
+Spicy Roasted Chicken Wings,,,,,,,,chicken feast,swiggy_bangalore
+Garlic Cheesiken,,,,,,,,chicken feast,swiggy_bangalore
+Hot & Fiery Cheesiken,,,,,,,,chicken feast,swiggy_bangalore
+Peri Peri Dip,,,,,,,,chicken feast,swiggy_bangalore
+Cream and Onion Dip,,,,,,,,chicken feast,swiggy_bangalore
+Rich Garlic Dip,,,,,,,,chicken feast,swiggy_bangalore
+Korean Sweet Chilli Dip,,,,,,,,chicken feast,swiggy_bangalore
+Chicken Platter for 2-Peri Peri Dip,,,,,,,,chicken feast,swiggy_bangalore
+Chicken Platter for 4-Peri Peri Dip,,,,,,,,chicken feast,swiggy_bangalore
+Garlic Chicken Burst Pizza (Reg),,,,,,,,chicken burst,swiggy_bangalore
+Tandoori Chicken Burst Pizza (Reg),,,,,,,,chicken burst,swiggy_bangalore
+Shawarma Chicken Burst Pizza (Reg),,,,,,,,chicken burst,swiggy_bangalore
+Korean Chicken Burst Pizza (Reg),,,,,,,,chicken burst,swiggy_bangalore
+Southern Spice Chicken Burst Pizza (Reg),,,,,,,,chicken burst,swiggy_bangalore
+Tandoori Chicken Burst Pizza (Med),,,,,,,,chicken burst,swiggy_bangalore
+Garlic Chicken Burst Pizza (Med),,,,,,,,chicken burst,swiggy_bangalore
+Korean Chicken Burst Pizza (Med),,,,,,,,chicken burst,swiggy_bangalore
+Shawarma Chicken Burst Pizza (Med),,,,,,,,chicken burst,swiggy_bangalore
+Southern Spice Chicken Burst Pizza (Med),,,,,,,,chicken burst,swiggy_bangalore
+Cheese Volcano Peppy Paneer,,,,,,,,cheese volcano,swiggy_bangalore
+Cheese Volcano Farmhouse,,,,,,,,cheese volcano,swiggy_bangalore
+Cheese Volcano Veg Paradise,,,,,,,,cheese volcano,swiggy_bangalore
+Corn & Cheese Volcano,,,,,,,,cheese volcano,swiggy_bangalore
+Cheese Volcano BBQ Chicken,,,,,,,,cheese volcano,swiggy_bangalore
+Cheese Volcano Chicken Delight,,,,,,,,cheese volcano,swiggy_bangalore
+Cheese Volcano Double Chicken,,,,,,,,cheese volcano,swiggy_bangalore
+Cheese Volcano Blazing Chicken,,,,,,,,cheese volcano,swiggy_bangalore
+Special Party for 4 (Veg) @Rs. 180 off,,,,,,,,party combo,swiggy_bangalore
+Pizza Party for 4 (Veg) @Rs. 180 Off,,,,,,,,party combo,swiggy_bangalore
+Party for 4 (Veg) @Rs. 130 off,,,,,,,,party combo,swiggy_bangalore
+Extravaganza Party for 2 (Veg) @Rs. 110 off,,,,,,,,party combo,swiggy_bangalore
+Dominator Party for 2 (Non-Veg) @Rs. 140 off,,,,,,,,party combo,swiggy_bangalore
+Special Party for 2 (Veg) @Rs. 105 off,,,,,,,,party combo,swiggy_bangalore
+Match Day Veg Combo @Rs. 110 off,,,,,,,,party combo,swiggy_bangalore
+Special Party for 2 (Non-Veg) @Rs. 115 off,,,,,,,,party combo,swiggy_bangalore
+Party for 2 (Non-Veg) @Rs. 85 off,,,,,,,,party combo,swiggy_bangalore
+Party for 2 (Veg) @Rs. 75 off,,,,,,,,party combo,swiggy_bangalore
+Dominator Party for 4 (Non-Veg) @Rs. 300 off,,,,,,,,party combo,swiggy_bangalore
+Meal for 2: Pepper BBQ Chicken & Spiced Double Chicken,,,,,,,,value meals,swiggy_bangalore
+Meal for 4: Veg Extravaganza & Indi Tandoori Paneer,,,,,,,,value meals,swiggy_bangalore
+Meal for 4: Margherita & Peppy Paneer,,,,,,,,value meals,swiggy_bangalore
+Meal for 2: Farmhouse & Veg Extravaganza,,,,,,,,value meals,swiggy_bangalore
+Meal for 4: Veg Cheesy Pizza,,,,,,,,value meals,swiggy_bangalore
+Meal for 2: Veg Paradise & Farmhouse,,,,,,,,value meals,swiggy_bangalore
+Garlic Breadsticks + Cheesy Dip,,,,,,,,value meals,swiggy_bangalore
+Double Cheese Margherita Pizza,,,,,,,,dominos classics,swiggy_bangalore
+Fresh Veggie Pizza,,,,,,,,dominos classics,swiggy_bangalore
+Cheese n Corn Pizza,,,,,,,,dominos classics,swiggy_bangalore
+Chicken Sausage Pizza,,,,,,,,dominos classics,swiggy_bangalore
+Pepper Barbecue Chicken Pizza,,,,,,,,dominos classics,swiggy_bangalore
+Spiced Double Chicken,,,,,,,,dominos classics,swiggy_bangalore
+Chicken Golden Delight Pizza,,,,,,,,dominos classics,swiggy_bangalore
+Veggie Paradise Pizza,,,,,,,,loaded pizza,swiggy_bangalore
+Mexican Green Wave Pizza,,,,,,,,loaded pizza,swiggy_bangalore
+Veg Extravaganza Pizza,,,,,,,,loaded pizza,swiggy_bangalore
+Chicken Fiesta Pizza,,,,,,,,loaded pizza,swiggy_bangalore
+Chicken Dominator Pizza,,,,,,,,loaded pizza,swiggy_bangalore
+Non Veg Supreme Pizza,,,,,,,,loaded pizza,swiggy_bangalore
+The 5 Chicken Feast Pizza,,,,,,,,loaded pizza,swiggy_bangalore
+Achari Do Pyaza Pizza,,,,,,,,flavours of india,swiggy_bangalore
+Corn n Cheese Paratha Pizza,,,,,,,,flavours of india,swiggy_bangalore
+Indi Tandoori Paneer Pizza,,,,,,,,flavours of india,swiggy_bangalore
+Chicken Keema Paratha Pizza,,,,,,,,flavours of india,swiggy_bangalore
+Indi Chicken Tikka Pizza,,,,,,,,flavours of india,swiggy_bangalore
+Chicken Keema & Onion with Desi Makhani Sauce,,,,,,,,pizza mania,swiggy_bangalore
+"Paneer, Onion & Capsicum with Desi Makhani Sauce",,,,,,,,pizza mania,swiggy_bangalore
+Paneer & Capsicum with Videshi Hot Sauce,,,,,,,,pizza mania,swiggy_bangalore
+Capsicum & Red Paprika with Videshi Hot Sauce,,,,,,,,pizza mania,swiggy_bangalore
+Pepper Barbecue Chicken,,,,,,,,pizza mania,swiggy_bangalore
+Golden Corn,,,,,,,,pizza mania,swiggy_bangalore
+Onion,,,,,,,,pizza mania,swiggy_bangalore
+Classic,,,,,,,,pizza mania,swiggy_bangalore
+Korean Corn & Jalapeno Garlic Bread,,,,,,,,garlic breads & more,swiggy_bangalore
+Fiery Corn & Jalapeno Garlic Bread,,,,,,,,garlic breads & more,swiggy_bangalore
+Makhani Corn & Jalapeno Garlic Bread,,,,,,,,garlic breads & more,swiggy_bangalore
+Korean Paneer Tikka Garlic Bread,,,,,,,,garlic breads & more,swiggy_bangalore
+Fiery Paneer Tikka Garlic Bread,,,,,,,,garlic breads & more,swiggy_bangalore
+Makhani Paneer Tikka Garlic Bread,,,,,,,,garlic breads & more,swiggy_bangalore
+Korean Pepperoni Garlic Bread,,,,,,,,garlic breads & more,swiggy_bangalore
+Fiery Pepperoni Garlic Bread,,,,,,,,garlic breads & more,swiggy_bangalore
+Makhani Pepperoni Garlic Bread,,,,,,,,garlic breads & more,swiggy_bangalore
+Cheesy Dip,,,,,,,,garlic breads & more,swiggy_bangalore
+Taco Mexicana Veg,,,,,,,,garlic breads & more,swiggy_bangalore
+Taco Mexicana Non Veg,,,,,,,,garlic breads & more,swiggy_bangalore
+Veg Parcel,,,,,,,,garlic breads & more,swiggy_bangalore
+Chicken Parcel,,,,,,,,garlic breads & more,swiggy_bangalore
+Burger Pizza - Classic Veg,,,,,,,,garlic breads & more,swiggy_bangalore
+Burger Pizza - Premium Veg,,,,,,,,garlic breads & more,swiggy_bangalore
+Burger Pizza - Classic Non Veg,,,,,,,,garlic breads & more,swiggy_bangalore
+Taco Mexicana Veg (Single),,,,,,,,garlic breads & more,swiggy_bangalore
+Tandoori Loaded Veg Taco,,,,,,,,garlic breads & more,swiggy_bangalore
+Tandoori Loaded Veg Taco (Single),,,,,,,,garlic breads & more,swiggy_bangalore
+Tandoori Loaded Chicken Taco,,,,,,,,garlic breads & more,swiggy_bangalore
+Tandoori Loaded Paneer Parcel,,,,,,,,garlic breads & more,swiggy_bangalore
+Tandoori Loaded Chicken Parcel,,,,,,,,garlic breads & more,swiggy_bangalore
+Choco Lava Cake Gift Hamper,,,,,,,,desserts,swiggy_bangalore
+Red Velvet Lava Cake,,,,,,,,desserts,swiggy_bangalore
+Butterscotch Mousse Cake,,,,,,,,desserts,swiggy_bangalore
+Coca Cola 475ml,,,,,,,,beverages,swiggy_bangalore
+Sprite 475ml,,,,,,,,beverages,swiggy_bangalore
+Fanta 475ml,,,,,,,,beverages,swiggy_bangalore
+Coca Cola Zero Sugar 330ml,,,,,,,,beverages,swiggy_bangalore
+Nagpur Orange,,,,,,,,beverages,swiggy_bangalore
+B Natural Alphonsos from Ratnagiri (300 ml),,,,,,,,beverages,swiggy_bangalore
+Aquavess Water (500ml),,,,,,,,beverages,swiggy_bangalore
+Classic Pizza Mania,,,,,,,,pizza & more,swiggy_bangalore
+Margherita Pizza Regular,,,,,,,,pizza & more,swiggy_bangalore
+5 Course Meal: Chicken Sausage Pizza,,,,,,,,5 course pizza feast,swiggy_bangalore
+5 Course Meal: Onion Pizza,,,,,,,,5 course pizza feast,swiggy_bangalore
+5 Course Meal: Pepper BBQ Chicken Pizza,,,,,,,,5 course pizza feast,swiggy_bangalore
+5 Course Meal: Classic Pizza,,,,,,,,5 course pizza feast,swiggy_bangalore
+5 Course Meal: Golden Corn Pizza,,,,,,,,5 course pizza feast,swiggy_bangalore
+5 Course Meal: Veg Loaded Pizza,,,,,,,,5 course pizza feast,swiggy_bangalore
+5 Course Meal: Non Veg Loaded Pizza,,,,,,,,5 course pizza feast,swiggy_bangalore
+5 Course: Triple Chicken Hot & Fiery Rice Meal with Chicken Pops,,,,,,,,5 course chicken feast,swiggy_bangalore
+5 Course: Triple Chicken Hot & Fiery Rice Meal with Chicken Wings,,,,,,,,5 course chicken feast,swiggy_bangalore
+5 Course: Triple Chicken Garlic Rice Meal with Chicken Pops,,,,,,,,5 course chicken feast,swiggy_bangalore
+5 Course: Triple Chicken Garlic Rice Meal with Chicken Wings,,,,,,,,5 course chicken feast,swiggy_bangalore
+Sabudana Khichdi & Dum Aloo Bowl,,,,,,,,recommended,swiggy_bangalore
+Sabudana Khichdi & Paneer Makhani Bowl,,,,,,,,recommended,swiggy_bangalore
+Mughlai Grilled Chicken Rice Bowl with Omelette,,,,,,,,recommended,swiggy_bangalore
+Paneer Tikka Rice Bowl,,,,,,,,recommended,swiggy_bangalore
+Creamy Chicken Tikka Rice Bowl,,,,,,,,recommended,swiggy_bangalore
+Barbeque Chicken Rice Bowl,,,,,,,,recommended,swiggy_bangalore
+Chicken Kheema Rice Bowl,,,,,,,,recommended,swiggy_bangalore
+Bhuna Chicken Rice Bowl,,,,,,,,recommended,swiggy_bangalore
+Mughlai Egg Curry Rice Bowl,,,,,,,,recommended,swiggy_bangalore
+Mughlai Falafel Rice Bowl,,,,,,,,recommended,swiggy_bangalore
+Classic Chicken Shawarma Bowl,,,,,,,,recommended,swiggy_bangalore
+Chicken Kofta Rice Bowl with Omelette,,,,,,,,recommended,swiggy_bangalore
+Roast Vegetables Rice Bowl,,,,,,,,recommended,swiggy_bangalore
+Mushroom Masala Rice Bowl,,,,,,,,recommended,swiggy_bangalore
+Mutton Bhuna Rice Bowl,,,,,,,,recommended,swiggy_bangalore
+Mutton Kheema Signature Rice Bowl,,,,,,,,recommended,swiggy_bangalore
+Classic Rajma Rice Bowl,,,,,,,,recommended,swiggy_bangalore
+Dal Makhani Rice Bowl,,,,,,,,recommended,swiggy_bangalore
+Palak Paneer Rice Bowl,,,,,,,,recommended,swiggy_bangalore
+Good'ol Butter Chicken Rice Bowl,,,,,,,,recommended,swiggy_bangalore
+Paneer Lababdar Rice Bowl,,,,,,,,classic bowls,swiggy_bangalore
+Corn Masala Rice Bowl,,,,,,,,classic bowls,swiggy_bangalore
+Chicken Lababdar Rice Bowl,,,,,,,,classic bowls,swiggy_bangalore
+Paneer Tikka Masala Rice Bowl,,,,,,,,classic bowls,swiggy_bangalore
+Pindi Chole Rice Bowl,,,,,,,,classic bowls,swiggy_bangalore
+Ghee Roast Chicken Rice Bowl.,,,,,,,,classic bowls,swiggy_bangalore
+Good'ol Butter Chicken Mini Rice Bowl,,,,,,,,mini bowls,swiggy_bangalore
+Classic Rajma Mini Rice Bowl,,,,,,,,mini bowls,swiggy_bangalore
+Dal Makhani Mini Rice Bowl,,,,,,,,mini bowls,swiggy_bangalore
+Chicken Kheema Mini Rice Bowl,,,,,,,,mini bowls,swiggy_bangalore
+Barbeque Chicken Mini Rice Bowl,,,,,,,,mini bowls,swiggy_bangalore
+Pindi Chole Mini Rice Bowl,,,,,,,,mini bowls,swiggy_bangalore
+Paneer Tikka Masala Mini Rice Bowl,,,,,,,,mini bowls,swiggy_bangalore
+Paneer Lababdar Mini Rice Bowl,,,,,,,,mini bowls,swiggy_bangalore
+Creamy Chicken Tikka Mini Rice Bowl,,,,,,,,mini bowls,swiggy_bangalore
+Corn Masala Mini Rice Bowl,,,,,,,,mini bowls,swiggy_bangalore
+Chicken Lababdar Mini Rice Bowl,,,,,,,,mini bowls,swiggy_bangalore
+Roast Vegetables Mini Rice Bowl,,,,,,,,mini bowls,swiggy_bangalore
+Chicken Biryani Bowl (Boneless),,,,,,,,biryani bowls,swiggy_bangalore
+Egg Biryani Bowl,,,,,,,,biryani bowls,swiggy_bangalore
+Veg Biryani Bowl,,,,,,,,biryani bowls,swiggy_bangalore
+Paneer Biryani Bowl,,,,,,,,biryani bowls,swiggy_bangalore
+Ghee Roast Chicken Rice Bowl,,,,,,,,biryani bowls,swiggy_bangalore
+Mutton Kofta Biryani Bowl (Boneless),,,,,,,,biryani bowls,swiggy_bangalore
+Mutton Kheema Biryani Bowl,,,,,,,,biryani bowls,swiggy_bangalore
+Gulab Jamun Box (Pack of 10),,,,,,,,desserts,swiggy_bangalore
+Mango Cheesecake,,,,,,,,desserts,swiggy_bangalore
+New York Cheesecake,,,,,,,,desserts,swiggy_bangalore
+Chocolate Cheesecake Slice,,,,,,,,desserts,swiggy_bangalore
+Blueberry Cheesecake,,,,,,,,desserts,swiggy_bangalore
+Death by Chocolate Cake Jar,,,,,,,,desserts,swiggy_bangalore
+Moong Dal Halwa (80 gm),,,,,,,,desserts,swiggy_bangalore
+Gulab Jamun (Pack of 5),,,,,,,,desserts,swiggy_bangalore
+Pineapple Jar Cake,,,,,,,,desserts,swiggy_bangalore
+Rich Red Velvet Pastry,,,,,,,,desserts,swiggy_bangalore
+Choco Chip Brownie,,,,,,,,desserts,swiggy_bangalore
+Choco Chip Pastry,,,,,,,,desserts,swiggy_bangalore
+Gulab Jamun (Pack Of 2),,,,,,,,desserts,swiggy_bangalore
+Walnut Brownie,,,,,,,,desserts,swiggy_bangalore
+Belgian Chocolate Ice Cream,,,,,,,,desserts,swiggy_bangalore
+Salted Caramel Ice Cream,,,,,,,,desserts,swiggy_bangalore
+Dry Fruit Kulfi Ice Cream,,,,,,,,desserts,swiggy_bangalore
+Gulab Jamun - Pack of 1,,,,,,,,desserts,swiggy_bangalore
+Kesar Thandai Ice Cream,,,,,,,,desserts,swiggy_bangalore
+Shahi Tukda,,,,,,,,desserts,swiggy_bangalore
+Butter Chicken Rice Bowl with Seekh Kebab (Protein-42g),,,,,,,,high protein rice bowls,swiggy_bangalore
+Dal Makhni Rice Bowl with Dahi Kebab (Protein-25g),,,,,,,,high protein rice bowls,swiggy_bangalore
+Paneer Lababdar Rice Bowl (Protein-21g),,,,,,,,high protein rice bowls,swiggy_bangalore
+Mughlai Grilled Chicken Rice Bowl with Omelette (Protein-25g),,,,,,,,high protein rice bowls,swiggy_bangalore
+Mughlai Chicken Kofta Rice Bowl with Omelette (Protein-29g),,,,,,,,high protein rice bowls,swiggy_bangalore
+Good'ol Butter Chicken Rice Bowl (Protein-29g),,,,,,,,high protein rice bowls,swiggy_bangalore
+Chicken Lababdar Rice Bowl (Protein-34g),,,,,,,,high protein rice bowls,swiggy_bangalore
+Mutton Haleem,,,,,,,,starters,swiggy_bangalore
+Chicken Haleem,,,,,,,,starters,swiggy_bangalore
+Potato Wedges (Medium),,,,,,,,starters,swiggy_bangalore
+Chicken Meatball Kebab (5 Pcs),,,,,,,,starters,swiggy_bangalore
+Chicken Tikki (5 pcs),,,,,,,,starters,swiggy_bangalore
+Pizza Puff (Pack of 4),,,,,,,,starters,swiggy_bangalore
+Potato Chilli Shots with Mayo Dip,,,,,,,,starters,swiggy_bangalore
+Falafel Nuggets with Mayo Dip,,,,,,,,starters,swiggy_bangalore
+Pizza Puff (Pack of 2),,,,,,,,starters,swiggy_bangalore
+Chicken Tikka Baked Cheese Rice Bowl,,,,,,,,baked cheese rice bowls (powered by firangi bake),swiggy_bangalore
+Paneer Tikka Baked Cheese Rice Bowl,,,,,,,,baked cheese rice bowls (powered by firangi bake),swiggy_bangalore
+Butter Chicken Baked Cheese Rice Bowl,,,,,,,,baked cheese rice bowls (powered by firangi bake),swiggy_bangalore
+Mexican Baked Cheese Rice Bowl,,,,,,,,baked cheese rice bowls (powered by firangi bake),swiggy_bangalore
+Chicken Biryani Bowl + Thums Up Combo,,,,,,,,value combos,swiggy_bangalore
+Mini Bowl Meal Combo (Veg),,,,,,,,value combos,swiggy_bangalore
+Mini Bowl Meal Combo (Non Veg),,,,,,,,value combos,swiggy_bangalore
+Skimmed Mint Buttermilk,,,,,,,,beverages,swiggy_bangalore
+Coca Cola Bottle (475 mL),,,,,,,,beverages,swiggy_bangalore
+Thums Up Can (330 mL),,,,,,,,beverages,swiggy_bangalore
+Jeera Masala Soda (350 mL),,,,,,,,beverages,swiggy_bangalore
+Coke (250 mL),,,,,,,,beverages,swiggy_bangalore
+Lemon Soda (250 mL),,,,,,,,beverages,swiggy_bangalore
+Paneer Tikka Whole Bowl [55g Protein],,,,,,,,recommended,swiggy_bangalore
+Paneer Peri Peri Power Bowl [55g Protein],,,,,,,,recommended,swiggy_bangalore
+Herb Chicken Mighty Bowl [74g Protein],,,,,,,,recommended,swiggy_bangalore
+Chicken Tikka Super Bowl [74g Protein],,,,,,,,recommended,swiggy_bangalore
+BBQ Chicken Beast Bowl [74g Protein],,,,,,,,recommended,swiggy_bangalore
+[69g Protein] Grilled Paneer Protein Bowl + Veg...,,,,,,,,recommended,swiggy_bangalore
+"Veggie Delight Happy Salad [451 Kcal, Low Calorie]",,,,,,,,recommended,swiggy_bangalore
+"Paneer Keto Salad [31g Protein, 527 Kcal]",,,,,,,,recommended,swiggy_bangalore
+"Chicken Keto Salad [40g Protein, 459 Kcal]",,,,,,,,recommended,swiggy_bangalore
+Paneer Tikka Keto Bowl [52g Protein],,,,,,,,recommended,swiggy_bangalore
+"Chicken Tikka Keto Bowl [71g Protein, 30g Carbs]",,,,,,,,recommended,swiggy_bangalore
+Pesto & Paneer Supreme Bowl [55g - High Protein],,,,,,,,wefit protein bowls,swiggy_bangalore
+Pesto & Chicken Dominator Bowl [74g - High Prot...,,,,,,,,wefit protein bowls,swiggy_bangalore
+Chicken Peri Peri Boss Bowl [74g Protein],,,,,,,,wefit protein bowls,swiggy_bangalore
+"Pesto & Veggies Hearty Salad [512 Kcal, Low Cal...",,,,,,,,wefit super salads,swiggy_bangalore
+Pesto & Mushroom Merry Salad [14g - High Protei...,,,,,,,,wefit super salads,swiggy_bangalore
+Paneer Peri Peri Bravo Salad [32g Protein],,,,,,,,wefit super salads,swiggy_bangalore
+Pesto & Paneer FeelGood Salad [30g - High Protein],,,,,,,,wefit super salads,swiggy_bangalore
+Chicken Peppy Salad [40g Protein],,,,,,,,wefit super salads,swiggy_bangalore
+Pesto & Chicken Honest Salad [43g - High Protein],,,,,,,,wefit super salads,swiggy_bangalore
+[75g Protein] Roast Chicken Salad + Chicken Tik...,,,,,,,,wefit super salads,swiggy_bangalore
+"Pesto & Mushroom Keto Salad [284 Kcal, Low Calo...",,,,,,,,wefit keto meals,swiggy_bangalore
+"Pesto & Paneer Keto Salad [31g - High Protein, ...",,,,,,,,wefit keto meals,swiggy_bangalore
+"Pesto & Chicken Keto Salad [40g - High Protein,...",,,,,,,,wefit keto meals,swiggy_bangalore
+Pesto & Paneer Keto Bowl [52 - High Protein],,,,,,,,wefit keto meals,swiggy_bangalore
+Paneer Peri Peri Keto Bowl [52g Protein],,,,,,,,wefit keto meals,swiggy_bangalore
+"Herb Chicken Keto Bowl [71g Protein, 27g Carbs ]",,,,,,,,wefit keto meals,swiggy_bangalore
+"Pesto & Chicken Keto Bowl [71g - High Protein, ...",,,,,,,,wefit keto meals,swiggy_bangalore
+"Chicken Peri Peri Keto Bowl [71g Protein, 30g C...",,,,,,,,wefit keto meals,swiggy_bangalore
+Veggie Goodness Sandwich [14g Protein],,,,,,,,wefit multigrain sandwiches,swiggy_bangalore
+Pesto Mushrooms & Cheese Sandwich [24g Protein],,,,,,,,wefit multigrain sandwiches,swiggy_bangalore
+Grilled Paneer Power Sandwich [30g Protein],,,,,,,,wefit multigrain sandwiches,swiggy_bangalore
+Pesto Paneer & Cheese Sandwich [35g Protein],,,,,,,,wefit multigrain sandwiches,swiggy_bangalore
+Overload Paneer Mighty Sandwich [36g Protein],,,,,,,,wefit multigrain sandwiches,swiggy_bangalore
+Grilled Chicken Power Sandwich [35g Protein],,,,,,,,wefit multigrain sandwiches,swiggy_bangalore
+Pesto Chicken & Cheese Sandwich [35g Protein],,,,,,,,wefit multigrain sandwiches,swiggy_bangalore
+Overload Chicken Mighty Sandwich [46g Protein],,,,,,,,wefit multigrain sandwiches,swiggy_bangalore
+[44g Protein] Veggie Sandwich + Paneer Sandwich...,,,,,,,,wefit multigrain sandwiches,swiggy_bangalore
+Supergrain Millet Dal Khichdi [16g Protein],,,,,,,,*new* high-protein rice bowls,swiggy_bangalore
+"Fiber-Rich Palak & Millet Khichdi [17g Protein,...",,,,,,,,*new* high-protein rice bowls,swiggy_bangalore
+Tandoori Grilled Paneer Tikka [46g Protein],,,,,,,,wefit grilled protein,swiggy_bangalore
+Peri Peri Grilled Paneer Tikka [46g Protein],,,,,,,,wefit grilled protein,swiggy_bangalore
+Tandoori Grilled Chicken Wings [50g Protein],,,,,,,,wefit grilled protein,swiggy_bangalore
+Peri Peri Grilled Chicken Wings [50g Protein],,,,,,,,wefit grilled protein,swiggy_bangalore
+Herb Grilled Chicken Wings [50g Protein],,,,,,,,wefit grilled protein,swiggy_bangalore
+BBQ Grilled Chicken Wings [50g Protein],,,,,,,,wefit grilled protein,swiggy_bangalore
+Tandoori Grilled Chicken Tikka [65g Protein],,,,,,,,wefit grilled protein,swiggy_bangalore
+Peri Peri Grilled Chicken Boneless [65g Protein],,,,,,,,wefit grilled protein,swiggy_bangalore
+Herb Grilled Chicken Boneless [64g Protein],,,,,,,,wefit grilled protein,swiggy_bangalore
+BBQ Grilled Chicken Boneless [64g Protein],,,,,,,,wefit grilled protein,swiggy_bangalore
+Fresh Lemonade,,,,,,,,drinks,swiggy_bangalore
+Buttermilk [200 ml],,,,,,,,drinks,swiggy_bangalore
+Bailley One - Mineral Water [500 ml],,,,,,,,drinks,swiggy_bangalore
+Tadka Curd Rice Thali,,,,,,,,recommended,swiggy_bangalore
+Ghee Tadka Dal Khichdi Thali,,,,,,,,recommended,swiggy_bangalore
+Palak Paneer - Light Meal,,,,,,,,recommended,swiggy_bangalore
+Shahi Chicken - Light Meal,,,,,,,,recommended,swiggy_bangalore
+Sunday Chicken Curry - Light Meal,,,,,,,,recommended,swiggy_bangalore
+Saag Wala Chicken - Light Meal,,,,,,,,recommended,swiggy_bangalore
+Aloo Dum - Everyday Thali,,,,,,,,recommended,swiggy_bangalore
+Fam's Favorite Matar Paneer - Everyday Thali,,,,,,,,recommended,swiggy_bangalore
+Shahi Paneer - Everyday Thali,,,,,,,,recommended,swiggy_bangalore
+Paneer Masala - Everyday Thali,,,,,,,,recommended,swiggy_bangalore
+Shahi Chicken - Everyday Thali,,,,,,,,recommended,swiggy_bangalore
+Masala Chicken - Everyday Thali,,,,,,,,recommended,swiggy_bangalore
+Punjabi Chole - Feast Thali,,,,,,,,recommended,swiggy_bangalore
+Dal Makhani - Feast Thali,,,,,,,,recommended,swiggy_bangalore
+Egg Curry - Feast Thali,,,,,,,,recommended,swiggy_bangalore
+Homestyle Egg Curry Feast Thali + 3 Mini Samosas,,,,,,,,recommended,swiggy_bangalore
+Ghee Toor Dal Khichdi Thali,,,,,,,,comfort thalis,swiggy_bangalore
+Millet Dal Khichdi Meal - Healthy,,,,,,,,comfort thalis,swiggy_bangalore
+Kadhi & Khichdi Thali,,,,,,,,comfort thalis,swiggy_bangalore
+Homestyle Yellow Dal - Light Meal,,,,,,,,veg homely - light meal,swiggy_bangalore
+Kadhi Pakoda - Light Meal,,,,,,,,veg homely - light meal,swiggy_bangalore
+Homestyle Rajma - Light Meal,,,,,,,,veg homely - light meal,swiggy_bangalore
+Punjabi Chole - Light Meal,,,,,,,,veg homely - light meal,swiggy_bangalore
+Dal Makhani - Light Meal,,,,,,,,veg homely - light meal,swiggy_bangalore
+Mom Style Aloo Matar - Light Meal,,,,,,,,veg homely - light meal,swiggy_bangalore
+Aloo Palak - Light Meal,,,,,,,,veg homely - light meal,swiggy_bangalore
+Aloo Dum - Light Meal,,,,,,,,veg homely - light meal,swiggy_bangalore
+Veg Kofta - Light Meal,,,,,,,,veg homely - light meal,swiggy_bangalore
+Fam's Favorite Matar Paneer - Light Meal,,,,,,,,veg homely - light meal,swiggy_bangalore
+Mushroom Masala - Light Meal,,,,,,,,veg homely - light meal,swiggy_bangalore
+Shahi Paneer - Light Meal,,,,,,,,veg homely - light meal,swiggy_bangalore
+Sunday Paneer Curry - Light Meal,,,,,,,,veg homely - light meal,swiggy_bangalore
+Paneer Masala - Light Meal,,,,,,,,veg homely - light meal,swiggy_bangalore
+Butter Dal Makhani Light Meal + Aloo Matar Masa...,,,,,,,,veg homely - light meal,swiggy_bangalore
+Egg Curry - Light Meal,,,,,,,,non-veg homely - light meal,swiggy_bangalore
+Masala Chicken - Light Meal,,,,,,,,non-veg homely - light meal,swiggy_bangalore
+Homestyle Rajma - Everyday Thali,,,,,,,,veg homely - everyday thali,swiggy_bangalore
+Punjabi Chole - Everyday Thali,,,,,,,,veg homely - everyday thali,swiggy_bangalore
+Dal Makhani - Everyday Thali,,,,,,,,veg homely - everyday thali,swiggy_bangalore
+Mom Style Aloo Matar - Everyday Thali,,,,,,,,veg homely - everyday thali,swiggy_bangalore
+Aloo Palak - Everyday Thali,,,,,,,,veg homely - everyday thali,swiggy_bangalore
+Veg Kofta - Everyday Thali,,,,,,,,veg homely - everyday thali,swiggy_bangalore
+Mushroom Masala - Everyday Thali,,,,,,,,veg homely - everyday thali,swiggy_bangalore
+Sunday Paneer Curry - Everyday Thali,,,,,,,,veg homely - everyday thali,swiggy_bangalore
+Palak Paneer - Everyday Thali,,,,,,,,veg homely - everyday thali,swiggy_bangalore
+Egg Curry - Everyday Thali,,,,,,,,non-veg homely - everyday thali,swiggy_bangalore
+Sunday Chicken Curry - Everyday Thali,,,,,,,,non-veg homely - everyday thali,swiggy_bangalore
+Saag Wala Chicken - Everyday Thali,,,,,,,,non-veg homely - everyday thali,swiggy_bangalore
+Homestyle Rajma - Feast Thali,,,,,,,,veg homely - feast thali,swiggy_bangalore
+Mom Style Aloo Matar - Feast Thali,,,,,,,,veg homely - feast thali,swiggy_bangalore
+Aloo Palak - Feast Thali,,,,,,,,veg homely - feast thali,swiggy_bangalore
+Aloo Dum - Feast Thali,,,,,,,,veg homely - feast thali,swiggy_bangalore
+Veg Kofta - Feast Thali,,,,,,,,veg homely - feast thali,swiggy_bangalore
+Mushroom Masala - Feast Thali,,,,,,,,veg homely - feast thali,swiggy_bangalore
+Shahi Kofta Feast Thali + 3 Mini Samosas,,,,,,,,veg homely - feast thali,swiggy_bangalore
+Fam's Favorite Matar Paneer - Feast Thali,,,,,,,,veg homely - feast thali,swiggy_bangalore
+Shahi Paneer - Feast Thali,,,,,,,,veg homely - feast thali,swiggy_bangalore
+Sunday Paneer Curry - Feast Thali,,,,,,,,veg homely - feast thali,swiggy_bangalore
+Paneer Masala - Feast Thali,,,,,,,,veg homely - feast thali,swiggy_bangalore
+Palak Paneer - Feast Thali,,,,,,,,veg homely - feast thali,swiggy_bangalore
+Kadhai wala Paneer Feast Thali + Masala Chaas,,,,,,,,veg homely - feast thali,swiggy_bangalore
+Shahi Chicken - Feast Thali,,,,,,,,non-veg homely - feast thali,swiggy_bangalore
+Sunday Chicken Curry - Feast Thali,,,,,,,,non-veg homely - feast thali,swiggy_bangalore
+Masala Chicken - Feast Thali,,,,,,,,non-veg homely - feast thali,swiggy_bangalore
+Saag Wala Chicken - Feast Thali,,,,,,,,non-veg homely - feast thali,swiggy_bangalore
+Chicken Masala Curry Feast Thali + Masala Chaas,,,,,,,,non-veg homely - feast thali,swiggy_bangalore
+Ghee Phulka [Pack of 4],,,,,,,,breads & rice,swiggy_bangalore
+Ghee Phulka [Pack of 12],,,,,,,,breads & rice,swiggy_bangalore
+Ghee Tikona Paratha [Pack of 3],,,,,,,,breads & rice,swiggy_bangalore
+Ghee Tikona Paratha [Pack of 9],,,,,,,,breads & rice,swiggy_bangalore
+Basmati Rice [400 gm],,,,,,,,breads & rice,swiggy_bangalore
+Mini Aloo Samosa [Pack of 3],,,,,,,,sides & drinks,swiggy_bangalore
+Mini Aloo Samosa [Pack of 6],,,,,,,,sides & drinks,swiggy_bangalore
+Ghar Ka Moong Dal Halwa [100 gm],,,,,,,,sides & drinks,swiggy_bangalore
+Mini Gulab Jamuns [100 gm],,,,,,,,sides & drinks,swiggy_bangalore
+Masala Lemonade [200 ml],,,,,,,,sides & drinks,swiggy_bangalore
+Classic Masala Chaas [200 ml],,,,,,,,sides & drinks,swiggy_bangalore
+Punjabi Lassi [200 ml],,,,,,,,sides & drinks,swiggy_bangalore
+Coke [475 ml],,,,,,,,sides & drinks,swiggy_bangalore
+Masala Raita [100 ml],,,,,,,,sides & drinks,swiggy_bangalore
+Egg Biryani Thali,,,,,,,,recommended,swiggy_bangalore
+Tangdi Chicken Biryani Thali,,,,,,,,recommended,swiggy_bangalore
+Chicken Tandoori Biryani+ Dessert+ 2 Mini Samos...,,,,,,,,recommended,swiggy_bangalore
+Chef's Special Chicken Mughal Biryani,,,,,,,,recommended,swiggy_bangalore
+Chicken Tikka Mughal Biryani,,,,,,,,recommended,swiggy_bangalore
+Butter Chicken Mughal Biryani,,,,,,,,recommended,swiggy_bangalore
+Signature Chicken Biryani + Gulab Jamun + Lemon...,,,,,,,,recommended,swiggy_bangalore
+Dhaba Chicken Mughal Biryani,,,,,,,,recommended,swiggy_bangalore
+Double Chicken Tangdi Mughal Biryani,,,,,,,,recommended,swiggy_bangalore
+Chicken Overload Mughal Biryani,,,,,,,,recommended,swiggy_bangalore
+Tandoori Chicken Mughal Biryani + Lemonade + Raita,,,,,,,,recommended,swiggy_bangalore
+Bhuna Chicken Biryani + 3 Mini Samosas + Lemona...,,,,,,,,recommended,swiggy_bangalore
+Peri Peri Chicken Wings,,,,,,,,recommended,swiggy_bangalore
+Smoky BBQ Chicken Wings [6 Pcs],,,,,,,,recommended,swiggy_bangalore
+Angara Paneer Tikka [10 Pcs],,,,,,,,recommended,swiggy_bangalore
+2 Value Biryanis @ 99 each,,,,,,,,2 value biryanis @ 99 each,swiggy_bangalore
+Dum Aloo Value Biryani Bowl,,,,,,,,2 value biryanis @ 99 each,swiggy_bangalore
+Tangdi Chicken Value Biryani Bowl,,,,,,,,2 value biryanis @ 99 each,swiggy_bangalore
+Egg Value Biryani Bowl,,,,,,,,2 value biryanis @ 99 each,swiggy_bangalore
+3 Value Biryanis @ 399 [Eligible for coupons too],,,,,,,,2 value biryanis @ 99 each,swiggy_bangalore
+4 Value Biryanis @ 499 [Eligible for coupons too],,,,,,,,2 value biryanis @ 99 each,swiggy_bangalore
+2 Chicken Tandoori Biryani Bowls,,,,,,,,2 value biryanis @ 99 each,swiggy_bangalore
+Dum Aloo Biryani Bowl,,,,,,,,2 value biryanis @ 99 each,swiggy_bangalore
+Tangdi Chicken Biryani Bowl,,,,,,,,2 value biryanis @ 99 each,swiggy_bangalore
+2 Half KG Biryanis @ 179 each,,,,,,,,1 + 1 bogo @ 179 each [coupons applicable],swiggy_bangalore
+Dum Aloo Biryani Thali,,,,,,,,biryani feast thali,swiggy_bangalore
+Chef's Special Paneer Biryani Thali,,,,,,,,biryani feast thali,swiggy_bangalore
+Chef's Special Chicken Biryani Thali,,,,,,,,biryani feast thali,swiggy_bangalore
+Chicken Tikka Biryani Thali,,,,,,,,biryani feast thali,swiggy_bangalore
+Any Biryani + Any Starter [FREE Choco Lava Cake],,,,,,,,party combos [free thums up & choco lava worth ...,swiggy_bangalore
+Any 2 Biryanis + Any Starter [FREE Thums Up & C...,,,,,,,,party combos [free thums up & choco lava worth ...,swiggy_bangalore
+Any 2 Biryanis [FREE Choco Lava Cake],,,,,,,,party combos [free thums up & choco lava worth ...,swiggy_bangalore
+Any 3 Biryanis [FREE Thums Up & Choco Lava Cake],,,,,,,,party combos [free thums up & choco lava worth ...,swiggy_bangalore
+Chole Mughal Biryani,,,,,,,,veg mughal biryani,swiggy_bangalore
+Chef's Special Paneer Mughal Biryani,,,,,,,,veg mughal biryani,swiggy_bangalore
+Paneer Makhni Mughal Biryani,,,,,,,,veg mughal biryani,swiggy_bangalore
+Paneer Handi Mughal Biryani + Gulab Jamun + Lem...,,,,,,,,veg mughal biryani,swiggy_bangalore
+Tandoori Chicken Wings [6 Pcs],,,,,,,,chicken starters,swiggy_bangalore
+Garlic Pepper Chicken Wings [6 Pcs],,,,,,,,chicken starters,swiggy_bangalore
+Chicken Peri Peri Tikka,,,,,,,,chicken starters,swiggy_bangalore
+Grilled Chicken Kalimiri,,,,,,,,chicken starters,swiggy_bangalore
+Firangi BBQ Chicken,,,,,,,,chicken starters,swiggy_bangalore
+Original Tandoori Aloo [10 Pcs],,,,,,,,veg starters,swiggy_bangalore
+Peri Peri Aloo Tikka [10 Pcs],,,,,,,,veg starters,swiggy_bangalore
+Classic Paneer Tikka [10 Pcs],,,,,,,,veg starters,swiggy_bangalore
+Choco Lava Cake + Coke Combo @ Rs.79,,,,,,,,drinks & desserts,swiggy_bangalore
+Nachos + Coke Combo @ Rs.49,,,,,,,,drinks & desserts,swiggy_bangalore
+Ghee Moong Dal Halwa 100 gm,,,,,,,,drinks & desserts,swiggy_bangalore
+Mini Gulab Jamun Box 100 gm,,,,,,,,drinks & desserts,swiggy_bangalore
+Double Chocolate Brownie,,,,,,,,drinks & desserts,swiggy_bangalore
+Ghee Moong Dal Halwa [500 gm],,,,,,,,drinks & desserts,swiggy_bangalore
+Mini Gulab Jamun Box [500 gm],,,,,,,,drinks & desserts,swiggy_bangalore
+Zingy Lemonade (200 ml),,,,,,,,drinks & desserts,swiggy_bangalore
+Masala Chaas [200 ml],,,,,,,,drinks & desserts,swiggy_bangalore
+Kesar Dry Fruit Lassi [200 ml],,,,,,,,drinks & desserts,swiggy_bangalore
+Masala Raita,,,,,,,,drinks & desserts,swiggy_bangalore
+Desi Ghee Dal Khichdi Bowl,,,,,,,,recommended,swiggy_bangalore
+Tadka Curd-Rice Bowl,,,,,,,,recommended,swiggy_bangalore
+Dal Tadka Dhaba Style [Steamed Rice] Bowl,,,,,,,,recommended,swiggy_bangalore
+Punjabi Kadhi Pakoda [Steamed Rice] Bowl,,,,,,,,recommended,swiggy_bangalore
+Pind di Dal Makhani [Steamed Rice] Bowl,,,,,,,,recommended,swiggy_bangalore
+Punjabi Style Matar Paneer Steamed Rice Bowl,,,,,,,,recommended,swiggy_bangalore
+Jalandhari Mushroom Masala [Steamed Rice] Bowl,,,,,,,,recommended,swiggy_bangalore
+Dilliwala Paneer Makhani [Steamed Rice] Bowl,,,,,,,,recommended,swiggy_bangalore
+GT Road Paneer Mughlai [Steamed Rice] Bowl,,,,,,,,recommended,swiggy_bangalore
+Paneer Masala Rice Bowl + Gulab Jamun + 3 Mini ...,,,,,,,,recommended,swiggy_bangalore
+NH1 Dhaba Egg Curry [Steamed Rice] Bowl,,,,,,,,recommended,swiggy_bangalore
+Kake Da Butter Chicken [Steamed Rice] Bowl,,,,,,,,recommended,swiggy_bangalore
+Homestyle Chicken [Steamed Rice] Bowl,,,,,,,,recommended,swiggy_bangalore
+NH1 Chicken Tikka Masala [Steamed Rice] Bowl,,,,,,,,recommended,swiggy_bangalore
+Chicken Makkanwala Rice Bowl + Gulab Jamun + Chaas,,,,,,,,recommended,swiggy_bangalore
+Patiala Chicken Mughlai [Steamed Rice] Bowl,,,,,,,,recommended,swiggy_bangalore
+Amritsari Egg Tadka Rice Bowl + Gulab Jamun,,,,,,,,recommended,swiggy_bangalore
+Classic Chicken Masala Rice Bowl + 3 Mini Samosas,,,,,,,,recommended,swiggy_bangalore
+Delhi-6 Rajma [Masala Rice] Bowl,,,,,,,,recommended,swiggy_bangalore
+Pind di Dal Makhani [Masala Rice] Bowl,,,,,,,,recommended,swiggy_bangalore
+Any Rice Bowl + Any Starter [FREE Choco Lava De...,,,,,,,,bowl & starter combos [free coke & choco lava w...,swiggy_bangalore
+Any 2 Rice Bowls + Any Starter [FREE Coke & Cho...,,,,,,,,bowl & starter combos [free coke & choco lava w...,swiggy_bangalore
+Millet Dal Khichdi Bowl - Healthy,,,,,,,,everyday classics,swiggy_bangalore
+Butter Garlic Moong Dal Khichdi Bowl,,,,,,,,everyday classics,swiggy_bangalore
+Butter Garlic Toor Dal Khichdi Bowl,,,,,,,,everyday classics,swiggy_bangalore
+Dal Tadka Dhaba Style Rice Bowl,,,,,,,,everyday classics,swiggy_bangalore
+Punjabi Kadhi Pakoda Rice Bowl,,,,,,,,everyday classics,swiggy_bangalore
+Delhi-6 Rajma Rice Bowl,,,,,,,,everyday classics,swiggy_bangalore
+Pind di Dal Makhani Rice Bowl,,,,,,,,everyday classics,swiggy_bangalore
+Amritsari Chole Rice Bowl,,,,,,,,everyday classics,swiggy_bangalore
+2 Bowls @ 99 each,,,,,,,,2 bowls @ 99 each,swiggy_bangalore
+3 Bowls @ 399 [Eligible for coupons too],,,,,,,,2 bowls @ 99 each,swiggy_bangalore
+Tandoori Aloo Dum Biryani Bowl,,,,,,,,biryani bowls,swiggy_bangalore
+Paneer Tikka Biryani Bowl,,,,,,,,biryani bowls,swiggy_bangalore
+Egg Dum Biryani Bowl,,,,,,,,biryani bowls,swiggy_bangalore
+Original Chicken Tangdi Biryani Bowl,,,,,,,,biryani bowls,swiggy_bangalore
+Chicken Dum-Pukht Biryani Bowl,,,,,,,,biryani bowls,swiggy_bangalore
+Classic Chicken Tikka Biryani Bowl,,,,,,,,biryani bowls,swiggy_bangalore
+Dal Tadka Mini Rice Bowl,,,,,,,,mini rice bowls @100,swiggy_bangalore
+Kadhi Pakoda Mini Rice Bowl,,,,,,,,mini rice bowls @100,swiggy_bangalore
+Rajma Mini Rice Bowl,,,,,,,,mini rice bowls @100,swiggy_bangalore
+Chole Mini Rice Bowl,,,,,,,,mini rice bowls @100,swiggy_bangalore
+Dum Aloo Mini Rice Bowl,,,,,,,,mini rice bowls @100,swiggy_bangalore
+Paneer Makhani Mini Rice Bowl,,,,,,,,mini rice bowls @100,swiggy_bangalore
+Egg Curry Mini Rice Bowl,,,,,,,,mini rice bowls @100,swiggy_bangalore
+Homestyle Chicken Mini Rice Bowl,,,,,,,,mini rice bowls @100,swiggy_bangalore
+Butter Chicken Mini Rice Bowl,,,,,,,,mini rice bowls @100,swiggy_bangalore
+Dal Makhani Mini Rice Bowl + Butter Paneer Mini...,,,,,,,,mini rice bowls @100,swiggy_bangalore
+Chole Chawal Mini Bowl + Rajma Chawal Mini Bowl,,,,,,,,mini rice bowls @100,swiggy_bangalore
+Delhi-6 Rajma [Steamed Rice] Bowl,,,,,,,,veg rice bowls [steamed rice],swiggy_bangalore
+Amritsari Chole [Steamed Rice] Bowl,,,,,,,,veg rice bowls [steamed rice],swiggy_bangalore
+Aloo Matar Tariwale Steamed Rice Bowl,,,,,,,,veg rice bowls [steamed rice],swiggy_bangalore
+Punjabi Dum Aloo [Steamed Rice] Bowl,,,,,,,,veg rice bowls [steamed rice],swiggy_bangalore
+Lucky Da Malai Kofta [Steamed Rice] Bowl,,,,,,,,veg rice bowls [steamed rice],swiggy_bangalore
+NH1 Special Aloo Palak Steamed Rice Bowl,,,,,,,,veg rice bowls [steamed rice],swiggy_bangalore
+NH1 Paneer Tikka Masala [Steamed Rice] Bowl,,,,,,,,veg rice bowls [steamed rice],swiggy_bangalore
+Townhall's Kadhai Paneer [Steamed Rice] Bowl,,,,,,,,veg rice bowls [steamed rice],swiggy_bangalore
+A1 Dhaba Palak Paneer Steamed Rice Bowl,,,,,,,,veg rice bowls [steamed rice],swiggy_bangalore
+Pind Special Paneer Rice Bowl + 3 Mini Samosas,,,,,,,,veg rice bowls [steamed rice],swiggy_bangalore
+Malai Makhani Kofta Rice Bowl + Gulab Jamun,,,,,,,,veg rice bowls [steamed rice],swiggy_bangalore
+Model Town Kadhai Chicken [Steamed Rice] Bowl,,,,,,,,non-veg rice bowls [steamed rice],swiggy_bangalore
+Singh Da Saag Chicken Steamed Rice Bowl,,,,,,,,non-veg rice bowls [steamed rice],swiggy_bangalore
+Dal Tadka Dhaba Style [Masala Rice] Bowl,,,,,,,,veg rice bowls [masala rice],swiggy_bangalore
+Punjabi Kadhi Pakoda [Masala Rice] Bowl,,,,,,,,veg rice bowls [masala rice],swiggy_bangalore
+Amritsari Chole [Masala Rice] Bowl,,,,,,,,veg rice bowls [masala rice],swiggy_bangalore
+Aloo Matar Tariwale Masala Rice Bowl,,,,,,,,veg rice bowls [masala rice],swiggy_bangalore
+Punjabi Dum Aloo [Masala Rice] Bowl,,,,,,,,veg rice bowls [masala rice],swiggy_bangalore
+Lucky Da Malai Kofta [Masala Rice] Bowl,,,,,,,,veg rice bowls [masala rice],swiggy_bangalore
+Punjabi Style Matar Paneer Masala Rice Bowl,,,,,,,,veg rice bowls [masala rice],swiggy_bangalore
+NH1 Special Aloo Palak Masala Rice Bowl,,,,,,,,veg rice bowls [masala rice],swiggy_bangalore
+Jalandhari Mushroom Masala [Masala Rice] Bowl,,,,,,,,veg rice bowls [masala rice],swiggy_bangalore
+Purani Dilli Paneer Makhani [Masala Rice] Bowl,,,,,,,,veg rice bowls [masala rice],swiggy_bangalore
+NH1 Paneer Tikka Masala [Masala Rice] Bowl,,,,,,,,veg rice bowls [masala rice],swiggy_bangalore
+GT Road Paneer Mughlai [Masala Rice] Bowl,,,,,,,,veg rice bowls [masala rice],swiggy_bangalore
+Townhall's Kadhai Paneer [Masala Rice] Bowl,,,,,,,,veg rice bowls [masala rice],swiggy_bangalore
+A1 Dhaba Palak Paneer Masala Rice Bowl,,,,,,,,veg rice bowls [masala rice],swiggy_bangalore
+NH1 Dhaba Egg Curry [Masala Rice] Bowl,,,,,,,,non-veg rice bowls [masala rice],swiggy_bangalore
+Kake Da Butter Chicken [Masala Rice] Bowl,,,,,,,,non-veg rice bowls [masala rice],swiggy_bangalore
+Homestyle Chicken [Masala Rice] Bowl,,,,,,,,non-veg rice bowls [masala rice],swiggy_bangalore
+NH1 Chicken Tikka Masala [Masala Rice] Bowl,,,,,,,,non-veg rice bowls [masala rice],swiggy_bangalore
+Model Town Kadhai Chicken [Masala Rice] Bowl,,,,,,,,non-veg rice bowls [masala rice],swiggy_bangalore
+Patiala Chicken Mughlai [Masala Rice] Bowl,,,,,,,,non-veg rice bowls [masala rice],swiggy_bangalore
+Singh Da Saag Chicken Masala Rice Bowl,,,,,,,,non-veg rice bowls [masala rice],swiggy_bangalore
+Dal Tadka Dhaba Style [Paratha] Bowl,,,,,,,,veg paratha bowls,swiggy_bangalore
+Punjabi Kadhi Pakoda [Paratha] Bowl,,,,,,,,veg paratha bowls,swiggy_bangalore
+Delhi-6 Rajma [Paratha] Bowl,,,,,,,,veg paratha bowls,swiggy_bangalore
+Amritsari Chole [Paratha] Bowl,,,,,,,,veg paratha bowls,swiggy_bangalore
+Pind di Dal Makhani [Paratha] Bowl,,,,,,,,veg paratha bowls,swiggy_bangalore
+Aloo Matar Tariwale Paratha Bowl,,,,,,,,veg paratha bowls,swiggy_bangalore
+Punjabi Dum Aloo [Paratha] Bowl,,,,,,,,veg paratha bowls,swiggy_bangalore
+Lucky Da Malai Kofta [Paratha] Bowl,,,,,,,,veg paratha bowls,swiggy_bangalore
+Punjabi Style Matar Paneer Paratha Bowl,,,,,,,,veg paratha bowls,swiggy_bangalore
+Jalandhari Mushroom Masala [Paratha] Bowl,,,,,,,,veg paratha bowls,swiggy_bangalore
+NH1 Special Aloo Palak Paratha Bowl,,,,,,,,veg paratha bowls,swiggy_bangalore
+Dilliwala Paneer Makhani [Paratha] Bowl,,,,,,,,veg paratha bowls,swiggy_bangalore
+NH1 Paneer Tikka Masala [Paratha] Bowl,,,,,,,,veg paratha bowls,swiggy_bangalore
+GT Road Paneer Mughlai [Paratha] Bowl,,,,,,,,veg paratha bowls,swiggy_bangalore
+Townhall's Kadhai Paneer [Paratha] Bowl,,,,,,,,veg paratha bowls,swiggy_bangalore
+A1 Dhaba Palak Paneer Paratha Bowl,,,,,,,,veg paratha bowls,swiggy_bangalore
+NH1 Dhaba Egg Curry [Paratha] Bowl,,,,,,,,non-veg paratha bowls,swiggy_bangalore
+Kake Da Butter Chicken [Paratha] Bowl,,,,,,,,non-veg paratha bowls,swiggy_bangalore
+Homestyle Chicken [Paratha] Bowl,,,,,,,,non-veg paratha bowls,swiggy_bangalore
+NH1 Chicken Tikka Masala [Paratha] Bowl,,,,,,,,non-veg paratha bowls,swiggy_bangalore
+Model Town Kadhai Chicken [Paratha] Bowl,,,,,,,,non-veg paratha bowls,swiggy_bangalore
+Patiala Chicken Mughlai [Paratha] Bowl,,,,,,,,non-veg paratha bowls,swiggy_bangalore
+Singh Da Saag Chicken Paratha Bowl,,,,,,,,non-veg paratha bowls,swiggy_bangalore
+Punjabi Tandoori Chicken Wings [6 Pcs],,,,,,,,chicken starters,swiggy_bangalore
+Dhuadhaar Chicken Wings [6 Pcs],,,,,,,,chicken starters,swiggy_bangalore
+Pepper Garlic Chicken Wings [6 Pcs],,,,,,,,chicken starters,swiggy_bangalore
+Highway Dhaba Chicken Tikka,,,,,,,,chicken starters,swiggy_bangalore
+Peri Peri Chicken Tikka,,,,,,,,chicken starters,swiggy_bangalore
+Chicken Kali Mirch Tikka,,,,,,,,chicken starters,swiggy_bangalore
+Smoky Chicken BBQ,,,,,,,,chicken starters,swiggy_bangalore
+Mini Punjabi Samosa [Pack of 3],,,,,,,,veg starters,swiggy_bangalore
+Mini Punjabi Samosa [Pack of 6],,,,,,,,veg starters,swiggy_bangalore
+Classic Tandoori Aloo [10 Pcs],,,,,,,,veg starters,swiggy_bangalore
+Peri Peri Tandoori Aloo [10 Pcs],,,,,,,,veg starters,swiggy_bangalore
+Original Paneer Tikka [10 Pcs],,,,,,,,veg starters,swiggy_bangalore
+Peri Peri Paneer Tikka [10 Pcs],,,,,,,,veg starters,swiggy_bangalore
+Desi Ghee Moong Dal Halwa [100 gm],,,,,,,,thanda & meetha,swiggy_bangalore
+Gulab Jamun Minis Box [100 gm],,,,,,,,thanda & meetha,swiggy_bangalore
+Choco Lava Delight Cake,,,,,,,,thanda & meetha,swiggy_bangalore
+Desi Ghee Moong Dal Halwa [500 gm],,,,,,,,thanda & meetha,swiggy_bangalore
+Gulab Jamun Minis Box [500 gm],,,,,,,,thanda & meetha,swiggy_bangalore
+Amritsari Lassi [200 ml],,,,,,,,thanda & meetha,swiggy_bangalore
+Chicken Tikka (8 Pcs),,,,,,,,recommended,swiggy_bangalore
+Chicken Dum Biryani - Bachelor,,,,,,,,bachelor biryani,swiggy_bangalore
+Egg Dum Biryani - Bachelor,,,,,,,,bachelor biryani,swiggy_bangalore
+Veg Dum Biryani - Bachelor,,,,,,,,bachelor biryani,swiggy_bangalore
+Hyderabadi Chicken Tikka Biryani Bowl,,,,,,,,biryani bowls & combos,swiggy_bangalore
+Hyderabadi Tandoori Tangdi Biryani Bowl,,,,,,,,biryani bowls & combos,swiggy_bangalore
+Hyderabadi Prawn Tikka Biryani Bowl,,,,,,,,biryani bowls & combos,swiggy_bangalore
+Hyderabadi Egg Biryani Bowl,,,,,,,,biryani bowls & combos,swiggy_bangalore
+Hyderabadi Paneer Tikka Biryani Bowl,,,,,,,,biryani bowls & combos,swiggy_bangalore
+Half Hyderabadi Chicken Dum Biryani,,,,,,,,half biryani,swiggy_bangalore
+Half Hyderabadi Egg Dum Biryani,,,,,,,,half biryani,swiggy_bangalore
+Half Hyderabadi Paneer Dum Biryani,,,,,,,,half biryani,swiggy_bangalore
+Half Hyderabadi Boneless Chicken Dum Biryani,,,,,,,,half biryani,swiggy_bangalore
+Half Hyderabadi Mutton Dum Biryani,,,,,,,,half biryani,swiggy_bangalore
+Tandoori Chicken Wings (12 Pcs),,,,,,,,kebabs and tikkas,swiggy_bangalore
+Tandoori Paneer Tikka (8 Pcs),,,,,,,,kebabs and tikkas,swiggy_bangalore
+Tandoori Tangdi (3Pcs),,,,,,,,kebabs and tikkas,swiggy_bangalore
+Chicken Seekh Kebab,,,,,,,,kebabs and tikkas,swiggy_bangalore
+Mutton Seekh Kabab,,,,,,,,kebabs and tikkas,swiggy_bangalore
+Mutton Rogan Josh,,,,,,,,curries and breads,swiggy_bangalore
+Whole Wheat Paratha ( 1 No),,,,,,,,curries and breads,swiggy_bangalore
+Steamed Basmati Rice,,,,,,,,curries and breads,swiggy_bangalore
+Angoori Jamun (12 Nos),,,,,,,,desserts,swiggy_bangalore
+Kesari Phirni,,,,,,,,desserts,swiggy_bangalore
+Moong Dal Halwa,,,,,,,,desserts,swiggy_bangalore
+Kesar Pista Shake,,,,,,,,shakes,swiggy_bangalore
+Mango  Shake,,,,,,,,shakes,swiggy_bangalore
+Chocolate  Shake,,,,,,,,shakes,swiggy_bangalore
+Coke Can,,,,,,,,beverages,swiggy_bangalore
+Coke Can (6 Nos),,,,,,,,beverages,swiggy_bangalore
+Coolberg Non Alcoholic Beer -Malt (330 Ml),,,,,,,,beverages,swiggy_bangalore
+Coolberg Non Alcoholic Beer -Cranberry (330 Ml),,,,,,,,beverages,swiggy_bangalore
+Coolberg Non Alcoholic Beer -Ginger (330 Ml),,,,,,,,beverages,swiggy_bangalore
+Coolberg Non Alcoholic Beer -Mint (330 Ml),,,,,,,,beverages,swiggy_bangalore
+Coolberg Non Alcoholic Beer -Peach (330 Ml),,,,,,,,beverages,swiggy_bangalore
+Coolberg Non Alcoholic Beer -Strawberry (330 Ml),,,,,,,,beverages,swiggy_bangalore
+Vietnamese Style Iced Coffee,,,,,,,,recommended,swiggy_bangalore
+Spanish Style Iced Coffee,,,,,,,,recommended,swiggy_bangalore
+Trioccino Frappe,,,,,,,,recommended,swiggy_bangalore
+100% Whole Wheat Sourdough (450g),,,,,,,,recommended,swiggy_bangalore
+Olive And Rosemary Sourdough (420g),,,,,,,,recommended,swiggy_bangalore
+Spaghetti Aglio E Olio,,,,,,,,recommended,swiggy_bangalore
+Spaghetti In Mushroom Florentine,,,,,,,,recommended,swiggy_bangalore
+Smoked Chicken Sandwich,,,,,,,,recommended,swiggy_bangalore
+Peri Peri Fries,,,,,,,,recommended,swiggy_bangalore
+Nilgiri Travel Tumbler- 500ml,,,,,,,,merchandise,swiggy_bangalore
+Coromandel Sipper- 500 Ml,,,,,,,,merchandise,swiggy_bangalore
+Spicy Chicken Craver (10cm),,,,,,,,recommended,swiggy_bangalore
+Classic Chicken Craver (10cm),,,,,,,,recommended,swiggy_bangalore
+Tandoori Paneer Craver (10cm),,,,,,,,recommended,swiggy_bangalore
+Classic Veggie Craver (10cm),,,,,,,,recommended,swiggy_bangalore
+Cheesy American BBQ,,,,,,,,recommended,swiggy_bangalore
+Cheesy Chicken Tikka,,,,,,,,recommended,swiggy_bangalore
+Cheesy Paneer Tikka,,,,,,,,recommended,swiggy_bangalore
+Cheesy Mexican,,,,,,,,recommended,swiggy_bangalore
+Cheesy Lamb Pepperoni,,,,,,,,recommended,swiggy_bangalore
+Potato Chilli Cheese,,,,,,,,recommended,swiggy_bangalore
+Chicken Keema Melt,,,,,,,,recommended,swiggy_bangalore
+Veggie Delite Sandwich,,,,,,,,recommended,swiggy_bangalore
+Aloo Patty Sandwich,,,,,,,,recommended,swiggy_bangalore
+Paneer Tikka Sandwich,,,,,,,,recommended,swiggy_bangalore
+Chilli Bean Patty Sandwich,,,,,,,,recommended,swiggy_bangalore
+Corn & Peas Sandwich,,,,,,,,recommended,swiggy_bangalore
+Veg Shammi Sandwich,,,,,,,,recommended,swiggy_bangalore
+B.M.T Sandwich,,,,,,,,recommended,swiggy_bangalore
+Roasted Chicken Strip Sandwich,,,,,,,,recommended,swiggy_bangalore
+Tuna Sandwich,,,,,,,,recommended,swiggy_bangalore
+Barreled Plum Americano,,,,,,,,recommended,swiggy_bangalore
+Iced Barreled Plum Americano,,,,,,,,recommended,swiggy_bangalore
+Black Palm Jaggery Latte,,,,,,,,recommended,swiggy_bangalore
+Pecan Iced Shaken Espresso,,,,,,,,recommended,swiggy_bangalore
+Choco Kunafa Pastry,,,,,,,,recommended,swiggy_bangalore
+Brioche French Toast,,,,,,,,recommended,swiggy_bangalore
+Amaranth Parfait,,,,,,,,recommended,swiggy_bangalore
+Pav Bhaji Pull Apart,,,,,,,,recommended,swiggy_bangalore
+Tofu Spinach Croissant Sandwich,,,,,,,,recommended,swiggy_bangalore
+Blonde Latte,,,,,,,,recommended,swiggy_bangalore
+Blonde Americano,,,,,,,,recommended,swiggy_bangalore
+Blonde Cappuccino,,,,,,,,recommended,swiggy_bangalore
+Blonde Almond Flat White,,,,,,,,recommended,swiggy_bangalore
+Coffee Frappuccino,,,,,,,,recommended,swiggy_bangalore
+Mocha  Frappuccino,,,,,,,,recommended,swiggy_bangalore
+Java Chip Frappuccino.,,,,,,,,recommended,swiggy_bangalore
+Belgium Chocolate Frappuccino,,,,,,,,recommended,swiggy_bangalore
+Vanilla Cream Frappuccino,,,,,,,,recommended,swiggy_bangalore
+Espresso Frappuccino,,,,,,,,recommended,swiggy_bangalore
+Garden Fresh Pizza,,,,,,,,pizza,swiggy_bangalore
+Evolved Plant Kebab Pizza (vegan),,,,,,,,pizza,swiggy_bangalore
+Kadai Paneer Pizza,,,,,,,,pizza,swiggy_bangalore
+Smoky Buratta Pizza,,,,,,,,pizza,swiggy_bangalore
+Paneer Ghee Roast Pizza,,,,,,,,pizza,swiggy_bangalore
+Corn Tikki Pizza (jain),,,,,,,,pizza,swiggy_bangalore
+Sesame Lotus Stem Pizza,,,,,,,,pizza,swiggy_bangalore
+Margherita Bocconcini Pizza,,,,,,,,pizza,swiggy_bangalore
+Broccoli & Rocket Feta Pizza,,,,,,,,pizza,swiggy_bangalore
+Mushroom And Spinach Pizza,,,,,,,,pizza,swiggy_bangalore
+Cajun Jackfruit Pizza,,,,,,,,pizza,swiggy_bangalore
+Paneer Buddha Bowl ( High Protein & Gluten Free ),,,,,,,,bowls,swiggy_bangalore
+Falafel Mezze Bowl ( Vegan / High Protein ),,,,,,,,bowls,swiggy_bangalore
+Zucchini Zoodles And Plant Based Kofta Bowl ( Vegan / High Protein ),,,,,,,,bowls,swiggy_bangalore
+Rajma Rice Bowl ( High Protein / Gluten Free ),,,,,,,,bowls,swiggy_bangalore
+Protein Pesarattu ( Gluten Free / High Protein ),,,,,,,,tiffins,swiggy_bangalore
+Spinach Neer Dosa With Gassi ( Vegan / Jain / Gluten Free ),,,,,,,,tiffins,swiggy_bangalore
+Masala Cheese Poori ( Jain ),,,,,,,,tiffins,swiggy_bangalore
+Duo Of Black Rice & Red Rice Dosa ( Gluten Free ),,,,,,,,tiffins,swiggy_bangalore
+Mutter Poori With Aloo Raseela ( No Onion / Garlic ),,,,,,,,tiffins,swiggy_bangalore
+Wheat Pav With Sprout Bhaji,,,,,,,,tiffins,swiggy_bangalore
+Millet Mangalore Buns ( Jain ),,,,,,,,tiffins,swiggy_bangalore
+Carrot & Dill Paddu ( Vegan / Gluten Free ),,,,,,,,tiffins,swiggy_bangalore
+Go Native Guntur Idli,,,,,,,,tiffins,swiggy_bangalore
+Dim Sum Platter,,,,,,,,native table special's,swiggy_bangalore
+Coconut Rice With Nenthran Moilee (vegan / Gluten Free),,,,,,,,native table special's,swiggy_bangalore
+Pepper Roasted Oyster Mushroom ( Gluten Free ),,,,,,,,native table special's,swiggy_bangalore
+Crispy Kulcha With Black Channa Masala,,,,,,,,native table special's,swiggy_bangalore
+Paneer Ghee Roast Bites,,,,,,,,native table special's,swiggy_bangalore
+Korean Garlic Bun,,,,,,,,native table special's,swiggy_bangalore
+Harabara Sabudana Kebab ( Vegan / Gluten Free ),,,,,,,,small plates,swiggy_bangalore
+Sweet Potato Mochi ( Gluten Free),,,,,,,,small plates,swiggy_bangalore
+Evolved Burger Slider,,,,,,,,small plates,swiggy_bangalore
+Paneer Sukkha ( High Protein ),,,,,,,,small plates,swiggy_bangalore
+Go Native Chip N Dip Bowl ( Vegan ),,,,,,,,small plates,swiggy_bangalore
+Beetroot Cheese Chops ( Vegan ),,,,,,,,small plates,swiggy_bangalore
+Raw Mango And Four Bean Salad (vegan / High Protein),,,,,,,,salad,swiggy_bangalore
+Mango And Quinoa Salad,,,,,,,,salad,swiggy_bangalore
+Grape Cured Pear Salad (gluten Free / Jain),,,,,,,,salad,swiggy_bangalore
+Wheat N Nut Salad ( Vegan ),,,,,,,,salad,swiggy_bangalore
+Chocolate & Raspberry Trifle Cake,,,,,,,,desserts,swiggy_bangalore
+Saffron Poach Pear With Mascarpone,,,,,,,,desserts,swiggy_bangalore
+Go Native Jamun Rabri,,,,,,,,desserts,swiggy_bangalore
+Mango Rasgulla,,,,,,,,desserts,swiggy_bangalore
+Raw Banana And Evolved Plant Based Kofta Biryani,,,,,,,,biryani,swiggy_bangalore
+Broad Bean And Lotus Stem Donne Biriyani (gluten Free),,,,,,,,biryani,swiggy_bangalore
+Breadfruit Donne Biryani,,,,,,,,biryani,swiggy_bangalore
+Sweet Potato And Sabudana Tikki Chaat ( Vegan & Gluten Free ),,,,,,,,chaats,swiggy_bangalore
+Aloo Patta Layered Chaat,,,,,,,,chaats,swiggy_bangalore
+Cauliflower Rice,,,,,,,,choice of rice,swiggy_bangalore
+Jeera Rice (jain),,,,,,,,choice of rice,swiggy_bangalore
+Saffron Pulao (jain),,,,,,,,choice of rice,swiggy_bangalore
+Kashmiri Pulao,,,,,,,,choice of rice,swiggy_bangalore
+Brown Rice (jain),,,,,,,,choice of rice,swiggy_bangalore
+Coconut Rice (jain),,,,,,,,choice of rice,swiggy_bangalore
+Curried Pumpkin & Coconut Soup ( Vegan ),,,,,,,,soup,swiggy_bangalore
+Makkhai Badam Shorba ( Jain ),,,,,,,,soup,swiggy_bangalore
+Tulsi Nimbenu Soup ( Vegan ),,,,,,,,soup,swiggy_bangalore
+Bounty,,,,,,,,crafted coffee,swiggy_bangalore
+Floral Potion,,,,,,,,crafted coffee,swiggy_bangalore
+Salted Caramel & Espresso,,,,,,,,crafted coffee,swiggy_bangalore
+Hunan Paneer Dry - Mini,,,,,,,,recommended,swiggy_bangalore
+Hunan Paneer Dry - Full,,,,,,,,recommended,swiggy_bangalore
+Schezwan Paneer Dry - Mini,,,,,,,,recommended,swiggy_bangalore
+Schezwan Paneer Dry - Full,,,,,,,,recommended,swiggy_bangalore
+Hunan Chicken Dry - Mini,,,,,,,,recommended,swiggy_bangalore
+Hunan Chicken Dry - Full,,,,,,,,recommended,swiggy_bangalore
+Schezwan Chicken Dry - Mini,,,,,,,,recommended,swiggy_bangalore
+Schezwan Chicken Dry - Full,,,,,,,,recommended,swiggy_bangalore
+Hunan Paneer Bowl,,,,,,,,recommended,swiggy_bangalore
+Hunan Chicken Bowl,,,,,,,,recommended,swiggy_bangalore
+Veg Chinese Fried Rice - Half (500 ml).,,,,,,,,recommended,swiggy_bangalore
+Veg Chinese Hakka Noodles - Half (500 ml).,,,,,,,,recommended,swiggy_bangalore
+Veg Chilli Garlic Noodles - Half (500 ml).,,,,,,,,recommended,swiggy_bangalore
+Veg Schezwan Noodles - Half (500 ml).,,,,,,,,recommended,swiggy_bangalore
+Chicken Fried Rice - Half (500 ml).,,,,,,,,recommended,swiggy_bangalore
+Chicken Hakka Noodles - Half (500 ml).,,,,,,,,recommended,swiggy_bangalore
+Chicken Chilli Garlic Noodles - Half (500 ml).,,,,,,,,recommended,swiggy_bangalore
+Black forest Mousse Cake,,,,,,,,recommended,swiggy_bangalore
+Salted Caramel Choco Mousse,,,,,,,,recommended,swiggy_bangalore
+Veg Manchurian Pot Rice,,,,,,,,pot rice,swiggy_bangalore
+Paneer Pot Rice,,,,,,,,pot rice,swiggy_bangalore
+Chicken Pot Rice,,,,,,,,pot rice,swiggy_bangalore
+Chocolate Mousse - Small,,,,,,,,dessert,swiggy_bangalore
+Choco Lava,,,,,,,,dessert,swiggy_bangalore
+Pepsi Pet Bottle,,,,,,,,drinks,swiggy_bangalore
+7 Up,,,,,,,,drinks,swiggy_bangalore
+Coolberg Peach,,,,,,,,drinks,swiggy_bangalore
+Coolberg Cranberry,,,,,,,,drinks,swiggy_bangalore
+Peach Ice Tea,,,,,,,,drinks,swiggy_bangalore
+Aam Panna,,,,,,,,drinks,swiggy_bangalore
+Masala Shikanji,,,,,,,,drinks,swiggy_bangalore
+Lemon Ice Tea,,,,,,,,drinks,swiggy_bangalore
+Water,,,,,,,,drinks,swiggy_bangalore
+Crispy Noodles,,,,,,,,extra dip & crispy noodles,swiggy_bangalore
+Extra Schezwan Dip,,,,,,,,extra dip & crispy noodles,swiggy_bangalore
+Extra Mayo Dip,,,,,,,,extra dip & crispy noodles,swiggy_bangalore
+Extra Sweet Chilli Dip,,,,,,,,extra dip & crispy noodles,swiggy_bangalore
+Extra Momo Chutney,,,,,,,,extra dip & crispy noodles,swiggy_bangalore
+Veg Hakka Noodles Bowl.,,,,,,,,recommended,swiggy_bangalore
+Veg Chilli Garlic Noodles Bowl.,,,,,,,,recommended,swiggy_bangalore
+Chicken Fried Rice Bowl.,,,,,,,,recommended,swiggy_bangalore
+Chicken Chilli Garlic Fried Rice Bowl.,,,,,,,,recommended,swiggy_bangalore
+Chicken Chilli Garlic Noodles Bowl.,,,,,,,,recommended,swiggy_bangalore
+Veg Hakka Noodles Bowl,,,,,,,,recommended,swiggy_bangalore
+Veg Chilli Garlic Noodles Bowl,,,,,,,,recommended,swiggy_bangalore
+Chicken Fried Rice Bowl,,,,,,,,recommended,swiggy_bangalore
+Chicken Chilli Garlic Fried Rice Bowl,,,,,,,,recommended,swiggy_bangalore
+Chicken Chilli Garlic Noodles Bowl,,,,,,,,recommended,swiggy_bangalore
+Veg Manchurian Bowl,,,,,,,,recommended,swiggy_bangalore
+Chilli Paneer Bowl,,,,,,,,recommended,swiggy_bangalore
+Black Pepper Chicken Bowl,,,,,,,,recommended,swiggy_bangalore
+Chilli Chicken Bowl,,,,,,,,recommended,swiggy_bangalore
+Chicken Manchurian Bowl,,,,,,,,recommended,swiggy_bangalore
+Kung Pao Chicken Bowl,,,,,,,,recommended,swiggy_bangalore
+Mutter Mushroom Dhaba Masala Rice Bowl,,,,,,,,recommended,swiggy_bangalore
+Paneer Dhaba Masala Rice Bowl,,,,,,,,recommended,swiggy_bangalore
+Extra Crispy Noodles,,,,,,,,extras,swiggy_bangalore
+Schezwan Dip,,,,,,,,extras,swiggy_bangalore
+Mayo Dip,,,,,,,,extras,swiggy_bangalore
+Sweet Chilli Dip,,,,,,,,extras,swiggy_bangalore
+Make Your Own Meal,,,,,,,,recommended,swiggy_bangalore
+Paratha Chole Meal,,,,,,,,recommended,swiggy_bangalore
+Punjabi Chole and Aloo Tamatar Meal,,,,,,,,recommended,swiggy_bangalore
+Moong Dal Khichdi + Beans Poriyal + Curd + Pickle + Salad,,,,,,,,recommended,swiggy_bangalore
+Egg Curry and Rajma Meal,,,,,,,,recommended,swiggy_bangalore
+Chicken Curry and Yellow Dal Tadka Meal,,,,,,,,recommended,swiggy_bangalore
+Dal Chawal,,,,,,,,recommended,swiggy_bangalore
+Chole Chawal,,,,,,,,recommended,swiggy_bangalore
+Kadhi Chawal,,,,,,,,recommended,swiggy_bangalore
+Egg Curry Rice,,,,,,,,recommended,swiggy_bangalore
+Chicken Curry Rice,,,,,,,,recommended,swiggy_bangalore
+Tomato Pappu,,,,,,,,recommended,swiggy_bangalore
+Yellow Dal Tadka,,,,,,,,recommended,swiggy_bangalore
+Aloo Tamatar,,,,,,,,recommended,swiggy_bangalore
+Beans Carrot Poriyal,,,,,,,,recommended,swiggy_bangalore
+Rajma,,,,,,,,recommended,swiggy_bangalore
+Punjabi Chole,,,,,,,,recommended,swiggy_bangalore
+Egg Curry,,,,,,,,recommended,swiggy_bangalore
+Pressure Cooker Chicken Curry,,,,,,,,recommended,swiggy_bangalore
+Dhaba Style Yellow Dal Tadka and Aloo Tamatar Meal,,,,,,,,value meals,swiggy_bangalore
+Aloo Tamatar Rice,,,,,,,,homely rice meals,swiggy_bangalore
+Palak Masoor Dal Chawal,,,,,,,,homely rice meals,swiggy_bangalore
+Rajma Chawal,,,,,,,,homely rice meals,swiggy_bangalore
+Palak Masoor Dal,,,,,,,,dal & sabzi,swiggy_bangalore
+Brown Jeera Rice,,,,,,,,roti & rice,swiggy_bangalore
+Saffron Rice,,,,,,,,roti & rice,swiggy_bangalore
+Biryani Rice,,,,,,,,roti & rice,swiggy_bangalore
+Tawa Roti Chapati (4 Pcs),,,,,,,,roti & rice,swiggy_bangalore
+Laccha Paratha (2 pcs),,,,,,,,roti & rice,swiggy_bangalore
+Whole Wheat Laccha Paratha (2 pcs),,,,,,,,roti & rice,swiggy_bangalore
+Steamed Rice,,,,,,,,roti & rice,swiggy_bangalore
+Matar Pulao,,,,,,,,roti & rice,swiggy_bangalore
+Moong Dal Khichdi + Curd + Pickle + Papad,,,,,,,,khichdi & flavoured rice,swiggy_bangalore
+Palak Khichdi + Curd + Pickle + Papad,,,,,,,,khichdi & flavoured rice,swiggy_bangalore
+Aloo Pyaaz Paratha (2 pcs) with Curd & Pickle,,,,,,,,paratha corner,swiggy_bangalore
+Aloo Paratha (2 pcs) with Curd and Pickle,,,,,,,,paratha corner,swiggy_bangalore
+Mixed Veg Paratha (2 pcs) with Curd and Pickle,,,,,,,,paratha corner,swiggy_bangalore
+Gulab Jamun (2 pcs),,,,,,,,desserts,swiggy_bangalore
+Rasgulla (2 pcs),,,,,,,,desserts,swiggy_bangalore
+Banana Chips,,,,,,,,crunchy value sides,swiggy_bangalore
+Stuffed Garlic Bread - Classic,,,,,,,,recommended,swiggy_bangalore
+Stuffed Garlic Bread with Sun-dried Tomatoes,,,,,,,,recommended,swiggy_bangalore
+Stuffed Garlic Bread With Truffled Oyster Mushroom,,,,,,,,recommended,swiggy_bangalore
+Stuffed Garlic Bread with Chicken & Sun-dried Tomatoes,,,,,,,,recommended,swiggy_bangalore
+Stuffed Garlic Bread with Pepperoni,,,,,,,,recommended,swiggy_bangalore
+Popo's Veggie Delight Pizza,,,,,,,,recommended,swiggy_bangalore
+Chilli Pomodoro Pizza,,,,,,,,recommended,swiggy_bangalore
+Truffle Funghi Misti Pizza,,,,,,,,recommended,swiggy_bangalore
+Diavola Veg Pizza,,,,,,,,recommended,swiggy_bangalore
+Vegan Sicilia Pizza by Chef Sarah,,,,,,,,recommended,swiggy_bangalore
+Spicy Chicken Cafreal Pizza by Chef Rhea (New),,,,,,,,recommended,swiggy_bangalore
+Chicken Pizzaiola,,,,,,,,recommended,swiggy_bangalore
+Peri Peri Chicken Pizza,,,,,,,,recommended,swiggy_bangalore
+The Hellboy Pizza,,,,,,,,recommended,swiggy_bangalore
+Pig Out Pizza,,,,,,,,recommended,swiggy_bangalore
+Spinach & Ricotta Ravioli (7 pieces),,,,,,,,recommended,swiggy_bangalore
+Mac & Cheese with Sun-dried Tomatoes,,,,,,,,recommended,swiggy_bangalore
+Watermelon & Feta Salad,,,,,,,,recommended,swiggy_bangalore
+Cajun Spiced Fries with Dips,,,,,,,,recommended,swiggy_bangalore
+Hummus & Pita with Olives,,,,,,,,recommended,swiggy_bangalore
+Garlic Aioli 50ml,,,,,,,,garlic aioli dip!,swiggy_bangalore
+Sourdough Clouds with Warm Dipping Chocolate,,,,,,,,desserts,swiggy_bangalore
+Oreo Shake,,,,,,,,shakes,swiggy_bangalore
+Watermelon & Mint (fresh Juice),,,,,,,,cold drinks,swiggy_bangalore
+Home-made Ginger Ale,,,,,,,,cold drinks,swiggy_bangalore

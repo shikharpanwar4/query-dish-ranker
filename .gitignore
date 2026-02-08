@@ -17,5 +17,7 @@ build/
 *.swo
 .DS_Store
 
-# Optional: exclude large checkpoints if not submitting them
-# checkpoints/*.pt
+# Logs and generated artifacts
+*.log
+data/processed/train_hard_negs.csv
+data/processed/val_hard_negs.csv

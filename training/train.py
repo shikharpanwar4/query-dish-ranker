@@ -1,5 +1,4 @@
-# Dual-encoder training: load pairs → InfoNCE loss → validate by R@K. Best checkpoint by val R@5.
-# AdamW, LR 3e-4 with warmup + cosine decay.
+# Bi-encoder training: (query, dish) pairs → InfoNCE loss → validate by R@K. Best checkpoint by val R@5.
 
 import csv
 import json
@@ -342,7 +341,6 @@ def train(
     weight_decay: float = 0.01,
     temperature: float = 0.07,
     early_stop_patience: int = 8,
-    # Output
     checkpoint_dir: str = "checkpoints",
 ):
     """
@@ -378,7 +376,6 @@ def train(
     print(f"  Dropout:       {dropout}")
     print(f"  Device:        {device}")
 
-    # --- Data ---
     train_loader, val_loader = create_dataloaders(
         train_csv, val_csv, tokenizer,
         batch_size=batch_size,
@@ -440,16 +437,15 @@ def train(
             ncols=100,
         )
 
-        for batch_idx, (query_ids, dish_ids) in enumerate(pbar):
+        for batch_idx, batch in enumerate(pbar):
+            query_ids, dish_ids = batch
             query_ids = query_ids.to(device)
             dish_ids = dish_ids.to(device)
 
-            # --- Learning rate schedule ---
             lr = get_lr(global_step, total_steps, learning_rate)
             for param_group in optimizer.param_groups:
                 param_group["lr"] = lr
 
-            # --- Forward ---
             similarity = model(query_ids, dish_ids)
             loss = loss_fn(similarity)
 
@@ -609,24 +605,30 @@ def load_checkpoint(path, device="cpu"):
 # ===================================================================
 
 if __name__ == "__main__":
+    import argparse
     DATA_DIR = Path(__file__).resolve().parent.parent / "data" / "processed"
+    parser = argparse.ArgumentParser(description="Train bi-encoder")
+    parser.add_argument("--lr", type=float, default=3e-4)
+    parser.add_argument("--dropout", type=float, default=0.2)
+    parser.add_argument("--epochs", type=int, default=30)
+    parser.add_argument("--patience", type=int, default=8)
+    parser.add_argument("--buckets", type=int, default=25000)
+    parser.add_argument("--dim", type=int, default=80)
+    args = parser.parse_args()
 
     model, history = train(
         train_csv=str(DATA_DIR / "train.csv"),
         val_csv=str(DATA_DIR / "val.csv"),
         dish_catalog_csv=str(DATA_DIR / "dishes.csv"),
-        # Small catalog (255 dishes): smaller model to avoid overfitting
-        num_buckets=8_000,
-        embed_dim=48,
-        dropout=0.25,
+        num_buckets=args.buckets,
+        embed_dim=args.dim,
+        dropout=args.dropout,
         max_trigrams=48,
-        # Training config
-        epochs=25,
-        batch_size=64,
-        learning_rate=3e-4,
-        weight_decay=0.01,
+        epochs=args.epochs,
+        batch_size=128,
+        learning_rate=args.lr,
+        weight_decay=0.02,
         temperature=0.07,
-        early_stop_patience=5,
-        # Output
+        early_stop_patience=args.patience,
         checkpoint_dir=str(Path(__file__).resolve().parent.parent / "checkpoints"),
     )

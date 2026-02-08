@@ -11,7 +11,7 @@ from model.tokenizer import CharTrigramTokenizer
 
 
 def get_dish_display_text(row: dict) -> str:
-    """name | diet | course | flavor | region | state | style | first 5 ingredients."""
+    """name | diet | course | flavor | region | state | style | category | first 5 ingredients."""
     name = (row.get("name") or "").strip()
     diet = (row.get("diet") or "").strip()
     course = (row.get("course") or "").strip()
@@ -19,6 +19,7 @@ def get_dish_display_text(row: dict) -> str:
     region = (row.get("region") or "").strip()
     state = (row.get("state") or "").strip()
     style = (row.get("style") or "").strip()
+    category = (row.get("category") or "").strip()
     parts = [name]
     if diet:
         parts.append(diet)
@@ -32,6 +33,8 @@ def get_dish_display_text(row: dict) -> str:
         parts.append(state)
     if style:
         parts.append(style)
+    if category:
+        parts.append(category)
     # Short ingredient snippet (first 5) so "paneer" / "chicken" in query can match
     ingredients = row.get("ingredients")
     if ingredients:
@@ -77,7 +80,7 @@ def _inject_typo_online(text: str) -> str:
 
 
 class QueryDishDataset(Dataset):
-    """(query, dish) pairs; query typo at getitem, dish = rich text. Returns query_ids, dish_ids, label."""
+    """(query, dish) pairs; in-batch negatives for InfoNCE. Query typos at getitem; dish = rich text."""
 
     def __init__(
         self,
@@ -93,7 +96,6 @@ class QueryDishDataset(Dataset):
         self.queries: list[str] = []
         self.dishes: list[str] = []
 
-        # Load raw text pairs
         with open(csv_path, "r", encoding="utf-8") as f:
             reader = csv.DictReader(f)
             for row in reader:
@@ -103,58 +105,32 @@ class QueryDishDataset(Dataset):
                     self.queries.append(q)
                     self.dishes.append(d)
 
-        # Build dish text to encode: name only, or name | diet | course if catalog given
-        dish_texts_to_encode = self.dishes
+        self.name_to_display: dict[str, str] = {}
         if dish_catalog_csv and Path(dish_catalog_csv).exists():
-            name_to_display = {}
             with open(dish_catalog_csv, "r", encoding="utf-8") as f:
                 for row in csv.DictReader(f):
-                    name_to_display[(row.get("name") or "").strip()] = get_dish_display_text(row)
-            dish_texts_to_encode = [name_to_display.get(d, d) for d in self.dishes]
+                    name = (row.get("name") or "").strip()
+                    self.name_to_display[name] = get_dish_display_text(row)
 
-        # Pre-tokenize dish texts (they never change)
-        self.dish_ids = torch.tensor(
-            tokenizer.encode_batch(dish_texts_to_encode), dtype=torch.long
-        )
-
-        # Also pre-tokenize queries for eval / fast path
-        self.query_ids = torch.tensor(
-            tokenizer.encode_batch(self.queries), dtype=torch.long
-        )
-
+        dish_texts = [self.name_to_display.get(d, d) for d in self.dishes]
+        self.dish_ids = torch.tensor(tokenizer.encode_batch(dish_texts), dtype=torch.long)
+        self.query_ids = torch.tensor(tokenizer.encode_batch(self.queries), dtype=torch.long)
         assert len(self.query_ids) == len(self.dish_ids)
 
     def __len__(self) -> int:
         return len(self.query_ids)
 
     def __getitem__(self, idx: int) -> tuple[torch.Tensor, torch.Tensor]:
-        """
-        Returns (query_ids, dish_ids) for one pair.
-
-        If augment=True, applies random typo to query ~50% of the time,
-        then re-tokenizes on the fly. Otherwise returns pre-tokenized.
-        """
         dish_ids = self.dish_ids[idx]
-
         if self.augment and random.random() < self.augment_prob:
-            # Apply random augmentation and re-tokenize
-            query_text = self.queries[idx]
-
-            # Random typo
-            query_text = _inject_typo_online(query_text)
-
-            # Occasional case change
+            query_text = _inject_typo_online(self.queries[idx])
             if random.random() < 0.1:
                 query_text = query_text.upper()
             elif random.random() < 0.05:
                 query_text = query_text.title()
-
-            query_ids = torch.tensor(
-                self.tokenizer.encode(query_text), dtype=torch.long
-            )
+            query_ids = torch.tensor(self.tokenizer.encode(query_text), dtype=torch.long)
         else:
             query_ids = self.query_ids[idx]
-
         return query_ids, dish_ids
 
     def get_raw_pair(self, idx: int) -> tuple[str, str]:
@@ -170,25 +146,13 @@ def create_dataloaders(
     num_workers: int = 0,
     dish_catalog_csv: str | None = None,
 ) -> tuple[DataLoader, DataLoader]:
-    """
-    Create train and validation DataLoaders.
-
-    Key: training dataset has augment=True (random typos each epoch),
-    validation dataset has augment=False (deterministic for fair metrics).
-    If dish_catalog_csv is set, dishes are encoded as "name | diet | course".
-    """
+    """Train has augment=True (typos); val has augment=False for stable metrics."""
     train_dataset = QueryDishDataset(
-        train_csv, tokenizer,
-        augment=True,
-        augment_prob=0.3,
-        dish_catalog_csv=dish_catalog_csv,
+        train_csv, tokenizer, augment=True, augment_prob=0.3, dish_catalog_csv=dish_catalog_csv
     )
     val_dataset = QueryDishDataset(
-        val_csv, tokenizer,
-        augment=False,
-        dish_catalog_csv=dish_catalog_csv,
+        val_csv, tokenizer, augment=False, dish_catalog_csv=dish_catalog_csv
     )
-
     train_loader = DataLoader(
         train_dataset,
         batch_size=batch_size,
@@ -197,7 +161,6 @@ def create_dataloaders(
         num_workers=num_workers,
         pin_memory=True,
     )
-
     val_loader = DataLoader(
         val_dataset,
         batch_size=batch_size,

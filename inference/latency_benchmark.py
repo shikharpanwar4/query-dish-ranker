@@ -54,7 +54,7 @@ def main():
     with torch.no_grad():
         dish_embs = model.encode(dish_display_texts)
     bm25 = BM25(dish_display_texts)
-    weights = (0.4, 0.35, 0.25)
+    weights = (0.10, 0.45, 0.45)
     n = len(dish_names)
     print("Done.")
     print()

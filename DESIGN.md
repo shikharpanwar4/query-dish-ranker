@@ -1,180 +1,40 @@
-# Design & data flow
+# Design and tradeoffs
 
-Short reference for functions, classes, and high-level data flow. For reproduction and usage see README and CHALLENGE.
+High-level flow, what we built, what we tried, and what we’d do next.
 
----
+## Data flow
 
-## High-level data flow
+1. **Data** — `prepare_data.py` loads dish CSVs and optional LLM JSONs, builds (query, dish_name) pairs (exact, partial, ingredient, category, Hinglish, etc.), augments, dedupes, splits by dish → `dishes.csv`, `train.csv`, `val.csv`.
+2. **Training** — `training/train.py` trains a bi-encoder (char trigrams → shared encoder, InfoNCE). Validation = full-catalog R@1/R@5/R@10; best checkpoint by R@5. Saves `best_model.pt`, `final_model.pt`.
+3. **Inference** — One stage: **hybrid_rank** = lexical (fuzzy token match) + BM25 + bi-encoder; scores min-max normalized and combined with fixed weights. No reranker in the shipped pipeline.
 
-### 1. Data preparation
+## Why this design
 
-```
-indian_food.csv + swiggy_cleaned.csv
-        │
-        ▼
-┌───────────────────────────────────────────────────────────────┐
-│  prepare_data.py main()                                        │
-│  • Load & clean dishes (load_indian_food; optional Archana’s)  │
-│  • Build ingredient + metadata indices                         │
-│  • Generate (query, dish_name) pairs (exact, partial,          │
-│    ingredient, category, cuisine, attribute, occasion,         │
-│    hinglish, synthetic LLM-style)                              │
-│  • Augment (reorder, case, typos)                              │
-│  • Optional: load llm_queries*.json                            │
-│  • Dedupe → split train/val by dish → save                     │
-└───────────────────────────────────────────────────────────────┘
-        │
-        ▼
-dishes.csv, train.csv, val.csv  (in data/processed/)
-```
+- **Lexical + BM25 + DL** — Lexical handles typos and exact tokens; BM25 adds IDF over the catalog; the bi-encoder captures semantic similarity (e.g. “meetha” → sweets). Weight tuning on val (e.g. 0.10, 0.45, 0.45 or 0.25, 0.50, 0.25) improves MRR over defaults.
+- **Single-stage only** — We experimented with a cross-encoder reranker on top-50. It was trained with random negatives; at eval it had to beat 49 hard negatives from Stage 1 and consistently ranked the correct dish below incorrect ones (e.g. ~3% correct at #1). Fixing that would require training the reranker with Stage-1 hard negatives (and possibly listwise loss). We left the reranker out of the submission and ship the strong hybrid Stage 1 only.
+- **Small bi-encoder** — Char trigrams + feature hashing (no vocab file), shared encoder for query and dish, L2-normalized embeddings, InfoNCE. Fits latency and size constraints; precomputed dish embeddings keep inference fast.
 
-### 2. Training
+## Metrics we tracked
 
-```
-train.csv + dishes.csv (for rich dish text)
-        │
-        ▼
-┌───────────────────────────────────────────────────────────────┐
-│  training/train.py train()                                     │
-│  • QueryDishDataset: (query, dish) pairs; query typo at load  │
-│  • DualEncoderScorer: shared TextEncoder (trigram → embed)    │
-│  • InfoNCE loss (in-batch negatives)                           │
-│  • AdamW + warmup + cosine decay; eval = full-catalog R@K      │
-│  • Save best checkpoint by val R@5                             │
-└───────────────────────────────────────────────────────────────┘
-        │
-        ▼
-checkpoints/best_model.pt
-```
+From runs on the full val set and 500-pair subsets:
 
-### 3. Inference
+- **Bi-encoder only:** R@5 ~0.62–0.64, MRR ~0.41–0.43 (full catalog).
+- **Hybrid (default weights):** R@1 ~0.49, R@5 ~0.72, R@10 ~0.81, R@50 ~0.94, MRR ~0.60.
+- **Hybrid (tuned weights):** MRR ~0.62, R@1 ~0.51, R@5 ~0.75, R@10 ~0.82.
+- **Latency (500 dishes, CPU):** mean ~25–30 ms, P50 ~15 ms, P99 &lt;130 ms; target &lt;100 ms (mean) met in typical runs. Breakdown: lexical over 500 names is the largest share; then DL (query encode + dot with precomputed dish embs); BM25 and combine/sort are smaller.
 
-```
-query string + dishes.csv (names + rich text)
-        │
-        ▼
-┌───────────────────────────────────────────────────────────────┐
-│  inference/query.py hybrid_rank()                              │
-│  • Query norm (optional chaat expand)                          │
-│  • Lexical: fuzzy match query terms vs dish names              │
-│  • BM25: score query vs dish display text (name|diet|…)        │
-│  • DL: encode query + dot with precomputed dish embeddings     │
-│  • Min-max norm each, weighted sum (0.4 lex, 0.35 bm25, 0.25 dl)│
-│  • Return (index, score) sorted desc                           │
-└───────────────────────────────────────────────────────────────┘
-        │
-        ▼
-top-K dish names (and optionally scores)
-```
+Training trials (abbreviated): we tried larger vs smaller capacity, with and without hard negatives (precomputed from Stage 1). Best bi-encoder val R@5 was ~0.64 (1M params, in-batch negatives only). Hard negatives did not help in our setup. Hybrid consistently beat bi-encoder-only on R@1/R@5/MRR.
 
----
+## Module overview
 
-## Modules and symbols (brief)
+- **data/prepare_data.py** — Load CSVs, build indices, generate and augment pairs, optional LLM load, dedupe, split, save.
+- **model/** — `tokenizer.py` (trigrams + hashing), `encoder.py` (embed → mean pool → proj → L2 norm), `scorer.py` (DualEncoderScorer: one encoder for query and dish).
+- **training/** — `dataset.py` (QueryDishDataset, optional typo augmentation), `loss.py` (InfoNCE), `train.py` (loop, full-catalog val, per-query-type report, checkpointing).
+- **inference/** — `query.py` (lexical_score, hybrid_rank), `bm25.py` (BM25 over dish texts), `eval_hybrid.py` (bi vs hybrid, optional per-type and weight tuning), `latency_benchmark.py`, `run_validation_queries.py`.
 
-### data/prepare_data.py
+## Next steps (evolution)
 
-| Symbol | One-liner |
-|--------|-----------|
-| `load_indian_food` | Load indian_food.csv; -1→None, ingredients→list, lowercase. |
-| `extract_swiggy_food_categories` | Unique food_type from swiggy CSV. |
-| `build_ingredient_index` | ingredient → list of dish names. |
-| `build_metadata_index` | Group dishes by diet/flavor/course/region/state. |
-| `clean_recipe_name` | Strip suffix/parens from Archana’s recipe names; cap 8 words. |
-| `clean_ingredient_str` | Parse Archana’s ingredient string → list of nouns. |
-| `load_archanas_kitchen` | Load Archana’s CSV; filter Devanagari, clean, map cuisine→region. |
-| `generate_exact_match_pairs` | (dish_name, dish_name) and lowercase variant. |
-| `generate_partial_name_pairs` | Partial name queries (drop word / first / last); 2+ words. |
-| `generate_ingredient_query_pairs` | Ingredient queries; only pairs where ingredient in dish name. |
-| `generate_category_query_pairs` | Diet+course, flavor+course, region+course, swiggy categories. |
-| `generate_cuisine_query_pairs` | Cuisine+course and cuisine+suffix (Archana’s cuisine field). |
-| `generate_attribute_query_pairs` | Attribute + dish-word, e.g. spicy paneer, veg biryani. |
-| `generate_occasion_query_pairs` | e.g. party snack, sweet dessert → matching course + name word. |
-| `generate_hinglish_query_pairs` | Hinglish templates with dish-name word. |
-| `generate_synthetic_llm_style_pairs` | LLM-style natural queries per dish (Hinglish/occasion/attr). |
-| `inject_typo` | One or more char typos (swap/delete/duplicate) in a word. |
-| `augment_pairs` | Add reorder, case, and static typo variants. |
-| `load_llm_pairs` | Load llm_queries*.json; alias map; catalog filter; quality filter. |
-| `deduplicate_pairs` | Dedupe by (q.lower(), d.lower()). |
-| `split_train_val` | Split by dish (no leakage); optional stratify by source. |
-| `save_pairs` | Write (query, dish_name) CSV. |
-| `save_dish_catalog` | Write dishes CSV with name, ingredients, diet, flavor, course, state, region, style. |
-| `print_stats` | Log pair count and unique query/dish counts. |
-| `main` | Run full pipeline: load → generate → augment → LLM → dedupe → split → save. |
-
-### model/
-
-| Symbol | One-liner |
-|--------|-----------|
-| **tokenizer.py** | |
-| `CharTrigramTokenizer` | Stateless: text → trigram IDs via hashing; pad_id=0. |
-| `encode` | Single text → list of bucket IDs (pad/trunc to max_trigrams). |
-| `encode_batch` | List of texts → list of ID lists. |
-| **encoder.py** | |
-| `TextEncoder` | Trigram IDs → L2-normalized embed (embedding → mean pool → proj → norm). |
-| `forward` | [B, max_trigrams] → [B, embed_dim]. |
-| **scorer.py** | |
-| `DualEncoderScorer` | Wraps tokenizer + single shared TextEncoder for query and dish. |
-| `encode` | List of texts → [N, embed_dim] (used for both query and dish). |
-| `forward` | (query_ids, dish_ids) → similarity logits. |
-| `score_pairs` | Batch (query, dish) → scores. |
-| `score_one_to_many` | One query vs many dishes → scores. |
-
-### training/
-
-| Symbol | One-liner |
-|--------|-----------|
-| **dataset.py** | |
-| `get_dish_display_text` | name \| diet \| course \| flavor \| region \| state \| style \| first 5 ingredients. |
-| `_inject_typo_online` | One random typo in a word (swap/delete/duplicate). |
-| `QueryDishDataset` | (query, dish) pairs; query typo at getitem; returns query_ids, dish_ids, label. |
-| `create_dataloaders` | Train/val DataLoaders from train/val CSVs + optional dish catalog. |
-| **loss.py** | |
-| `InfoNCELoss` | In-batch negatives; forward(logits, labels) → loss. |
-| **train.py** | |
-| `compute_full_catalog_recall` | Rank each val query vs full catalog; return R@K dict. |
-| `infer_query_type` | Heuristic: exact / partial / category / attribute / hinglish / other. |
-| `compute_per_type_recall` | R@K per inferred query type. |
-| `print_per_type_report` | Print per-type recall table. |
-| `get_lr` | Warmup + cosine decay schedule. |
-| `train` | Train loop: DataLoaders, DualEncoderScorer, InfoNCE, AdamW; validate by R@5; save best. |
-| `save_checkpoint` | Save model, tokenizer config, loss, history, epoch. |
-| `load_checkpoint` | Load checkpoint; return (model, config). |
-
-### inference/
-
-| Symbol | One-liner |
-|--------|-----------|
-| **query.py** | |
-| `_collapse_repeats` | e.g. daal→dal, fryy→fry. |
-| `tokenize_for_lexical` | Lowercase, split non-alnum, drop short tokens. |
-| `_edit_distance` | Levenshtein distance. |
-| `lexical_score` | Query terms in dish name (exact + fuzzy edit dist 1). |
-| `_query_for_scoring` | Append " chaat" if query has chaat-style terms. |
-| `rank_lexical` | Lexical-only ranking: (index, score) desc. |
-| `_normalize_scores` | Min-max to [0,1]. |
-| `hybrid_rank` | Lexical + BM25 + DL; norm each; weighted sum; return (idx, score) desc. |
-| `main` | CLI: single query, optional --lexical/--compare/--hybrid, --top N. |
-| **bm25.py** | |
-| `_collapse_repeats` | Same as query.py. |
-| `tokenize` | Lowercase, split, drop empty. |
-| `BM25` | Build index from doc list; score(query) → list of scores. |
-| **eval_hybrid.py** | |
-| `main` | Load val + dishes; hybrid_rank each; compute R@1/R@5/R@10, MRR. |
-| **latency_benchmark.py** | |
-| `main` | End-to-end latency + breakdown (query_norm, lexical, BM25, DL, combine+sort). |
-| **run_validation_queries.py** | |
-| `_keyword_hit_at_k` | True if any top-K result contains any expected keyword. |
-| `main` | Run validation_queries.json through hybrid_rank; print metrics + optional per-query. |
-
----
-
-## File roles (quick ref)
-
-| Path | Role |
-|------|------|
-| `data/indian_food.csv` | Main dish catalog (255). |
-| `data/swiggy_cleaned.csv` | Category vocabulary for query generation. |
-| `data/processed/dishes.csv` | Clean catalog + style; input to inference. |
-| `data/processed/train.csv`, `val.csv` | (query, dish_name) for training. |
-| `data/raw/validation_queries.json` | Category queries for run_validation_queries. |
-| `checkpoints/best_model.pt` | Best checkpoint by val R@5; used by inference/eval. |
+1. **Reranker (if needed)** — Train cross-encoder on Stage-1 top-K with hard negatives (and optionally listwise loss); validate with “% correct at #1 in top-50” and tune checkpoint selection.
+2. **Data** — More Hinglish and “other” query types; optional LLM-generated queries with strict validation.
+3. **Latency** — Reduce lexical cost (e.g. smaller candidate set from DL first, then lexical/BM25 on that set; or faster fuzzy match).
+4. **Model** — Try slightly larger embed dim or more buckets if catalog grows, with the same single-stage hybrid design.

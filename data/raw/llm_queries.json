@@ -1,0 +1,2703 @@
+[
+  {
+    "query": "Butter chicken",
+    "category": "exact_dish_name",
+    "expected_keywords": [
+      "butter",
+      "chicken"
+    ]
+  },
+  {
+    "query": "Paneer Tikka Masala",
+    "category": "exact_dish_name",
+    "expected_keywords": [
+      "paneer",
+      "tikka",
+      "masala"
+    ]
+  },
+  {
+    "query": "Dal fry",
+    "category": "exact_dish_name",
+    "expected_keywords": [
+      "dal",
+      "fry"
+    ]
+  },
+  {
+    "query": "Chicken biryani",
+    "category": "exact_dish_name",
+    "expected_keywords": [
+      "chicken",
+      "biryani"
+    ]
+  },
+  {
+    "query": "Veg biryani",
+    "category": "exact_dish_name",
+    "expected_keywords": [
+      "veg",
+      "biryani",
+      "vegetable"
+    ]
+  },
+  {
+    "query": "Masala dosa",
+    "category": "exact_dish_name",
+    "expected_keywords": [
+      "masala",
+      "dosa"
+    ]
+  },
+  {
+    "query": "Idli sambar",
+    "category": "exact_dish_name",
+    "expected_keywords": [
+      "idli",
+      "sambar"
+    ]
+  },
+  {
+    "query": "Palak paneer",
+    "category": "exact_dish_name",
+    "expected_keywords": [
+      "palak",
+      "paneer"
+    ]
+  },
+  {
+    "query": "Aloo gobi",
+    "category": "exact_dish_name",
+    "expected_keywords": [
+      "aloo",
+      "gobi",
+      "potato",
+      "cauliflower"
+    ]
+  },
+  {
+    "query": "Rajma chawal",
+    "category": "exact_dish_name",
+    "expected_keywords": [
+      "rajma",
+      "chawal",
+      "rice"
+    ]
+  },
+  {
+    "query": "Kadai chicken",
+    "category": "exact_dish_name",
+    "expected_keywords": [
+      "kadai",
+      "chicken"
+    ]
+  },
+  {
+    "query": "Dal makhani",
+    "category": "exact_dish_name",
+    "expected_keywords": [
+      "dal",
+      "makhani"
+    ]
+  },
+  {
+    "query": "Pav bhaji",
+    "category": "exact_dish_name",
+    "expected_keywords": [
+      "pav",
+      "bhaji"
+    ]
+  },
+  {
+    "query": "Vada sambar",
+    "category": "exact_dish_name",
+    "expected_keywords": [
+      "vada",
+      "sambar"
+    ]
+  },
+  {
+    "query": "Upma",
+    "category": "exact_dish_name",
+    "expected_keywords": [
+      "upma",
+      "semolina"
+    ]
+  },
+  {
+    "query": "Poha",
+    "category": "exact_dish_name",
+    "expected_keywords": [
+      "poha",
+      "flattened rice"
+    ]
+  },
+  {
+    "query": "Chole bhature",
+    "category": "exact_dish_name",
+    "expected_keywords": [
+      "chole",
+      "bhature"
+    ]
+  },
+  {
+    "query": "Samosa",
+    "category": "exact_dish_name",
+    "expected_keywords": [
+      "samosa"
+    ]
+  },
+  {
+    "query": "Gulab jamun",
+    "category": "exact_dish_name",
+    "expected_keywords": [
+      "gulab",
+      "jamun",
+      "sweet"
+    ]
+  },
+  {
+    "query": "Rasmalai",
+    "category": "exact_dish_name",
+    "expected_keywords": [
+      "rasmalai",
+      "sweet",
+      "dessert"
+    ]
+  },
+  {
+    "query": "Jalebi",
+    "category": "exact_dish_name",
+    "expected_keywords": [
+      "jalebi",
+      "sweet"
+    ]
+  },
+  {
+    "query": "Tandoori chicken",
+    "category": "exact_dish_name",
+    "expected_keywords": [
+      "tandoori",
+      "chicken"
+    ]
+  },
+  {
+    "query": "Fish curry",
+    "category": "exact_dish_name",
+    "expected_keywords": [
+      "fish",
+      "curry"
+    ]
+  },
+  {
+    "query": "Egg curry",
+    "category": "exact_dish_name",
+    "expected_keywords": [
+      "egg",
+      "curry"
+    ]
+  },
+  {
+    "query": "Mutton curry",
+    "category": "exact_dish_name",
+    "expected_keywords": [
+      "mutton",
+      "curry"
+    ]
+  },
+  {
+    "query": "Hyderabadi biryani",
+    "category": "exact_dish_name",
+    "expected_keywords": [
+      "hyderabadi",
+      "biryani"
+    ]
+  },
+  {
+    "query": "Dahi vada",
+    "category": "exact_dish_name",
+    "expected_keywords": [
+      "dahi",
+      "vada",
+      "curd"
+    ]
+  },
+  {
+    "query": "Pani puri",
+    "category": "exact_dish_name",
+    "expected_keywords": [
+      "pani",
+      "puri",
+      "golgappa"
+    ]
+  },
+  {
+    "query": "Bhel puri",
+    "category": "exact_dish_name",
+    "expected_keywords": [
+      "bhel",
+      "puri"
+    ]
+  },
+  {
+    "query": "Medu vada",
+    "category": "exact_dish_name",
+    "expected_keywords": [
+      "medu",
+      "vada"
+    ]
+  },
+  {
+    "query": "Uttapam",
+    "category": "exact_dish_name",
+    "expected_keywords": [
+      "uttapam"
+    ]
+  },
+  {
+    "query": "Pongal",
+    "category": "exact_dish_name",
+    "expected_keywords": [
+      "pongal",
+      "rice"
+    ]
+  },
+  {
+    "query": "Dhokla",
+    "category": "exact_dish_name",
+    "expected_keywords": [
+      "dhokla"
+    ]
+  },
+  {
+    "query": "Khandvi",
+    "category": "exact_dish_name",
+    "expected_keywords": [
+      "khandvi"
+    ]
+  },
+  {
+    "query": "Misal pav",
+    "category": "exact_dish_name",
+    "expected_keywords": [
+      "misal",
+      "pav"
+    ]
+  },
+  {
+    "query": "Dosa",
+    "category": "exact_dish_name",
+    "expected_keywords": [
+      "dosa"
+    ]
+  },
+  {
+    "query": "Roti sabzi",
+    "category": "exact_dish_name",
+    "expected_keywords": [
+      "roti",
+      "sabzi",
+      "vegetable"
+    ]
+  },
+  {
+    "query": "Naan",
+    "category": "exact_dish_name",
+    "expected_keywords": [
+      "naan",
+      "bread"
+    ]
+  },
+  {
+    "query": "Kulfi",
+    "category": "exact_dish_name",
+    "expected_keywords": [
+      "kulfi",
+      "dessert"
+    ]
+  },
+  {
+    "query": "Gajar halwa",
+    "category": "exact_dish_name",
+    "expected_keywords": [
+      "gajar",
+      "halwa",
+      "carrot",
+      "sweet"
+    ]
+  },
+  {
+    "query": "chiken biryani",
+    "category": "misspelled_dish_name",
+    "expected_keywords": [
+      "chicken",
+      "biryani"
+    ]
+  },
+  {
+    "query": "dal fryy",
+    "category": "misspelled_dish_name",
+    "expected_keywords": [
+      "dal",
+      "fry"
+    ]
+  },
+  {
+    "query": "paneer tikka masla",
+    "category": "misspelled_dish_name",
+    "expected_keywords": [
+      "paneer",
+      "tikka",
+      "masala"
+    ]
+  },
+  {
+    "query": "butter chiken",
+    "category": "misspelled_dish_name",
+    "expected_keywords": [
+      "butter",
+      "chicken"
+    ]
+  },
+  {
+    "query": "palak panner",
+    "category": "misspelled_dish_name",
+    "expected_keywords": [
+      "palak",
+      "paneer"
+    ]
+  },
+  {
+    "query": "samosa",
+    "category": "misspelled_dish_name",
+    "expected_keywords": [
+      "samosa"
+    ]
+  },
+  {
+    "query": "chole bhatura",
+    "category": "misspelled_dish_name",
+    "expected_keywords": [
+      "chole",
+      "bhature"
+    ]
+  },
+  {
+    "query": "dosa masla",
+    "category": "misspelled_dish_name",
+    "expected_keywords": [
+      "dosa",
+      "masala"
+    ]
+  },
+  {
+    "query": "idly sambar",
+    "category": "misspelled_dish_name",
+    "expected_keywords": [
+      "idli",
+      "sambar"
+    ]
+  },
+  {
+    "query": "rajma chawel",
+    "category": "misspelled_dish_name",
+    "expected_keywords": [
+      "rajma",
+      "chawal",
+      "rice"
+    ]
+  },
+  {
+    "query": "gulab jamun",
+    "category": "misspelled_dish_name",
+    "expected_keywords": [
+      "gulab",
+      "jamun"
+    ]
+  },
+  {
+    "query": "pani puri",
+    "category": "misspelled_dish_name",
+    "expected_keywords": [
+      "pani",
+      "puri"
+    ]
+  },
+  {
+    "query": "biryani chiken",
+    "category": "misspelled_dish_name",
+    "expected_keywords": [
+      "biryani",
+      "chicken"
+    ]
+  },
+  {
+    "query": "tandori chicken",
+    "category": "misspelled_dish_name",
+    "expected_keywords": [
+      "tandoori",
+      "chicken"
+    ]
+  },
+  {
+    "query": "pav bhaji",
+    "category": "misspelled_dish_name",
+    "expected_keywords": [
+      "pav",
+      "bhaji"
+    ]
+  },
+  {
+    "query": "dal makhni",
+    "category": "misspelled_dish_name",
+    "expected_keywords": [
+      "dal",
+      "makhani"
+    ]
+  },
+  {
+    "query": "aloo gobhi",
+    "category": "misspelled_dish_name",
+    "expected_keywords": [
+      "aloo",
+      "gobi"
+    ]
+  },
+  {
+    "query": "kadhai chicken",
+    "category": "misspelled_dish_name",
+    "expected_keywords": [
+      "kadai",
+      "chicken"
+    ]
+  },
+  {
+    "query": "vada sambhar",
+    "category": "misspelled_dish_name",
+    "expected_keywords": [
+      "vada",
+      "sambar"
+    ]
+  },
+  {
+    "query": "ras malai",
+    "category": "misspelled_dish_name",
+    "expected_keywords": [
+      "rasmalai"
+    ]
+  },
+  {
+    "query": "jalebi",
+    "category": "misspelled_dish_name",
+    "expected_keywords": [
+      "jalebi"
+    ]
+  },
+  {
+    "query": "upma",
+    "category": "misspelled_dish_name",
+    "expected_keywords": [
+      "upma"
+    ]
+  },
+  {
+    "query": "poha",
+    "category": "misspelled_dish_name",
+    "expected_keywords": [
+      "poha"
+    ]
+  },
+  {
+    "query": "dhokla",
+    "category": "misspelled_dish_name",
+    "expected_keywords": [
+      "dhokla"
+    ]
+  },
+  {
+    "query": "uttapam",
+    "category": "misspelled_dish_name",
+    "expected_keywords": [
+      "uttapam"
+    ]
+  },
+  {
+    "query": "medhu vada",
+    "category": "misspelled_dish_name",
+    "expected_keywords": [
+      "medu",
+      "vada"
+    ]
+  },
+  {
+    "query": "fish cury",
+    "category": "misspelled_dish_name",
+    "expected_keywords": [
+      "fish",
+      "curry"
+    ]
+  },
+  {
+    "query": "mutton cury",
+    "category": "misspelled_dish_name",
+    "expected_keywords": [
+      "mutton",
+      "curry"
+    ]
+  },
+  {
+    "query": "egg cury",
+    "category": "misspelled_dish_name",
+    "expected_keywords": [
+      "egg",
+      "curry"
+    ]
+  },
+  {
+    "query": "naan",
+    "category": "misspelled_dish_name",
+    "expected_keywords": [
+      "naan"
+    ]
+  },
+  {
+    "query": "roti sabji",
+    "category": "misspelled_dish_name",
+    "expected_keywords": [
+      "roti",
+      "sabzi"
+    ]
+  },
+  {
+    "query": "bhel puri",
+    "category": "misspelled_dish_name",
+    "expected_keywords": [
+      "bhel",
+      "puri"
+    ]
+  },
+  {
+    "query": "misal paav",
+    "category": "misspelled_dish_name",
+    "expected_keywords": [
+      "misal",
+      "pav"
+    ]
+  },
+  {
+    "query": "gajar halwa",
+    "category": "misspelled_dish_name",
+    "expected_keywords": [
+      "gajar",
+      "halwa"
+    ]
+  },
+  {
+    "query": "kulfi",
+    "category": "misspelled_dish_name",
+    "expected_keywords": [
+      "kulfi"
+    ]
+  },
+  {
+    "query": "dahi wada",
+    "category": "misspelled_dish_name",
+    "expected_keywords": [
+      "dahi",
+      "vada"
+    ]
+  },
+  {
+    "query": "pongal",
+    "category": "misspelled_dish_name",
+    "expected_keywords": [
+      "pongal"
+    ]
+  },
+  {
+    "query": "khandvi",
+    "category": "misspelled_dish_name",
+    "expected_keywords": [
+      "khandvi"
+    ]
+  },
+  {
+    "query": "hyderabadi biryani",
+    "category": "misspelled_dish_name",
+    "expected_keywords": [
+      "hyderabadi",
+      "biryani"
+    ]
+  },
+  {
+    "query": "south indian food",
+    "category": "cuisine_type",
+    "expected_keywords": [
+      "south",
+      "dosa",
+      "idli",
+      "sambar",
+      "uttapam"
+    ]
+  },
+  {
+    "query": "north indian curry",
+    "category": "cuisine_type",
+    "expected_keywords": [
+      "north",
+      "curry",
+      "paneer",
+      "dal"
+    ]
+  },
+  {
+    "query": "gujarati snack",
+    "category": "cuisine_type",
+    "expected_keywords": [
+      "gujarati",
+      "dhokla",
+      "fafda",
+      "snack"
+    ]
+  },
+  {
+    "query": "punjabi food",
+    "category": "cuisine_type",
+    "expected_keywords": [
+      "punjabi",
+      "butter",
+      "tandoori",
+      "dal"
+    ]
+  },
+  {
+    "query": "bengali food",
+    "category": "cuisine_type",
+    "expected_keywords": [
+      "bengali",
+      "fish",
+      "sweet"
+    ]
+  },
+  {
+    "query": "maharashtrian food",
+    "category": "cuisine_type",
+    "expected_keywords": [
+      "maharashtrian",
+      "pav",
+      "bhaji",
+      "misal"
+    ]
+  },
+  {
+    "query": "rajasthani thali",
+    "category": "cuisine_type",
+    "expected_keywords": [
+      "rajasthani",
+      "thali",
+      "dal",
+      "bati"
+    ]
+  },
+  {
+    "query": "south indian breakfast",
+    "category": "cuisine_type",
+    "expected_keywords": [
+      "south",
+      "idli",
+      "dosa",
+      "vada",
+      "breakfast"
+    ]
+  },
+  {
+    "query": "north indian bread",
+    "category": "cuisine_type",
+    "expected_keywords": [
+      "north",
+      "roti",
+      "naan",
+      "paratha"
+    ]
+  },
+  {
+    "query": "indian street food",
+    "category": "cuisine_type",
+    "expected_keywords": [
+      "street",
+      "pani puri",
+      "bhel",
+      "chaat"
+    ]
+  },
+  {
+    "query": "hyderabadi food",
+    "category": "cuisine_type",
+    "expected_keywords": [
+      "hyderabadi",
+      "biryani"
+    ]
+  },
+  {
+    "query": "kerala food",
+    "category": "cuisine_type",
+    "expected_keywords": [
+      "kerala",
+      "fish",
+      "coconut",
+      "appam"
+    ]
+  },
+  {
+    "query": "tamil food",
+    "category": "cuisine_type",
+    "expected_keywords": [
+      "tamil",
+      "dosa",
+      "sambar",
+      "rasam"
+    ]
+  },
+  {
+    "query": "kashmiri food",
+    "category": "cuisine_type",
+    "expected_keywords": [
+      "kashmiri",
+      "rogan",
+      "dum"
+    ]
+  },
+  {
+    "query": "chettinad chicken",
+    "category": "cuisine_type",
+    "expected_keywords": [
+      "chettinad",
+      "chicken",
+      "south"
+    ]
+  },
+  {
+    "query": "mughlai food",
+    "category": "cuisine_type",
+    "expected_keywords": [
+      "mughlai",
+      "biryani",
+      "kebab"
+    ]
+  },
+  {
+    "query": "indo chinese",
+    "category": "cuisine_type",
+    "expected_keywords": [
+      "indo",
+      "chinese",
+      "manchurian",
+      "noodles"
+    ]
+  },
+  {
+    "query": "gujarati thali",
+    "category": "cuisine_type",
+    "expected_keywords": [
+      "gujarati",
+      "thali"
+    ]
+  },
+  {
+    "query": "marathi snack",
+    "category": "cuisine_type",
+    "expected_keywords": [
+      "marathi",
+      "snack",
+      "pav"
+    ]
+  },
+  {
+    "query": "bihari food",
+    "category": "cuisine_type",
+    "expected_keywords": [
+      "bihari",
+      "litti",
+      "chokha"
+    ]
+  },
+  {
+    "query": "sindhi food",
+    "category": "cuisine_type",
+    "expected_keywords": [
+      "sindhi",
+      "dal",
+      "koki"
+    ]
+  },
+  {
+    "query": "awadhi biryani",
+    "category": "cuisine_type",
+    "expected_keywords": [
+      "awadhi",
+      "biryani",
+      "lucknow"
+    ]
+  },
+  {
+    "query": "coastal food",
+    "category": "cuisine_type",
+    "expected_keywords": [
+      "coastal",
+      "fish",
+      "prawn"
+    ]
+  },
+  {
+    "query": "bengali sweets",
+    "category": "cuisine_type",
+    "expected_keywords": [
+      "bengali",
+      "sweet",
+      "rosogolla"
+    ]
+  },
+  {
+    "query": "south indian lunch",
+    "category": "cuisine_type",
+    "expected_keywords": [
+      "south",
+      "lunch",
+      "meals",
+      "rice"
+    ]
+  },
+  {
+    "query": "punjabi dhaba style",
+    "category": "cuisine_type",
+    "expected_keywords": [
+      "punjabi",
+      "dhaba",
+      "paratha"
+    ]
+  },
+  {
+    "query": "karnataka food",
+    "category": "cuisine_type",
+    "expected_keywords": [
+      "karnataka",
+      "bisi bele",
+      "dosa"
+    ]
+  },
+  {
+    "query": "andhra food",
+    "category": "cuisine_type",
+    "expected_keywords": [
+      "andhra",
+      "biryani",
+      "spicy"
+    ]
+  },
+  {
+    "query": "goan fish curry",
+    "category": "cuisine_type",
+    "expected_keywords": [
+      "goan",
+      "fish",
+      "curry",
+      "coconut"
+    ]
+  },
+  {
+    "query": "uttar pradesh food",
+    "category": "cuisine_type",
+    "expected_keywords": [
+      "uttar",
+      "pradesh",
+      "puri",
+      "kachori"
+    ]
+  },
+  {
+    "query": "multani cuisine",
+    "category": "cuisine_type",
+    "expected_keywords": [
+      "multani",
+      "dal",
+      "makhani"
+    ]
+  },
+  {
+    "query": "bombay street food",
+    "category": "cuisine_type",
+    "expected_keywords": [
+      "bombay",
+      "street",
+      "vada pav"
+    ]
+  },
+  {
+    "query": "delhi chaat",
+    "category": "cuisine_type",
+    "expected_keywords": [
+      "delhi",
+      "chaat",
+      "papdi"
+    ]
+  },
+  {
+    "query": "mumbai pav bhaji",
+    "category": "cuisine_type",
+    "expected_keywords": [
+      "mumbai",
+      "pav",
+      "bhaji"
+    ]
+  },
+  {
+    "query": "kolkata rolls",
+    "category": "cuisine_type",
+    "expected_keywords": [
+      "kolkata",
+      "roll",
+      "egg"
+    ]
+  },
+  {
+    "query": "chennai idli",
+    "category": "cuisine_type",
+    "expected_keywords": [
+      "chennai",
+      "idli"
+    ]
+  },
+  {
+    "query": "bangalore dosa",
+    "category": "cuisine_type",
+    "expected_keywords": [
+      "bangalore",
+      "dosa"
+    ]
+  },
+  {
+    "query": "lucknow biryani",
+    "category": "cuisine_type",
+    "expected_keywords": [
+      "lucknow",
+      "biryani"
+    ]
+  },
+  {
+    "query": "jaipur dal bati",
+    "category": "cuisine_type",
+    "expected_keywords": [
+      "jaipur",
+      "dal",
+      "bati"
+    ]
+  },
+  {
+    "query": "kerala appam",
+    "category": "cuisine_type",
+    "expected_keywords": [
+      "kerala",
+      "appam",
+      "stew"
+    ]
+  },
+  {
+    "query": "veg main course",
+    "category": "dietary_preference",
+    "expected_keywords": [
+      "vegetarian",
+      "veg",
+      "main",
+      "course"
+    ]
+  },
+  {
+    "query": "jain friendly no onion garlic",
+    "category": "dietary_preference",
+    "expected_keywords": [
+      "jain",
+      "no onion",
+      "no garlic"
+    ]
+  },
+  {
+    "query": "light healthy lunch",
+    "category": "dietary_preference",
+    "expected_keywords": [
+      "light",
+      "healthy",
+      "lunch"
+    ]
+  },
+  {
+    "query": "vegetarian biryani",
+    "category": "dietary_preference",
+    "expected_keywords": [
+      "vegetarian",
+      "veg",
+      "biryani"
+    ]
+  },
+  {
+    "query": "vegan options",
+    "category": "dietary_preference",
+    "expected_keywords": [
+      "vegan",
+      "plant based"
+    ]
+  },
+  {
+    "query": "eggless dessert",
+    "category": "dietary_preference",
+    "expected_keywords": [
+      "eggless",
+      "dessert",
+      "sweet"
+    ]
+  },
+  {
+    "query": "gluten free indian",
+    "category": "dietary_preference",
+    "expected_keywords": [
+      "gluten",
+      "free"
+    ]
+  },
+  {
+    "query": "low calorie lunch",
+    "category": "dietary_preference",
+    "expected_keywords": [
+      "low",
+      "calorie",
+      "healthy"
+    ]
+  },
+  {
+    "query": "veg snack",
+    "category": "dietary_preference",
+    "expected_keywords": [
+      "veg",
+      "vegetarian",
+      "snack"
+    ]
+  },
+  {
+    "query": "jain food",
+    "category": "dietary_preference",
+    "expected_keywords": [
+      "jain",
+      "no root vegetables"
+    ]
+  },
+  {
+    "query": "healthy breakfast",
+    "category": "dietary_preference",
+    "expected_keywords": [
+      "healthy",
+      "breakfast"
+    ]
+  },
+  {
+    "query": "sattvic food",
+    "category": "dietary_preference",
+    "expected_keywords": [
+      "sattvic",
+      "pure",
+      "veg"
+    ]
+  },
+  {
+    "query": "no onion no garlic veg",
+    "category": "dietary_preference",
+    "expected_keywords": [
+      "no onion",
+      "no garlic",
+      "veg"
+    ]
+  },
+  {
+    "query": "keto friendly indian",
+    "category": "dietary_preference",
+    "expected_keywords": [
+      "keto",
+      "low carb"
+    ]
+  },
+  {
+    "query": "high protein veg",
+    "category": "dietary_preference",
+    "expected_keywords": [
+      "protein",
+      "veg",
+      "paneer",
+      "dal"
+    ]
+  },
+  {
+    "query": "diabetic friendly sweets",
+    "category": "dietary_preference",
+    "expected_keywords": [
+      "diabetic",
+      "sugar free",
+      "sweet"
+    ]
+  },
+  {
+    "query": "oil free option",
+    "category": "dietary_preference",
+    "expected_keywords": [
+      "oil",
+      "free",
+      "healthy"
+    ]
+  },
+  {
+    "query": "veg thali",
+    "category": "dietary_preference",
+    "expected_keywords": [
+      "veg",
+      "thali",
+      "vegetarian"
+    ]
+  },
+  {
+    "query": "pure veg restaurant",
+    "category": "dietary_preference",
+    "expected_keywords": [
+      "pure",
+      "veg",
+      "vegetarian"
+    ]
+  },
+  {
+    "query": "plant based curry",
+    "category": "dietary_preference",
+    "expected_keywords": [
+      "plant",
+      "based",
+      "curry"
+    ]
+  },
+  {
+    "query": "veg north indian",
+    "category": "dietary_preference",
+    "expected_keywords": [
+      "veg",
+      "north",
+      "vegetarian"
+    ]
+  },
+  {
+    "query": "veg south indian",
+    "category": "dietary_preference",
+    "expected_keywords": [
+      "veg",
+      "south",
+      "vegetarian"
+    ]
+  },
+  {
+    "query": "light snack",
+    "category": "dietary_preference",
+    "expected_keywords": [
+      "light",
+      "snack"
+    ]
+  },
+  {
+    "query": "healthy salad",
+    "category": "dietary_preference",
+    "expected_keywords": [
+      "healthy",
+      "salad"
+    ]
+  },
+  {
+    "query": "veg chaat",
+    "category": "dietary_preference",
+    "expected_keywords": [
+      "veg",
+      "chaat",
+      "vegetarian"
+    ]
+  },
+  {
+    "query": "jain thali",
+    "category": "dietary_preference",
+    "expected_keywords": [
+      "jain",
+      "thali"
+    ]
+  },
+  {
+    "query": "non veg biryani",
+    "category": "dietary_preference",
+    "expected_keywords": [
+      "non veg",
+      "chicken",
+      "mutton",
+      "biryani"
+    ]
+  },
+  {
+    "query": "egg curry",
+    "category": "dietary_preference",
+    "expected_keywords": [
+      "egg",
+      "curry"
+    ]
+  },
+  {
+    "query": "seafood",
+    "category": "dietary_preference",
+    "expected_keywords": [
+      "seafood",
+      "fish",
+      "prawn"
+    ]
+  },
+  {
+    "query": "chicken only",
+    "category": "dietary_preference",
+    "expected_keywords": [
+      "chicken"
+    ]
+  },
+  {
+    "query": "mutton only",
+    "category": "dietary_preference",
+    "expected_keywords": [
+      "mutton"
+    ]
+  },
+  {
+    "query": "veg kebab",
+    "category": "dietary_preference",
+    "expected_keywords": [
+      "veg",
+      "kebab",
+      "vegetarian"
+    ]
+  },
+  {
+    "query": "grilled chicken",
+    "category": "dietary_preference",
+    "expected_keywords": [
+      "grilled",
+      "chicken",
+      "healthy"
+    ]
+  },
+  {
+    "query": "steamed rice",
+    "category": "dietary_preference",
+    "expected_keywords": [
+      "steamed",
+      "rice",
+      "plain"
+    ]
+  },
+  {
+    "query": "boiled egg",
+    "category": "dietary_preference",
+    "expected_keywords": [
+      "boiled",
+      "egg"
+    ]
+  },
+  {
+    "query": "veg soup",
+    "category": "dietary_preference",
+    "expected_keywords": [
+      "veg",
+      "soup",
+      "vegetarian"
+    ]
+  },
+  {
+    "query": "fresh fruit",
+    "category": "dietary_preference",
+    "expected_keywords": [
+      "fruit",
+      "fresh"
+    ]
+  },
+  {
+    "query": "no maida",
+    "category": "dietary_preference",
+    "expected_keywords": [
+      "no maida",
+      "whole wheat"
+    ]
+  },
+  {
+    "query": "sugar free",
+    "category": "dietary_preference",
+    "expected_keywords": [
+      "sugar",
+      "free"
+    ]
+  },
+  {
+    "query": "high fiber",
+    "category": "dietary_preference",
+    "expected_keywords": [
+      "fiber",
+      "healthy"
+    ]
+  },
+  {
+    "query": "party snack",
+    "category": "occasion_based",
+    "expected_keywords": [
+      "party",
+      "snack",
+      "samosa",
+      "chicken"
+    ]
+  },
+  {
+    "query": "quick lunch",
+    "category": "occasion_based",
+    "expected_keywords": [
+      "quick",
+      "lunch",
+      "thali",
+      "meals"
+    ]
+  },
+  {
+    "query": "evening chai snack",
+    "category": "occasion_based",
+    "expected_keywords": [
+      "evening",
+      "chai",
+      "snack",
+      "biscuit",
+      "pakora"
+    ]
+  },
+  {
+    "query": "office lunch",
+    "category": "occasion_based",
+    "expected_keywords": [
+      "office",
+      "lunch",
+      "quick"
+    ]
+  },
+  {
+    "query": "birthday party food",
+    "category": "occasion_based",
+    "expected_keywords": [
+      "birthday",
+      "party",
+      "cake",
+      "snack"
+    ]
+  },
+  {
+    "query": "movie night snack",
+    "category": "occasion_based",
+    "expected_keywords": [
+      "movie",
+      "snack",
+      "popcorn",
+      "nachos"
+    ]
+  },
+  {
+    "query": "weekend brunch",
+    "category": "occasion_based",
+    "expected_keywords": [
+      "weekend",
+      "brunch",
+      "breakfast"
+    ]
+  },
+  {
+    "query": "dinner for two",
+    "category": "occasion_based",
+    "expected_keywords": [
+      "dinner",
+      "romantic",
+      "main"
+    ]
+  },
+  {
+    "query": "kids friendly food",
+    "category": "occasion_based",
+    "expected_keywords": [
+      "kids",
+      "child",
+      "mild",
+      "pizza"
+    ]
+  },
+  {
+    "query": "late night food",
+    "category": "occasion_based",
+    "expected_keywords": [
+      "late",
+      "night",
+      "open"
+    ]
+  },
+  {
+    "query": "breakfast delivery",
+    "category": "occasion_based",
+    "expected_keywords": [
+      "breakfast",
+      "delivery"
+    ]
+  },
+  {
+    "query": "lunch meeting",
+    "category": "occasion_based",
+    "expected_keywords": [
+      "lunch",
+      "meeting",
+      "quick"
+    ]
+  },
+  {
+    "query": "game day snacks",
+    "category": "occasion_based",
+    "expected_keywords": [
+      "game",
+      "snack",
+      "chips"
+    ]
+  },
+  {
+    "query": "festival special",
+    "category": "occasion_based",
+    "expected_keywords": [
+      "festival",
+      "special",
+      "sweet"
+    ]
+  },
+  {
+    "query": "diwali mithai",
+    "category": "occasion_based",
+    "expected_keywords": [
+      "diwali",
+      "mithai",
+      "sweet"
+    ]
+  },
+  {
+    "query": "holi gujiya",
+    "category": "occasion_based",
+    "expected_keywords": [
+      "holi",
+      "gujiya",
+      "sweet"
+    ]
+  },
+  {
+    "query": "iftaar special",
+    "category": "occasion_based",
+    "expected_keywords": [
+      "iftaar",
+      "ramzan",
+      "dates"
+    ]
+  },
+  {
+    "query": "house party order",
+    "category": "occasion_based",
+    "expected_keywords": [
+      "house",
+      "party",
+      "bulk"
+    ]
+  },
+  {
+    "query": "picnic food",
+    "category": "occasion_based",
+    "expected_keywords": [
+      "picnic",
+      "packed",
+      "portable"
+    ]
+  },
+  {
+    "query": "travel snack",
+    "category": "occasion_based",
+    "expected_keywords": [
+      "travel",
+      "snack",
+      "dry"
+    ]
+  },
+  {
+    "query": "meeting refreshments",
+    "category": "occasion_based",
+    "expected_keywords": [
+      "meeting",
+      "refreshment",
+      "tea",
+      "snack"
+    ]
+  },
+  {
+    "query": "quick breakfast",
+    "category": "occasion_based",
+    "expected_keywords": [
+      "quick",
+      "breakfast",
+      "poha",
+      "idli"
+    ]
+  },
+  {
+    "query": "heavy dinner",
+    "category": "occasion_based",
+    "expected_keywords": [
+      "heavy",
+      "dinner",
+      "biryani",
+      "curry"
+    ]
+  },
+  {
+    "query": "light dinner",
+    "category": "occasion_based",
+    "expected_keywords": [
+      "light",
+      "dinner",
+      "soup",
+      "salad"
+    ]
+  },
+  {
+    "query": "rainy day pakora",
+    "category": "occasion_based",
+    "expected_keywords": [
+      "rainy",
+      "pakora",
+      "chai"
+    ]
+  },
+  {
+    "query": "sunday special",
+    "category": "occasion_based",
+    "expected_keywords": [
+      "sunday",
+      "special",
+      "brunch"
+    ]
+  },
+  {
+    "query": "date night dinner",
+    "category": "occasion_based",
+    "expected_keywords": [
+      "date",
+      "dinner",
+      "romantic"
+    ]
+  },
+  {
+    "query": "family dinner",
+    "category": "occasion_based",
+    "expected_keywords": [
+      "family",
+      "dinner",
+      "thali"
+    ]
+  },
+  {
+    "query": "team lunch",
+    "category": "occasion_based",
+    "expected_keywords": [
+      "team",
+      "lunch",
+      "bulk"
+    ]
+  },
+  {
+    "query": "midnight craving",
+    "category": "occasion_based",
+    "expected_keywords": [
+      "midnight",
+      "late",
+      "night"
+    ]
+  },
+  {
+    "query": "morning breakfast",
+    "category": "occasion_based",
+    "expected_keywords": [
+      "morning",
+      "breakfast"
+    ]
+  },
+  {
+    "query": "after gym food",
+    "category": "occasion_based",
+    "expected_keywords": [
+      "gym",
+      "protein",
+      "healthy"
+    ]
+  },
+  {
+    "query": "road trip snack",
+    "category": "occasion_based",
+    "expected_keywords": [
+      "road",
+      "trip",
+      "snack"
+    ]
+  },
+  {
+    "query": "pool party food",
+    "category": "occasion_based",
+    "expected_keywords": [
+      "pool",
+      "party",
+      "finger",
+      "food"
+    ]
+  },
+  {
+    "query": "baby shower food",
+    "category": "occasion_based",
+    "expected_keywords": [
+      "baby",
+      "shower",
+      "party"
+    ]
+  },
+  {
+    "query": "anniversary dinner",
+    "category": "occasion_based",
+    "expected_keywords": [
+      "anniversary",
+      "dinner",
+      "special"
+    ]
+  },
+  {
+    "query": "graduation party",
+    "category": "occasion_based",
+    "expected_keywords": [
+      "graduation",
+      "party",
+      "cake"
+    ]
+  },
+  {
+    "query": "office party",
+    "category": "occasion_based",
+    "expected_keywords": [
+      "office",
+      "party",
+      "snack"
+    ]
+  },
+  {
+    "query": "cricket match snack",
+    "category": "occasion_based",
+    "expected_keywords": [
+      "cricket",
+      "snack",
+      "chai"
+    ]
+  },
+  {
+    "query": "spicy paneer",
+    "category": "attribute_based",
+    "expected_keywords": [
+      "spicy",
+      "paneer"
+    ]
+  },
+  {
+    "query": "less oily veg",
+    "category": "attribute_based",
+    "expected_keywords": [
+      "less",
+      "oil",
+      "veg"
+    ]
+  },
+  {
+    "query": "meetha kuch",
+    "category": "attribute_based",
+    "expected_keywords": [
+      "sweet",
+      "dessert",
+      "meetha"
+    ]
+  },
+  {
+    "query": "extra spicy chicken",
+    "category": "attribute_based",
+    "expected_keywords": [
+      "spicy",
+      "chicken"
+    ]
+  },
+  {
+    "query": "mild curry",
+    "category": "attribute_based",
+    "expected_keywords": [
+      "mild",
+      "curry",
+      "less spicy"
+    ]
+  },
+  {
+    "query": "crispy snack",
+    "category": "attribute_based",
+    "expected_keywords": [
+      "crispy",
+      "snack"
+    ]
+  },
+  {
+    "query": "soft idli",
+    "category": "attribute_based",
+    "expected_keywords": [
+      "soft",
+      "idli"
+    ]
+  },
+  {
+    "query": "tangy chaat",
+    "category": "attribute_based",
+    "expected_keywords": [
+      "tangy",
+      "chaat"
+    ]
+  },
+  {
+    "query": "creamy dal",
+    "category": "attribute_based",
+    "expected_keywords": [
+      "creamy",
+      "dal"
+    ]
+  },
+  {
+    "query": "masaledar chicken",
+    "category": "attribute_based",
+    "expected_keywords": [
+      "masaledar",
+      "spiced",
+      "chicken"
+    ]
+  },
+  {
+    "query": "sweet dessert",
+    "category": "attribute_based",
+    "expected_keywords": [
+      "sweet",
+      "dessert"
+    ]
+  },
+  {
+    "query": "hot and sour",
+    "category": "attribute_based",
+    "expected_keywords": [
+      "hot",
+      "sour",
+      "soup"
+    ]
+  },
+  {
+    "query": "garlic naan",
+    "category": "attribute_based",
+    "expected_keywords": [
+      "garlic",
+      "naan"
+    ]
+  },
+  {
+    "query": "plain dosa",
+    "category": "attribute_based",
+    "expected_keywords": [
+      "plain",
+      "dosa"
+    ]
+  },
+  {
+    "query": "cheesy pav bhaji",
+    "category": "attribute_based",
+    "expected_keywords": [
+      "cheese",
+      "pav",
+      "bhaji"
+    ]
+  },
+  {
+    "query": "dry sabzi",
+    "category": "attribute_based",
+    "expected_keywords": [
+      "dry",
+      "sabzi",
+      "vegetable"
+    ]
+  },
+  {
+    "query": "gravy curry",
+    "category": "attribute_based",
+    "expected_keywords": [
+      "gravy",
+      "curry"
+    ]
+  },
+  {
+    "query": "roasted chicken",
+    "category": "attribute_based",
+    "expected_keywords": [
+      "roasted",
+      "chicken"
+    ]
+  },
+  {
+    "query": "fried rice",
+    "category": "attribute_based",
+    "expected_keywords": [
+      "fried",
+      "rice"
+    ]
+  },
+  {
+    "query": "steamed momos",
+    "category": "attribute_based",
+    "expected_keywords": [
+      "steamed",
+      "momos"
+    ]
+  },
+  {
+    "query": "fried momos",
+    "category": "attribute_based",
+    "expected_keywords": [
+      "fried",
+      "momos"
+    ]
+  },
+  {
+    "query": "thin crust pizza",
+    "category": "attribute_based",
+    "expected_keywords": [
+      "thin",
+      "crust",
+      "pizza"
+    ]
+  },
+  {
+    "query": "thick shake",
+    "category": "attribute_based",
+    "expected_keywords": [
+      "thick",
+      "shake",
+      "milkshake"
+    ]
+  },
+  {
+    "query": "cold coffee",
+    "category": "attribute_based",
+    "expected_keywords": [
+      "cold",
+      "coffee"
+    ]
+  },
+  {
+    "query": "fresh juice",
+    "category": "attribute_based",
+    "expected_keywords": [
+      "fresh",
+      "juice"
+    ]
+  },
+  {
+    "query": "garma garam roti",
+    "category": "attribute_based",
+    "expected_keywords": [
+      "garma",
+      "garam",
+      "hot",
+      "roti"
+    ]
+  },
+  {
+    "query": "crispy paratha",
+    "category": "attribute_based",
+    "expected_keywords": [
+      "crispy",
+      "paratha"
+    ]
+  },
+  {
+    "query": "soft roti",
+    "category": "attribute_based",
+    "expected_keywords": [
+      "soft",
+      "roti"
+    ]
+  },
+  {
+    "query": "spicy chutney",
+    "category": "attribute_based",
+    "expected_keywords": [
+      "spicy",
+      "chutney"
+    ]
+  },
+  {
+    "query": "sweet lassi",
+    "category": "attribute_based",
+    "expected_keywords": [
+      "sweet",
+      "lassi"
+    ]
+  },
+  {
+    "query": "salty lassi",
+    "category": "attribute_based",
+    "expected_keywords": [
+      "salty",
+      "lassi",
+      "chaas"
+    ]
+  },
+  {
+    "query": "mint chutney",
+    "category": "attribute_based",
+    "expected_keywords": [
+      "mint",
+      "chutney"
+    ]
+  },
+  {
+    "query": "tamarind chutney",
+    "category": "attribute_based",
+    "expected_keywords": [
+      "tamarind",
+      "chutney"
+    ]
+  },
+  {
+    "query": "less salt",
+    "category": "attribute_based",
+    "expected_keywords": [
+      "less",
+      "salt",
+      "low sodium"
+    ]
+  },
+  {
+    "query": "no sugar",
+    "category": "attribute_based",
+    "expected_keywords": [
+      "no",
+      "sugar",
+      "sugar free"
+    ]
+  },
+  {
+    "query": "extra ginger",
+    "category": "attribute_based",
+    "expected_keywords": [
+      "ginger",
+      "adrak"
+    ]
+  },
+  {
+    "query": "garlic heavy",
+    "category": "attribute_based",
+    "expected_keywords": [
+      "garlic",
+      "lehsun"
+    ]
+  },
+  {
+    "query": "nutty biryani",
+    "category": "attribute_based",
+    "expected_keywords": [
+      "nutty",
+      "biryani",
+      "cashew"
+    ]
+  },
+  {
+    "query": "smoky flavour",
+    "category": "attribute_based",
+    "expected_keywords": [
+      "smoky",
+      "tandoori",
+      "bbq"
+    ]
+  },
+  {
+    "query": "kuch teekha khana hai",
+    "category": "hinglish",
+    "expected_keywords": [
+      "spicy",
+      "main",
+      "course"
+    ]
+  },
+  {
+    "query": "bhai kuch meetha chahiye",
+    "category": "hinglish",
+    "expected_keywords": [
+      "sweet",
+      "dessert",
+      "meetha"
+    ]
+  },
+  {
+    "query": "dosa wala",
+    "category": "hinglish",
+    "expected_keywords": [
+      "dosa"
+    ]
+  },
+  {
+    "query": "chai ke sath kuch",
+    "category": "hinglish",
+    "expected_keywords": [
+      "chai",
+      "snack",
+      "biscuit"
+    ]
+  },
+  {
+    "query": "pet bhara hua khana",
+    "category": "hinglish",
+    "expected_keywords": [
+      "filling",
+      "heavy",
+      "thali"
+    ]
+  },
+  {
+    "query": "light kuch khaana hai",
+    "category": "hinglish",
+    "expected_keywords": [
+      "light",
+      "healthy"
+    ]
+  },
+  {
+    "query": "biryani milegi",
+    "category": "hinglish",
+    "expected_keywords": [
+      "biryani"
+    ]
+  },
+  {
+    "query": "garam garam roti sabzi",
+    "category": "hinglish",
+    "expected_keywords": [
+      "hot",
+      "roti",
+      "sabzi"
+    ]
+  },
+  {
+    "query": "kuch crisp ya crunchy",
+    "category": "hinglish",
+    "expected_keywords": [
+      "crispy",
+      "snack"
+    ]
+  },
+  {
+    "query": "andha wala egg curry",
+    "category": "hinglish",
+    "expected_keywords": [
+      "egg",
+      "curry"
+    ]
+  },
+  {
+    "query": "paneer wala kuch",
+    "category": "hinglish",
+    "expected_keywords": [
+      "paneer"
+    ]
+  },
+  {
+    "query": "non veg kuch bhi",
+    "category": "hinglish",
+    "expected_keywords": [
+      "non veg",
+      "chicken",
+      "mutton"
+    ]
+  },
+  {
+    "query": "veg hi chahiye",
+    "category": "hinglish",
+    "expected_keywords": [
+      "veg",
+      "vegetarian"
+    ]
+  },
+  {
+    "query": "jain bhojan",
+    "category": "hinglish",
+    "expected_keywords": [
+      "jain",
+      "no onion",
+      "no garlic"
+    ]
+  },
+  {
+    "query": "dil khush karne wala",
+    "category": "hinglish",
+    "expected_keywords": [
+      "comfort",
+      "indulgent",
+      "sweet"
+    ]
+  },
+  {
+    "query": "healthy type ka",
+    "category": "hinglish",
+    "expected_keywords": [
+      "healthy"
+    ]
+  },
+  {
+    "query": "quick bite",
+    "category": "hinglish",
+    "expected_keywords": [
+      "quick",
+      "snack"
+    ]
+  },
+  {
+    "query": "bohot bhook lagi hai",
+    "category": "hinglish",
+    "expected_keywords": [
+      "filling",
+      "heavy",
+      "full meal"
+    ]
+  },
+  {
+    "query": "thanda kuch",
+    "category": "hinglish",
+    "expected_keywords": [
+      "cold",
+      "drink",
+      "ice cream"
+    ]
+  },
+  {
+    "query": "masaledar chahiye",
+    "category": "hinglish",
+    "expected_keywords": [
+      "masaledar",
+      "spiced"
+    ]
+  },
+  {
+    "query": "south indian type",
+    "category": "hinglish",
+    "expected_keywords": [
+      "south",
+      "dosa",
+      "idli"
+    ]
+  },
+  {
+    "query": "north wala curry",
+    "category": "hinglish",
+    "expected_keywords": [
+      "north",
+      "curry"
+    ]
+  },
+  {
+    "query": "party ke liye snack",
+    "category": "hinglish",
+    "expected_keywords": [
+      "party",
+      "snack"
+    ]
+  },
+  {
+    "query": "office lunch type",
+    "category": "hinglish",
+    "expected_keywords": [
+      "office",
+      "lunch"
+    ]
+  },
+  {
+    "query": "raat ko khane ko",
+    "category": "hinglish",
+    "expected_keywords": [
+      "late",
+      "night",
+      "dinner"
+    ]
+  },
+  {
+    "query": "subah nashta",
+    "category": "hinglish",
+    "expected_keywords": [
+      "breakfast",
+      "morning"
+    ]
+  },
+  {
+    "query": "dopahar ka khana",
+    "category": "hinglish",
+    "expected_keywords": [
+      "lunch",
+      "afternoon"
+    ]
+  },
+  {
+    "query": "shaam ki chai snack",
+    "category": "hinglish",
+    "expected_keywords": [
+      "evening",
+      "chai",
+      "snack"
+    ]
+  },
+  {
+    "query": "bache ke liye",
+    "category": "hinglish",
+    "expected_keywords": [
+      "kids",
+      "child",
+      "mild"
+    ]
+  },
+  {
+    "query": "date pe jaa rahe",
+    "category": "hinglish",
+    "expected_keywords": [
+      "date",
+      "dinner",
+      "special"
+    ]
+  },
+  {
+    "query": "meetha kuch chahiye",
+    "category": "hinglish",
+    "expected_keywords": [
+      "sweet",
+      "dessert"
+    ]
+  },
+  {
+    "query": "namkeen type",
+    "category": "hinglish",
+    "expected_keywords": [
+      "namkeen",
+      "savoury",
+      "snack"
+    ]
+  },
+  {
+    "query": "garma garam",
+    "category": "hinglish",
+    "expected_keywords": [
+      "hot",
+      "fresh"
+    ]
+  },
+  {
+    "query": "tandoori wala",
+    "category": "hinglish",
+    "expected_keywords": [
+      "tandoori"
+    ]
+  },
+  {
+    "query": "chaat type kuch",
+    "category": "hinglish",
+    "expected_keywords": [
+      "chaat",
+      "tangy"
+    ]
+  },
+  {
+    "query": "pav bhaji jaisa",
+    "category": "hinglish",
+    "expected_keywords": [
+      "pav",
+      "bhaji"
+    ]
+  },
+  {
+    "query": "chole bhature jaisa",
+    "category": "hinglish",
+    "expected_keywords": [
+      "chole",
+      "bhature"
+    ]
+  },
+  {
+    "query": "dal chawal simple",
+    "category": "hinglish",
+    "expected_keywords": [
+      "dal",
+      "chawal",
+      "simple"
+    ]
+  },
+  {
+    "query": "kuch try karna hai naya",
+    "category": "hinglish",
+    "expected_keywords": [
+      "new",
+      "variety",
+      "explore"
+    ]
+  },
+  {
+    "query": "something like paneer",
+    "category": "vague_exploratory",
+    "expected_keywords": [
+      "paneer",
+      "vegetarian"
+    ]
+  },
+  {
+    "query": "masaledar khana",
+    "category": "vague_exploratory",
+    "expected_keywords": [
+      "masaledar",
+      "spiced",
+      "curry"
+    ]
+  },
+  {
+    "query": "kuch accha sa",
+    "category": "vague_exploratory",
+    "expected_keywords": [
+      "popular",
+      "best",
+      "recommended"
+    ]
+  },
+  {
+    "query": "indian comfort food",
+    "category": "vague_exploratory",
+    "expected_keywords": [
+      "comfort",
+      "dal",
+      "rice",
+      "curry"
+    ]
+  },
+  {
+    "query": "something filling",
+    "category": "vague_exploratory",
+    "expected_keywords": [
+      "filling",
+      "thali",
+      "biryani"
+    ]
+  },
+  {
+    "query": "good for lunch",
+    "category": "vague_exploratory",
+    "expected_keywords": [
+      "lunch",
+      "thali",
+      "meals"
+    ]
+  },
+  {
+    "query": "popular dishes",
+    "category": "vague_exploratory",
+    "expected_keywords": [
+      "popular",
+      "bestseller"
+    ]
+  },
+  {
+    "query": "something different",
+    "category": "vague_exploratory",
+    "expected_keywords": [
+      "variety",
+      "new",
+      "different"
+    ]
+  },
+  {
+    "query": "like butter chicken",
+    "category": "vague_exploratory",
+    "expected_keywords": [
+      "butter",
+      "chicken",
+      "curry"
+    ]
+  },
+  {
+    "query": "similar to biryani",
+    "category": "vague_exploratory",
+    "expected_keywords": [
+      "biryani",
+      "rice",
+      "pulao"
+    ]
+  },
+  {
+    "query": "light and fresh",
+    "category": "vague_exploratory",
+    "expected_keywords": [
+      "light",
+      "fresh",
+      "salad"
+    ]
+  },
+  {
+    "query": "rich curry",
+    "category": "vague_exploratory",
+    "expected_keywords": [
+      "rich",
+      "curry",
+      "creamy"
+    ]
+  },
+  {
+    "query": "street style",
+    "category": "vague_exploratory",
+    "expected_keywords": [
+      "street",
+      "chaat",
+      "pani puri"
+    ]
+  },
+  {
+    "query": "homestyle food",
+    "category": "vague_exploratory",
+    "expected_keywords": [
+      "homestyle",
+      "simple",
+      "dal"
+    ]
+  },
+  {
+    "query": "restaurant style",
+    "category": "vague_exploratory",
+    "expected_keywords": [
+      "restaurant",
+      "special"
+    ]
+  },
+  {
+    "query": "something spicy",
+    "category": "vague_exploratory",
+    "expected_keywords": [
+      "spicy"
+    ]
+  },
+  {
+    "query": "something sweet",
+    "category": "vague_exploratory",
+    "expected_keywords": [
+      "sweet",
+      "dessert"
+    ]
+  },
+  {
+    "query": "quick and easy",
+    "category": "vague_exploratory",
+    "expected_keywords": [
+      "quick",
+      "easy"
+    ]
+  },
+  {
+    "query": "tasty snack",
+    "category": "vague_exploratory",
+    "expected_keywords": [
+      "tasty",
+      "snack"
+    ]
+  },
+  {
+    "query": "main course options",
+    "category": "vague_exploratory",
+    "expected_keywords": [
+      "main",
+      "course"
+    ]
+  },
+  {
+    "query": "breakfast options",
+    "category": "vague_exploratory",
+    "expected_keywords": [
+      "breakfast"
+    ]
+  },
+  {
+    "query": "dinner ideas",
+    "category": "vague_exploratory",
+    "expected_keywords": [
+      "dinner",
+      "main"
+    ]
+  },
+  {
+    "query": "indian classic",
+    "category": "vague_exploratory",
+    "expected_keywords": [
+      "classic",
+      "dal",
+      "curry"
+    ]
+  },
+  {
+    "query": "finger food",
+    "category": "vague_exploratory",
+    "expected_keywords": [
+      "finger",
+      "food",
+      "snack"
+    ]
+  },
+  {
+    "query": "something hot",
+    "category": "vague_exploratory",
+    "expected_keywords": [
+      "hot",
+      "soup",
+      "curry"
+    ]
+  },
+  {
+    "query": "cold dessert",
+    "category": "vague_exploratory",
+    "expected_keywords": [
+      "cold",
+      "dessert",
+      "ice cream"
+    ]
+  },
+  {
+    "query": "like rajma chawal",
+    "category": "vague_exploratory",
+    "expected_keywords": [
+      "rajma",
+      "chawal"
+    ]
+  },
+  {
+    "query": "like dal makhani",
+    "category": "vague_exploratory",
+    "expected_keywords": [
+      "dal",
+      "makhani"
+    ]
+  },
+  {
+    "query": "south indian style",
+    "category": "vague_exploratory",
+    "expected_keywords": [
+      "south",
+      "dosa",
+      "idli"
+    ]
+  },
+  {
+    "query": "north indian style",
+    "category": "vague_exploratory",
+    "expected_keywords": [
+      "north",
+      "roti",
+      "curry"
+    ]
+  },
+  {
+    "query": "something fried",
+    "category": "vague_exploratory",
+    "expected_keywords": [
+      "fried",
+      "crispy"
+    ]
+  },
+  {
+    "query": "baked or grilled",
+    "category": "vague_exploratory",
+    "expected_keywords": [
+      "baked",
+      "grilled",
+      "healthy"
+    ]
+  },
+  {
+    "query": "rice based",
+    "category": "vague_exploratory",
+    "expected_keywords": [
+      "rice",
+      "biryani",
+      "pulao"
+    ]
+  },
+  {
+    "query": "bread based",
+    "category": "vague_exploratory",
+    "expected_keywords": [
+      "bread",
+      "roti",
+      "naan",
+      "paratha"
+    ]
+  },
+  {
+    "query": "curry with rice",
+    "category": "vague_exploratory",
+    "expected_keywords": [
+      "curry",
+      "rice"
+    ]
+  },
+  {
+    "query": "soup and salad",
+    "category": "vague_exploratory",
+    "expected_keywords": [
+      "soup",
+      "salad"
+    ]
+  },
+  {
+    "query": "snack combo",
+    "category": "vague_exploratory",
+    "expected_keywords": [
+      "snack",
+      "combo"
+    ]
+  },
+  {
+    "query": "thali type",
+    "category": "vague_exploratory",
+    "expected_keywords": [
+      "thali"
+    ]
+  },
+  {
+    "query": "combo meal",
+    "category": "vague_exploratory",
+    "expected_keywords": [
+      "combo",
+      "meal"
+    ]
+  },
+  {
+    "query": "bestseller",
+    "category": "vague_exploratory",
+    "expected_keywords": [
+      "bestseller",
+      "popular"
+    ]
+  }
+]

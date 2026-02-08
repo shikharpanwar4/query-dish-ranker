@@ -1,39 +1,60 @@
 # Data
 
-This document describes the datasets and files in this repo so you can understand the pipeline and reproduce results.
+Sources, how training pairs are produced, and preprocessing.
 
 ## Data sources
 
-- **indian_food.csv** — Indian Food 101 dataset (255 dishes). Public dataset; columns: name, ingredients, diet, flavor_profile, course, state, region.
-- **swiggy_cleaned.csv** — Food category labels (e.g. North Indian, Biryani) used only to build category vocabulary for query generation. Not dish-level data.
-- **validation_queries.json** — Hand-written query list with category and expected_keywords for validation (see DATA.md layout). No external source.
-- **Optional:** `llm_queries*.json` (format: `[{"query": "...", "dish": "..."}]`) can be added to `data/raw/` for extra training pairs; not required. No LLM prompts are stored in the repo (we use programmatic generation as the main source).
+| Source | Role |
+|--------|------|
+| **indian_food.csv** | Core dish catalog (e.g. Indian Food 101). Columns: name, ingredients, diet, flavor_profile, course, state, region. |
+| **swiggy_cleaned.csv** | Food category labels (North Indian, Biryani, etc.) used only as vocabulary for query generation. |
+| **swiggy_all_menus_bangalore.csv** | Optional. More dish names + categories; merged into catalog with minimal metadata. |
+| **validation_queries.json** | Hand-written queries with category and expected_keywords for assignment-style validation. |
+| **llm_queries*.json** (optional) | LLM-generated queries in `data/raw/`. Two formats: `[{"query","dish"}]` or `[{"query","category","expected_keywords"}]`. Keywords are resolved to catalog dishes. |
 
-## Preprocessing steps (prepare_data.py)
+## Preprocessing (prepare_data.py)
 
-1. **Load & clean dishes** — Read indian_food.csv; map `-1` → missing; parse ingredients to list; lowercase; optional Archana’s Kitchen load with Devanagari filter and name cleaning.
-2. **Build indices** — Ingredient → dish names; metadata (diet, flavor, course, region, state) → dish names.
-3. **Generate (query, dish_name) pairs** — Exact match, partial name, ingredient (with name-overlap filter), category, cuisine, attribute, occasion, Hinglish templates, synthetic “LLM-style” templates; cap dishes per query to limit label collision.
-4. **Augment** — Word reorder (short queries), case variants, random typos (swap/delete/duplicate).
-5. **Optional** — Load `llm_queries*.json` from `data/raw/`; filter by catalog and quality (query length, non-dish patterns).
-6. **Dedupe** — By (query.lower(), dish_name.lower()).
-7. **Split** — Train/val by dish (no query leakage); optional stratify by source. Write dishes.csv, train.csv, val.csv.
+1. **Load & clean** — Read dish CSVs; normalize missing values; parse ingredients; lowercase where needed. Optional Archana’s Kitchen CSV with Devanagari filter.
+2. **Merge catalog** — Indian food + Swiggy (or other) dishes; dedupe by normalized name; keep richest metadata per name.
+3. **Indices** — Ingredient → dishes; metadata (diet, flavor, course, region, state) → dishes for query generation.
+4. **Generate (query, dish_name) pairs** — Exact match, partial name, ingredient (only when ingredient appears in dish name), category, cuisine, attribute, occasion, Hinglish templates, synthetic “LLM-style” templates. Cap labels per query to limit noise.
+5. **Augment** — Title/upper case (English); word reorder for short queries; limited typos (e.g. 10%, fixed seed) on English.
+6. **Optional LLM** — Load `llm_queries*.json` from `data/raw/`; filter by catalog and simple quality (length, no recipe-style phrases).
+7. **Dedupe** — By `(query.lower(), dish_name.lower())`.
+8. **Split** — Train/val by dish (no leakage). Write `dishes.csv`, `train.csv`, `val.csv` to `data/processed/`.
 
-## Query generation (no external prompts)
+## Query generation (no external API in repo)
 
-Training queries are generated **programmatically** (no LLM prompts in repo). Patterns: exact dish name + lowercase; partial name (drop word / first / last); ingredient + “dish”/“wala”/“something with X” (only when ingredient appears in dish name); diet+course, flavor+course, region+course; attribute + dish word (e.g. “spicy paneer”); occasion phrases (e.g. “party snack”) mapped to course + name overlap; Hinglish (“kuch X chahiye”, “X banao”); synthetic natural templates per dish. See `prepare_data.py` and DESIGN.md for function list.
+Training queries are **programmatic** (no LLM calls in the script). Patterns:
+
+- Exact dish name + lowercase.
+- Partial name: drop word, first word, last word (2+ word names).
+- Ingredient + “dish”/“wala”/“something with X” only when ingredient is in dish name.
+- Diet+course, flavor+course, region+course; attribute + dish word (“spicy paneer”); occasion phrases (“party snack”) mapped to course + name overlap.
+- Hinglish: “kuch X chahiye”, “X banao”, etc., with dish-name word.
+- Synthetic natural templates per dish.
+
+See `prepare_data.py` and DESIGN.md for the function list.
+
+## Optional LLM query generation
+
+To add more diverse queries, you can use an LLM and save JSON under `data/raw/`:
+
+- **Format 1:** `[{"query": "...", "dish": "..."}]` — dish must be in catalog.
+- **Format 2:** `[{"query": "...", "category": "...", "expected_keywords": ["kw1", "kw2"]}]` — keywords are matched to catalog (name/ingredients/category).
+
+Categories to cover: exact_dish_name, misspelled_dish_name, cuisine_type, dietary_preference, occasion_based, attribute_based, hinglish, vague_exploratory. Keep queries short (1–6 words typical), Roman script only, no recipe/how-to. Validate with:
+
+```bash
+python data/scripts/validate_llm_queries.py data/raw/llm_queries.json
+```
 
 ## Layout
 
-- **data/raw/** — `validation_queries.json` (used by run_validation_queries). Optional: `llm_queries*.json` for extra training pairs.
-- **data/processed/** — Outputs of `prepare_data.py`: `dishes.csv`, `train.csv`, `val.csv`.
+- **data/raw/** — `validation_queries.json`; optional `llm_queries*.json`.
+- **data/processed/** — `dishes.csv`, `train.csv`, `val.csv` (outputs of `prepare_data.py`).
 
 ## Processed files
 
-- **dishes.csv** — One row per dish. Columns: name, ingredients, diet, flavor, course, state, region, style. Used for ranking (BM25 + DL use rich text: name | diet | course | flavor | region | state | style | ingredients).
-- **train.csv** — query, dish_name (positive pairs).
-- **val.csv** — query, dish_name (held-out for R@K / MRR).
-
-## Validation set
-
-`data/raw/validation_queries.json` — list of `{ "query", "category", "expected_keywords" }` for assignment categories. Used by `python -m inference.run_validation_queries`.
+- **dishes.csv** — One row per dish: name, ingredients, diet, flavor, course, state, region, style (and category if present). Used for ranking (BM25 and DL use a concatenated text: name | diet | course | … | ingredients snippet).
+- **train.csv**, **val.csv** — Columns `query`, `dish_name` (positive pairs).
